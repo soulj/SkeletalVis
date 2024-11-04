@@ -1,6 +1,6 @@
-#' Download Feather File if Not Present
+#' Download SkeltalVis Data if Not Present
 #'
-#' This function checks if the specified Feather file exists in the local directory.
+#' This function checks if the specified skeletalvis feather file exists in the local directory.
 #' If it does not exist, it downloads the file from the given URL.
 #'
 #' @param url The URL to download the Feather file from.
@@ -9,9 +9,9 @@
 #' @export
 #'
 #' @examples
-#' download_feather_file("https://example.com/data/mydata.feather", "data/mydata.feather")
+#' download_skeletalvis()
 
-download_feather_file <- function(url, destfile="foldChangeTable.feather") {
+download_skeletalvis <- function(destfile="foldChangeTable.feather",url=NULL) {
   # Check if the file already exists
   if (!file.exists(destfile)) {
     # Download the file
