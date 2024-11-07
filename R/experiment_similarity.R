@@ -57,6 +57,7 @@ cos.sim <- function(i, X, query) {
 #'
 #' @export
 experiment_similarity <- function(dataset, foldchangeTable) {
+
   # Apply cosine similarity calculation for each column in the fold change table (excluding last column)
   cosine <- sapply(seq_along(foldchangeTable)[-1], cos.sim, foldchangeTable, dataset)
 
@@ -70,3 +71,4 @@ experiment_similarity <- function(dataset, foldchangeTable) {
 
   return(sim)
 }
+

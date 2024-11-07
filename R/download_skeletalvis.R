@@ -11,14 +11,14 @@
 #' @examples
 #' download_skeletalvis()
 
-download_skeletalvis <- function(destfile="foldChangeTable.feather",url=NULL) {
+download_skeletalvis <- function(destfolder="skeletalvisData",url=NULL) {
   # Check if the file already exists
-  if (!file.exists(destfile)) {
+  if (!file.exists(destfolder)) {
     # Download the file
     message("Downloading SkeletalVis data from ", url)
 
     # Create the directory if it doesn't exist
-    dir.create(dirname(destfile), showWarnings = FALSE, recursive = TRUE)
+    dir.create(destfolder, showWarnings = TRUE, recursive = TRUE)
 
     # Use httr to download the file
     tryCatch({
@@ -28,10 +28,10 @@ download_skeletalvis <- function(destfile="foldChangeTable.feather",url=NULL) {
       stop("Error downloading the file: ", e$message)
     })
   } else {
-    message("Feather file already exists: ", destfile)
+    message("SkeletaVis Data already exists: ", destfolder)
   }
 
-  return(destfile)
+  return(destfolder)
 }
 
 

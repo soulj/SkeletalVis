@@ -1,0 +1,105 @@
+---
+title: "SkeletalVis"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{SkeletalVis}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+### Getting started
+The package needs to be loaded into a user’s R session.
+```{r setup}
+library(SkeletalVis)
+library(feather)
+```
+
+### Accessing the skeletalvis dataset
+First we need to download the gene expression data and metadata.
+
+```{r}
+skeletalvis_folder <- download_skeletalvis()
+```
+The data is stored as a set of feather files, which allow on disk storage of large datsets containing the foldchanges, pvalues and metadata files describing each dataset.
+```{r}
+skeletalvis <- load_skeletalvis(skeletalvis_folder)
+```
+
+## Exploring skeletalvis
+
+We can explore SkeletalVis in multiple ways, finding genes of interet, finding an experimental of interest or finding experiments that have gene expression profile similar to a query.
+
+We can view the differential expression of a set of genes of interest with the `get_gene_data` function.
+```{r}
+gene_results <- get_gene_data(skeletalvis, c("SOX9","COL2A1"), pvalues=TRUE)
+```
+### Find a dataset
+We can search for an invidiual dataset of interest by querying the metadata table. For example we might be interested in a particular species and disease.
+```{r}
+experiments <- search_skeletalvis(skeletalvis, c("Mouse","Osteoarthritis"))
+```
+
+Alterively we can intereactive search the table of metadata and to find experiments of interest
+```{r}
+browse_skeletalvis(skeletalvis)
+```
+
+We can get the fold changes and pValues (if applicable) for an individual dataset by search by skeletalvis ID. This ID is the GEO accession number and the comparison number (if multiple comparisons are made within the same dataset e.g mut1 vs control, mut2 vs control).
+
+```{r}
+experiment_results <- get_experiment(skeletalvis, "GSE107363_1")
+```
+
+#### Volcano plots
+We can plot the differential expression of an individual volcano plot with either plotly or ggplot2 for interactive and static plots respectively.
+
+```{r}
+volcano_plot(experiment_results, numberGenes=10, interactive = FALSE)
+```
+
+```{r}
+volcano_plot(experiment_results, numberGenes=10, interactive = TRUE)
+```
+We can also plot genes of interest on the volcano plot
+```{r}
+volcano_plot(experiment_results, numberGenes=10, selectedGenes=c("SOX9","COL2A1","ACAN"))
+```
+
+## Finding similar datasets
+We can find similar datasets using either cosine similarity (measure the correlation of fold changes across all the SkeletalVis data). As input we need a dataframe of human gene symbols and fold changes.
+```{r}
+# Get a recent dataset to compare
+query <- data.frame(ID=c("COL2A1","SOX9","COL1A1","ACAN","MMP3","MMP13"),
+                      foldChange=c(1.3,1.2,0.5,-3,3,0.85)
+                      )
+
+# Get the similarity of this experiment against the skeletalvis databases
+similarityTable <- experiment_similarity(query,skeletalvis)
+  
+```
+We can view the results of the search, the table is sorted by zscore so the most similar datasets are at the top.
+```{r}
+# Look at the top few rows
+head(similarityTable)
+```
+We can view the most dissimilar datasets by looking at the bottom of the table.
+```{r}
+# Look at the bottom few rows
+tail(similarityTable)
+```
+
+### Plotting the similarities
+We can plot the most similar datasets by plotting the similarity zscore against the rank of the dataset and label the top few datasets.
+```{r}
+# Plot the similarity results and label the top 5 experiments
+plot_similarity(similarityTable, top_n=5)
+```
+
+
+

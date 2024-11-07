@@ -4,12 +4,12 @@
 \alias{download_skeletalvis}
 \title{Download SkeltalVis Data if Not Present}
 \usage{
-download_skeletalvis(destfile = "foldChangeTable.feather", url = NULL)
+download_skeletalvis(destfolder = "skeletalvisData", url = NULL)
 }
 \arguments{
-\item{destfile}{The destination file path where the Feather file will be saved.}
-
 \item{url}{The URL to download the Feather file from.}
+
+\item{destfile}{The destination file path where the Feather file will be saved.}
 }
 \value{
 The path to the Feather file.
