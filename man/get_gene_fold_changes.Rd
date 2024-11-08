@@ -4,12 +4,17 @@
 \alias{get_gene_fold_changes}
 \title{Get Results for a Gene of Interest}
 \usage{
-get_gene_fold_changes(feather_file, gene_symbols)
+get_gene_fold_changes(
+  skeletalvis,
+  gene_symbol,
+  returnFDR = FALSE,
+  addMetaData = TRUE
+)
 }
 \arguments{
-\item{feather_file}{The path to the Feather file.}
+\item{skeletalvis}{The path to the Feather file.}
 
-\item{gene_symbols}{The gene symbol to extract results for.}
+\item{gene_symbol}{The gene symbol to extract results for.}
 }
 \value{
 A data frame containing results for the specified genes.
@@ -18,5 +23,5 @@ A data frame containing results for the specified genes.
 This function loads a Feather file and extracts results for a specified gene.
 }
 \examples{
-gene_results <- get_gene_fold_changes("data/mydata.feather", "BRCA1")
+gene_results <- get_gene_fold_changes("skeletalvis", "SOX9")
 }

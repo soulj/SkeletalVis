@@ -13,31 +13,31 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 ```
-### Getting started
-The package needs to be loaded into a user’s R session.
+## Getting started
+
+### Installation
+
+
+
+### Loading the package
+Once skeletavis is installed the package needs to be loaded into a user’s R session.
 ```{r setup}
 library(SkeletalVis)
 library(feather)
 ```
 
 ### Accessing the skeletalvis dataset
-First we need to download the gene expression data and metadata.
-
+First we need to download the gene expression data and metadata. The data is stored as a set of feather files, which allow on disk storage of large datsets containing the foldchanges, pvalues and metadata files describing each dataset. Advanced users can simplify explore these files using R tools but for conveience we provide functions that allow common  tasks to be performed with minimal knowledge of R.
 ```{r}
 skeletalvis_folder <- download_skeletalvis()
 ```
-The data is stored as a set of feather files, which allow on disk storage of large datsets containing the foldchanges, pvalues and metadata files describing each dataset.
-```{r}
-skeletalvis <- load_skeletalvis(skeletalvis_folder)
-```
 
 ## Exploring skeletalvis
-
-We can explore SkeletalVis in multiple ways, finding genes of interet, finding an experimental of interest or finding experiments that have gene expression profile similar to a query.
+We can explore SkeletalVis in multiple ways, finding genes of interest, finding an experimental of interest or finding experiments that have gene expression profile similar to a query.
 
 We can view the differential expression of a set of genes of interest with the `get_gene_data` function.
 ```{r}
-gene_results <- get_gene_data(skeletalvis, c("SOX9","COL2A1"), pvalues=TRUE)
+gene_results <- get_gene_fold_changes(skeletalvis, c("SOX9","COL2A1"), pvalues=TRUE)
 ```
 ### Find a dataset
 We can search for an invidiual dataset of interest by querying the metadata table. For example we might be interested in a particular species and disease.

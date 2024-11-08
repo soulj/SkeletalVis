@@ -1,0 +1,10 @@
+ID,Description,PMID,Species,Tissue,ExpType,Perturbation,Effect,Type,foldChangeOnly,platform
+GSE107363,Osteoblasts in Rheumatoid Arthritis ,29137139,Human,Cartilage,Disease,Rheumatoid arthritis,,RNASeq,TRUE,RNASeq
+GSE70667,Osteocyte-like MLO-Y4 cell response to Fluid Flow,26573903,Mouse,Cell line,Culture,Fluid flow,,RNASeq,FALSE,RNASeq
+GSE85761,Human osteoblast-derived extracellular vesicle,28347747,Human,Bone,Tissue,extracellular vesicle,,RNASeq,TRUE,RNASeq
+GSE87608,HDAC inhibition in Heterozygous Runx2 Null Mice,28052439,Mouse,Bone,Gene perturbation Exogenous,Runx2 MS-275,Knockout,RNASeq,FALSE,RNASeq
+GSE89179,CHD1 knockdown in MSC and FOB cell lines,28475736,Human,Cell line,Gene perturbation,CHD1,Knockdown,RNASeq,TRUE,RNASeq
+GSE90890,Cdc73 knockout in osteoblasts,28384511,Mouse,Bone,Gene perturbation,Cdc73,Knockdown,RNASeq,FALSE,RNASeq
+GSE97118,Differentiation of Ezh2 deficient immature mouse chondrocytes,29280310,Mouse,Cartilage,Gene perturbation,Ezh2,Knockout,RNASeq,TRUE,RNASeq
+22659600,Human hip osteoarthritis cartilage,22659600,Human,Cartilage,Disease,Osteoarthritis,,Microarray,FALSE,Illumina
+24361742,Human cartilage osteoarthritic damage,24361742,Human,Cartilage,Disease,Osteoarthritis,,Microarray,FALSE,2C-Agilent

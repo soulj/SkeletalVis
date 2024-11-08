@@ -16,10 +16,13 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 
+    cowplot,
     dplyr,
     DT,
     feather,
     ggplot2,
+    ggrepel,
     miniUI,
-    shiny
+    shiny,
+    tidyr
 VignetteBuilder: knitr

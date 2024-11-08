@@ -4,14 +4,36 @@
 \alias{volcano_plot}
 \title{Volcano Plot of Gene Expression Data}
 \usage{
-volcano_plot(data, pval_col, fc_col)
+volcano_plot(
+  data,
+  id_col,
+  pval_col,
+  fc_col,
+  logFCThreshold = log2(1.5),
+  adjPValThreshold = 0.05,
+  point.size = 2,
+  lab.size = 4,
+  top.points = 5
+)
 }
 \arguments{
 \item{data}{A data frame containing gene expression data.}
 
+\item{id_col}{The column name for the id of the points (genes/experiments).}
+
 \item{pval_col}{The column name for p-values.}
 
 \item{fc_col}{The column name for fold changes.}
+
+\item{logFCThreshold}{The foldchange threshold to define up and down regulated points}
+
+\item{adjPValThreshold}{The pval threshold to define up and down regulated points}
+
+\item{point.size}{Size for the points}
+
+\item{lab.size}{Size for the labels}
+
+\item{top.points}{Number of top up and down regulated points to label}
 }
 \value{
 A ggplot object representing the volcano plot.
@@ -20,5 +42,5 @@ A ggplot object representing the volcano plot.
 Volcano Plot of Gene Expression Data
 }
 \examples{
-volcano_plot(my_data, pval_col = "p_value", fc_col = "fold_change")
+volcano_plot(foldChanges,"SkeletalVisID","log2FoldChange")
 }
