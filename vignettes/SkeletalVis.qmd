@@ -7,6 +7,7 @@ vignette: >
   %\VignetteIndexEntry{SkeletalVis}
   %\VignetteEngine{quarto::html}
   %\VignetteEncoding{UTF-8}
+  %\VignettePackage{SkeletalVis}
 ---
 
 ## Getting started
@@ -19,7 +20,7 @@ devtools::install_github("soulj/skeletalvis")
 
 ### Loading the package
 Once `SkeletalVis` is installed the package needs to be loaded into the current R session.
-```{r setup}
+```{r}
 library(SkeletalVis)
 ```
 
