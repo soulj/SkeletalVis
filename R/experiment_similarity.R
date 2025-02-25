@@ -1,74 +1,83 @@
-# Load necessary libraries
-library(dplyr)
-
 #' Calculate Cosine Similarity
 #'
 #' This function calculates the cosine similarity between two vectors.
 #'
 #' @param i Index of the column in the fold change table to compare against.
 #' @param X The fold change data frame.
-#' @param query The query vector for comparison.
-#' @return Cosine similarity value between the query and the selected dataset.
+#' @return Cosine similarity value between the query and the selected dataset at index i in the fold change table
 #'
-cos.sim <- function(i, X, query) {
-  B <- X[, c(1,i), drop = FALSE]
-  merged <- merge(query, B, by=1)
+cos.sim <- function(i, X) {
 
-  A <- merged[, 2]
-  B <- merged[, 3]
+  X <- na.omit(X[, c(1,i,ncol(X))])
+
+  A <- X[, 2]
+  B <- X[, 3]
 
   # Calculate cosine similarity
   return(sum(A * B, na.rm = TRUE) / sqrt(sum(A^2, na.rm = TRUE) * sum(B^2, na.rm = TRUE)))
 }
 
-#' Get Cosine Similarity for a Query Dataset Against Fold Change Table
+#' Get cosine similarity for a query dataset against the skeletalvis database
 #'
-#' This function computes the cosine similarity of a given query dataset
+#' This function computes the cosine similarity of the log2 fold changes of a given query dataset
 #' against a fold change table, returning a data frame of similarities.
 #'
-#' @param dataset A numeric vector representing the fold change values for the query dataset.
-#' @param foldchangeTable A data frame containing fold change values with gene IDs in the first column.
-#' @param accessions A data frame containing additional information for merging, with a column named "combined".
-#' @param datasetName A name for the dataset being queried (default is "query").
+#' @param skeletalvis The path to the skeletalvis data folder.
+#' @param dataset A dataframe with human gene symbols and log2 fold changes.
+#' @param add_meta_data Add metadata such as species, tissues, description of overall experiment and specific comparison
+#'
 #' @return A data frame containing cosine similarity values, IDs, and z-scores.
 #'
 #' @examples
-#' # Load necessary library
-#' library(feather)
-#'
-#' # Load your feather file
-#' foldchange_data <- read_feather("data/mydata.feather")
+#' skeletalvis <- load_skeletalvis()
 #'
 #' # Create a query dataset (this should be a data frame with the first column as gene IDs)
-#' query_dataset <- data.frame(ID = c("BRCA1", "TP53"), fold_change = c(2.5, -1.8))
-#'
-#' # Create a data frame of accessions to merge (example format)
-#' accessions <- data.frame(combined = c("BRCA1", "TP53"), info = c("Gene A", "Gene B"))
+#' query_dataset <- data.frame(ID = c("SOX9", "ACAN"), fold_change = c(2.5, -1.8))
 #'
 #' # Get cosine similarities
-#' similarity_results <- getSim(
-#'   dataset = query_dataset$fold_change,
-#'   foldchangeTable = foldchange_data,
-#'   accessions = accessions
+#' similarity_results <- experiment_similarity(
+#'   skeletalvis = skeletalvis,
+#'   dataset = query_dataset,
 #' )
 #'
 #' # View results
-#' print(similarity_results)
+#' head(similarity_results)
 #'
 #' @export
-experiment_similarity <- function(dataset, foldchangeTable) {
+experiment_similarity <- function(skeletalvis, dataset, add_meta_data = TRUE) {
+
+  foldchange_filepath <- file.path(skeletalvis, "foldChangeTable.feather")
+
+  if (!file.exists(foldchange_filepath)) stop(sprintf("The file 'foldChangeTable.feather' does not exist in the specified directory: %s",skeletalvis))
+
+  fold_change_table <- arrow::read_feather(foldchange_filepath)  %>%
+    dplyr::select(ID, dplyr::everything())
+
+  colnames(dataset)[1:2] <- c("ID","queryFC")
+
+  fold_change_table <- merge(fold_change_table, dataset, by.x="ID", by.y="ID")
 
   # Apply cosine similarity calculation for each column in the fold change table (excluding last column)
-  cosine <- sapply(seq_along(foldchangeTable)[-1], cos.sim, foldchangeTable, dataset)
+  cosine <- pbapply::pbsapply(seq_along(fold_change_table)[c(-1,-ncol(fold_change_table))], cos.sim, fold_change_table)
 
   # Create a data frame with results
-  sim <- data.frame(ID = colnames(foldchangeTable)[-1], cosine)
+  sim <- data.frame(ID = colnames(fold_change_table)[c(-1,-ncol(fold_change_table))], cosine)
 
   # Scale the similarity scores (z-score)
   sim$zscore <- scale(sim$cosine)
 
+  colnames(sim)[1] <- "datasetID"
+
   sim <- sim[ order(sim$zscore, decreasing=TRUE),]
+
+  # Add metadata if requested
+  if (add_meta_data) {
+    metadata <- get_comparisons(skeletalvis)[,-2]
+    sim <- dplyr::left_join(sim, metadata, by = "datasetID")
+
+    exp_table <- get_exp_table(skeletalvis)
+    sim <- dplyr::left_join(sim, exp_table, by = c("accession" = "ID"))
+  }
 
   return(sim)
 }
-

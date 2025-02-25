@@ -1,35 +1,48 @@
 # R/volcano_plot.R
 
 #' Volcano Plot of Gene Expression Data
-#'
-#' @param data A data frame containing gene expression data.
-#' @param id_col The column name for the id of the points (genes/experiments).
-#' @param pval_col The column name for p-values.
-#' @param fc_col The column name for fold changes.
-#' @param logFCThreshold The foldchange threshold to define up and down regulated points
-#' @param adjPValThreshold The pval threshold to define up and down regulated points
-#' @param point.size Size for the points
-#' @param lab.size Size for the labels
-#' @param top.points Number of top up and down regulated points to label
+#' @importFrom dplyr %>%
+#' @param data A data frame containing gene expression data, containing an ID, log2 foldchange and FDR columns.
+#' @param number_points Number of top up and down regulated points to label
+#' @param selected_points Character vector of the IDs to label
+#' @param interactive Should an interactive plotly graph be made?
+#' @param logFC_threshold The foldchange threshold to define up and down regulated points
+#' @param FDR_threshold The pval threshold to define up and down regulated points
+#' @param point_size Size for the points
+#' @param lab_size Size for the labels
 #' @return A ggplot object representing the volcano plot.
 #' @export
 #' @examples
-#' volcano_plot(foldChanges,"SkeletalVisID","log2FoldChange")
+#' skeletalvis <- load_skeletalvis()
+#'
+#' experiment_results <- get_experiment(skeletalvis, "E-MTAB-4304_1")
+#'
+#' volcano_plot(experiment_results)
 
-volcano_plot <- function(data, id_col, pval_col, fc_col, logFCThreshold=log2(1.5), adjPValThreshold=0.05,
-                         point.size=2, lab.size=4, top.points=5) {
+volcano_plot <- function(data,  number_points=5, selected_points=NULL, interactive= FALSE, logFC_threshold=log2(1.5), FDR_threshold=0.05,
+                         point_size=2, lab_size=4) {
 
-  library(ggplot2)
+  data <- as.data.frame(data)
 
-  if(any(!c(id_col, pval_col, fc_col) %in% colnames(data))) stop("Columns missing from the data")
+  if(ncol(data)<3)  stop("The dataset needs ID, foldchange and FDR columns")
+
+  id_col <- colnames(data)[1]
+  fc_col <- colnames(data)[2]
+  pval_col <- colnames(data)[3]
+
+  if(!all(is.numeric(data[, fc_col]))) stop("The 2nd column should be numeric fold changes")
+  if(!all(is.numeric(data[, pval_col]))) stop("The 3rd column should be numeric FDRs")
+
+
+
 
   data <- data %>%
-    mutate(logpval=-log10(!!sym(pval_col))) %>%
-      filter(!is.na(!!sym(pval_col))) %>%
-     mutate(
-      Expression = case_when(
-        !!sym(fc_col) >= logFCThreshold & !!sym(pval_col) <= adjPValThreshold ~ "Up-regulated",
-        !!sym(fc_col) <= -logFCThreshold & !!sym(pval_col) <= adjPValThreshold ~ "Down-regulated",
+    dplyr::mutate(logpval=-log10(!!sym(pval_col))) %>%
+    dplyr::filter(!is.na(!!sym(pval_col))) %>%
+     dplyr::mutate(
+      Expression = dplyr::case_when(
+        !!sym(fc_col) >= logFC_threshold & !!sym(pval_col) <= FDR_threshold ~ "Up-regulated",
+        !!sym(fc_col) <= -logFC_threshold & !!sym(pval_col) <= FDR_threshold ~ "Down-regulated",
         TRUE ~ "Unchanged"
       )
     )
@@ -44,34 +57,67 @@ volcano_plot <- function(data, id_col, pval_col, fc_col, logFCThreshold=log2(1.5
   # Replace Inf values with this maximum non-Inf value
   data[is.infinite(data$logpval),"logpval"] <- max_non_inf
 
+  if(id_col == "datasetID") {
 
-  volcano_plot <- ggplot(data, aes(x = !!sym(fc_col), y = logpval)) +
-    geom_point(aes(color = Expression), size = point.size) +
-    cowplot::theme_cowplot(font_size = 16) +
-    xlab(expression("log"[2]*"FC")) +
-    ylab(expression("-log"[10]*"FDR")) +
-    scale_color_manual(name = "Expression", values = myColors) +
-    geom_hline(yintercept = -log10(adjPValThreshold), linetype = "dashed") +
-    geom_vline(xintercept = c(-logFCThreshold, logFCThreshold), linetype = "dashed") +
-    theme(legend.position="none")
-
-  if(!is.null(top.points)) {
-    top_genes <- bind_rows(
-      data %>%
-        filter(Expression == 'Up-regulated') %>%
-        arrange(!!sym(pval_col), desc(abs(!!sym(fc_col)))) %>%
-        head(top.points),
-     data %>%
-        filter(Expression == 'Down-regulated') %>%
-        arrange(!!sym(pval_col), desc(abs(!!sym(fc_col)))) %>%
-        head(top.points)
-    )
-
-
-    volcano_plot <- volcano_plot +
-      ggrepel::geom_text_repel(data = top_genes, aes(label = !!sym(id_col)),
-                      size = lab.size, max.overlaps = Inf, min.segment.length = 0, seed = 42)
+    text= paste("datasetID: ", data[,id_col], "<br>",
+                "log2FoldChange: ", signif(data[,fc_col],3), "<br>",
+                "FDR: ", signif(data[,pval_col],3), "<br>",
+                "Description: ", data[,"Description"],
+                sep = "")
+  } else {
+    text= paste("Gene: ", data[,id_col], "<br>",
+                "log2FoldChange: ", signif(data[,fc_col],3), "<br>",
+                "FDR: ", signif(data[,pval_col],3), "<br>",
+                sep = "")
   }
+
+
+  volcano_plot <- ggplot2::ggplot(data, ggplot2::aes(x = !!sym(fc_col), y = logpval,text=text)) +
+    ggplot2::geom_point(ggplot2::aes(color = Expression), size = point_size) +
+    cowplot::theme_cowplot(font_size = 16) +
+     ggplot2::scale_color_manual(name = "Expression", values = myColors) +
+    ggplot2::geom_hline(yintercept = -log10(FDR_threshold), linetype = "dashed") +
+    ggplot2::geom_vline(xintercept = c(-logFC_threshold, logFC_threshold), linetype = "dashed") +
+    ggplot2::theme(legend.position="none")
+
+  if(!is.null(number_points)) {
+    top_genes <- dplyr::bind_rows(
+      data %>%
+        dplyr::filter(Expression == 'Up-regulated') %>%
+        dplyr::arrange(!!sym(pval_col), dplyr::desc(abs(!!sym(fc_col)))) %>%
+        head(number_points),
+     data %>%
+       dplyr::filter(Expression == 'Down-regulated') %>%
+       dplyr::arrange(!!sym(pval_col), dplyr::desc(abs(!!sym(fc_col)))) %>%
+        head(number_points)
+    )
+  }
+
+    if(!is.null(selected_points)){
+
+      selected_points <- data %>% dplyr::filter(!!sym(id_col) %in% selected_points)
+      top_genes <- dplyr::bind_rows(selected_points, top_genes)
+    }
+
+    if(!interactive) {
+      if(nrow(top_genes)>0){
+        top_genes$text <- ""
+        volcano_plot <- volcano_plot +
+          ggrepel::geom_text_repel(data = top_genes, ggplot2::aes(label = !!sym(id_col)),
+                                   size = lab_size, max.overlaps = Inf, min.segment.length = 0, seed = 42, force = 5) +
+          ggplot2::xlab(expression("log"[2]*"FC")) +
+          ggplot2::ylab(expression("-log"[10]*"FDR"))
+
+      } else{
+        volcano_plot <- volcano_plot +
+          ggplot2::xlab(expression("log"[2]*"FC")) +
+          ggplot2::ylab(expression("-log"[10]*"FDR"))
+      }
+
+    } else{
+      volcano_plot <- plotly::ggplotly(volcano_plot, tooltip="text")
+    }
+
 
   return(volcano_plot)
 

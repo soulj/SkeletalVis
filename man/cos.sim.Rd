@@ -4,17 +4,15 @@
 \alias{cos.sim}
 \title{Calculate Cosine Similarity}
 \usage{
-\method{cos}{sim}(i, X, query)
+\method{cos}{sim}(i, X)
 }
 \arguments{
 \item{i}{Index of the column in the fold change table to compare against.}
 
 \item{X}{The fold change data frame.}
-
-\item{query}{The query vector for comparison.}
 }
 \value{
-Cosine similarity value between the query and the selected dataset.
+Cosine similarity value between the query and the selected dataset at index i in the fold change table
 }
 \description{
 This function calculates the cosine similarity between two vectors.

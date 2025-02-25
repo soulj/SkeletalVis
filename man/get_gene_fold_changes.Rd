@@ -2,26 +2,34 @@
 % Please edit documentation in R/get_gene_fold_changes.R
 \name{get_gene_fold_changes}
 \alias{get_gene_fold_changes}
-\title{Get Results for a Gene of Interest}
+\title{Get gene fold changes for a gene of interest}
 \usage{
 get_gene_fold_changes(
   skeletalvis,
-  gene_symbol,
-  returnFDR = FALSE,
-  addMetaData = TRUE
+  gene_symbols,
+  return_fdr = TRUE,
+  add_meta_data = TRUE
 )
 }
 \arguments{
-\item{skeletalvis}{The path to the Feather file.}
+\item{skeletalvis}{The path to the skeletalvis data folder.}
 
-\item{gene_symbol}{The gene symbol to extract results for.}
+\item{gene_symbols}{The human gene symbols to extract foldchange and fdr pvalues for.}
+
+\item{return_fdr}{Return FDR values (FALSE by default)}
+
+\item{add_meta_data}{Add metadata such as species, tissues, description of overall experiment and specific comparison}
 }
 \value{
-A data frame containing results for the specified genes.
+A tibble containing gene expression results for the specified genes.
 }
 \description{
-This function loads a Feather file and extracts results for a specified gene.
+This function extracts fold change and p-values across the skeletalvis database for the specified genes.
 }
 \examples{
-gene_results <- get_gene_fold_changes("skeletalvis", "SOX9")
+skeletalvis <- load_skeletalvis()
+
+gene_results <- get_gene_fold_changes(skeletalvis, c("SOX9","ACAN"))
+
+head(gene_results)
 }

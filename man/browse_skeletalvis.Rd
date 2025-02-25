@@ -2,22 +2,22 @@
 % Please edit documentation in R/browse_skeletalvis.R
 \name{browse_skeletalvis}
 \alias{browse_skeletalvis}
-\title{Browse Skeletal Visualization Table}
+\title{Browse the skeletalvis experiment and comparion table}
 \usage{
 browse_skeletalvis(skeletalvis)
 }
 \arguments{
-\item{skeletalvis}{The directory path where the 'exptable.txt' and "comparisons.txt" file is located.}
+\item{skeletalvis}{The path to the skeletalvis data folder.}
 }
 \value{
-The gene expression profile ID of the selected row from the interactive table.
+The datasetID of the selected gene expression profile from the interactive table.
 }
 \description{
-This function opens an interactive data table from a file located in the specified folder.
-It allows the user to browse and select a row, then returns the selected row ID.
+This function opens an interactive table showing the experiments available for analysis.
+The user can click on the row to select the comparison of interest within that experiment.
 }
 \examples{
-# Assuming 'skeletalvis' is the directory containing 'exptable.txt'
+# Assuming 'skeletalvis' is the directory containing the skeletalvis data
 # selected_id <- browse_skeletalvis("path/to/skeletalvis")
 
 }

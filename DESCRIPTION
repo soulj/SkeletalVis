@@ -1,11 +1,11 @@
 Package: SkeletalVis
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Exploration and visualisation of skeletal transcriptomics data
 Version: 0.1.0
 Author: Jamie Soul
 Maintainer: Jamie Soul <jamie.soul@liverpool.ac.uk>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: Allows search and visualisation of a collection of uniformly processed skeletal transcriptomic datasets.
+    Users can find datasets where genes of intererest are differentially expressed and find datasets with a similar gene expression pattern to their own data.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -13,16 +13,32 @@ RoxygenNote: 7.3.2
 Suggests: 
     knitr,
     rmarkdown,
+    quarto,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 
+    arrow,
+    circlize,
+    ComplexHeatmap,
     cowplot,
     dplyr,
     DT,
-    feather,
     ggplot2,
     ggrepel,
+    httr,
+    igraph,
     miniUI,
+    pbapply,
+    plotly,
+    rappdirs,
+    rlang,
     shiny,
-    tidyr
-VignetteBuilder: knitr
+    stats,
+    tidyr,
+    tibble,
+    utils,
+    viridis,
+    visNetwork
+VignetteBuilder: quarto
+Depends: 
+    R (>= 4.0)

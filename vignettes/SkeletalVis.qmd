@@ -1,0 +1,193 @@
+---
+title: "SkeletalVis"
+output:
+  html_document:
+    toc: true
+vignette: >
+  %\VignetteIndexEntry{SkeletalVis}
+  %\VignetteEngine{quarto::html}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Getting started
+
+### Installation
+First we need to install the `SkeletalVis` R package and the dependencies.
+```{r eval=FALSE}
+devtools::install_github("soulj/skeletalvis")
+```
+
+### Loading the package
+Once `SkeletalVis` is installed the package needs to be loaded into the current R session.
+```{r setup}
+library(SkeletalVis)
+```
+
+### Accessing the SkeletalVis dataset
+First, we need to download the gene expression data and metadata. The data is stored as a set of `feather` files, which allow fast assess to the each experiment's foldchanges, pvalues and metadata. Advanced users can manipulate and explore these files using standard R functions, but for convenience we provide functions that allow common tasks to be performed.
+
+The `load_skeletalvis` function will check if the `SkeletalVis` data has been downloaded previously and if not downloaded the files. The skeletalvis variable now shows where the data is stored.
+```{r}
+skeletalvis <- load_skeletalvis()
+
+skeletalvis
+```
+
+## Exploring SkeletalVis
+We can explore SkeletalVis in multiple ways, finding genes of interest, finding an experimental of interest or finding experiments that have gene expression profile similar to a query.
+
+We can view the differential expression of a gene of interest with the `get_gene_fold_changes` function. Below we retrieve the data for SOX9 across all expression profiles and optionally return the FDR for those datasets with replicates. Note that in SkeletalVis data from all species have been mapped to human gene symbols.
+```{r}
+# Retrieve the data for SOX9 in the expression profiles
+gene_results <- get_gene_fold_changes(skeletalvis, "SOX9", return_fdr = TRUE)
+head(gene_results)
+```
+Through the description column which provides a short summary of the overall experiment we can see that the dataset with the highest SOX9 expression is one where they have overexpressed that gene. Note that each experiment, detailed by the GEO accession number, may have multiple comparisons e.g condition1 vs control and condition2 vs control (called datasetIDs in SkeletalVis).
+
+### Find a dataset
+We can search for an individual dataset of interest by querying the metadata table. For example we might be interested in a particular species and disease. Again we can find the experiment where SOX9 has been experimentally perturbed by searching for the word "SOX9" anywhere in the experiment table.
+```{r}
+experiments <- search_skeletalvis(skeletalvis, "SOX9")
+experiments
+```
+
+We can also search for words in particular columns. Below we find datasets where the tissue understudy has been annotated as synovium.
+```{r}
+experiments <- search_skeletalvis(skeletalvis, "synovium", columns = "Tissue")
+head(experiments)
+```
+
+Once we have a experiment of interest we can next view the comparisons of interest e.g Disease vs Control for that experiment and retrieve the datasetID will allow retrieval of that specific gene expression profile.
+```{r}
+get_comparisons(skeletalvis, accession = "GSE155118" )
+```
+Here we can see experiment accession "GSE155118" has one comparison, comparing SOX5,6,9 overexpression to controls. The dataset ID "GSE155118_1" can be used to select that specific gene expression profile. Full details of the experimental design and metadata can be found on the GEO database for that experiment [GSE155118](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155118)
+
+
+Alternatively we can interactively search the table of metadata and to find experiments of interest and get the datasetID to retrieve the data for that individual experiment.
+```{r eval=FALSE}
+browse_skeletalvis(skeletalvis)
+```
+
+We can get the fold changes and pvalues (if applicable) for an individual dataset by querying by datasetID. This datasetID is the GEO accession number and the comparison number.
+
+Retrieve the results for the experiment accession GSE155118_1, the first comparison so "GSE155118_1"
+```{r}
+experiment_results <- get_experiment(skeletalvis, "GSE155118_1")
+head(experiment_results)
+```
+
+We can find particular genes of interest in this gene expression profile by subsetting the data.
+```{r}
+genes_of_interest <- c("SOX5","SOX6","SOX9","ACAN")
+
+experiment_results[ experiment_results$ID %in% genes_of_interest, ]
+```
+We can also find all genes that have an absolute log2 fold change or FDR past a threshold e.g significant genes
+```{r}
+# Data with an absolute fold change of 2 and FDR < 0.05
+experiment_results_sig <- experiment_results[ abs(experiment_results$GSE155118_1_log2FoldChange) > log2(2) & experiment_results$GSE155118_1_FDR < 0.05, ]
+
+# How many genes passing this threshold?
+dim(experiment_results_sig)
+
+# Look at the top of the list
+head(experiment_results_sig)
+```
+
+
+
+#### Volcano plots
+We can plot the differential expression of an individual dataset with either `plotly` or `ggplot2` for interactive and static plots respectively. The number_points parameter controls the number of the top up and down regulated points by FDR to plot.
+
+```{r}
+volcano_plot(experiment_results, number_points=5, interactive = FALSE)
+```
+
+```{r}
+#| eval: false
+volcano_plot(experiment_results, interactive = TRUE)
+```
+We can also add labels for particular genes of interest on the volcano plot.
+```{r}
+# Selected genes and top 10 up and down by FDR
+volcano_plot(experiment_results, number_points = 5, selected_points = c("SOX5","SOX6","SOX9"))
+
+# Just label the selected genes
+volcano_plot(experiment_results, number_points = 0, selected_points = c("SOX5","SOX6","SOX9"))
+```
+
+We can also use the volcano plot to visualise the differential expression data for a single gene from all the gene expression profiles in `SkeletalVis` in a similar way. If there are multiple genes then a list of volcano plots will be created.
+
+```{r}
+g <- volcano_plot(gene_results)
+
+g
+```
+
+## Finding similar datasets
+We can compare gene expression profiles against the `SkeletalVis` database using cosine similarity which allows as using the log2 fold changes as a continuous measure of similarity. Normalising the cosine scores to z-scores (how many standard deviations from the mean similarity) allows a assessment of the strength of the similarity compared to the rest of the gene expression profiles. 
+The input dataset should have Human gene symbols and log2 fold changes from all measured genes.
+
+As input we need a dataframe of human gene symbols and fold changes. 
+```{r}
+# Load an example built in dataset
+data(query)
+
+dim(query)
+head(query)
+
+
+```
+Genes not present in both query and SkeletalVis fold change table will be removed for the analysis.
+```{r}
+# Get the similarity of this experiment against the skeletalvis databases
+similarity_table <- experiment_similarity(skeletalvis, query)
+  
+```
+We can view the results of the search, the table is sorted by zscore so the most similar datasets are at the top.
+```{r}
+# Look at the top few rows
+head(similarity_table)
+```
+We can view the most dissimilar datasets by looking at the bottom of the table.
+```{r}
+# Look at the bottom few rows
+tail(similarity_table)
+```
+
+### Plotting the similarities
+We can plot the most similar datasets by plotting the similarity zscore against the rank of the dataset and label the top few datasets.
+```{r}
+# Plot the similarity results and label the top 5 experiments
+plot_similarity(similarity_table, top_n=5)
+```
+
+## Visualising OATargets data
+OATargets is a curated collection of literature reported gene perturbations and the results effect on osteoarthritis damage phenotypes.
+
+We can view the table of curated data:
+```{r}
+oagenes_table <- view_oagenes(skeletalvis)
+
+head(oagenes_table)
+```
+
+We can also see a network of physically interacting OAGenes surrounding a gene of interest.
+
+```{r}
+#| eval: false
+view_network(skeletalvis, query = "COL2A1")
+```
+
+We can also hide unannotated genes if a query gene has many interaction partners.
+```{r}
+# Can also turn off the the physics to allow manual tweaking of the network
+view_network(skeletalvis, query = "COL2A1", hide_unannotated = TRUE, physics= FALSE)
+
+```
+
+
+
+
+

@@ -1,14 +1,14 @@
 
-#' Browse Skeletal Visualization Table
+#' Browse the skeletalvis experiment and comparion table
 #'
-#' This function opens an interactive data table from a file located in the specified folder.
-#' It allows the user to browse and select a row, then returns the selected row ID.
+#' This function opens an interactive table showing the experiments available for analysis.
+#' The user can click on the row to select the comparison of interest within that experiment.
 #'
-#' @param skeletalvis The directory path where the 'exptable.txt' and "comparisons.txt" file is located.
-#' @return The gene expression profile ID of the selected row from the interactive table.
+#' @param skeletalvis The path to the skeletalvis data folder.
+#' @return The datasetID of the selected gene expression profile from the interactive table.
 #'
 #' @examples
-#' # Assuming 'skeletalvis' is the directory containing 'exptable.txt'
+#' # Assuming 'skeletalvis' is the directory containing the skeletalvis data
 #' # selected_id <- browse_skeletalvis("path/to/skeletalvis")
 #'
 #' @export
@@ -19,12 +19,12 @@ browse_skeletalvis <- function(skeletalvis) {
   if (!file.exists(exp_filepath)) stop("The file 'expTable.txt' does not exist in the specified directory.")
   if (!file.exists(comp_filepath)) stop("The file 'comparisons.txt' does not exist in the specified directory.")
 
-  exptable <- read.csv(exp_filepath, header = TRUE, stringsAsFactors = FALSE)
-  comparisons <- read.delim(comp_filepath, header = TRUE, stringsAsFactors = FALSE)
+  exptable <- utils::read.csv(exp_filepath, header = TRUE, stringsAsFactors = FALSE)
+  comparisons <- utils::read.delim(comp_filepath, header = TRUE, stringsAsFactors = FALSE)
 
   shiny::runGadget(
     miniUI::miniPage(
-      miniUI::miniTitleBar("Select a row from the table"),
+      miniUI::miniTitleBar("Select an experiment from the table"),
       miniUI::miniContentPanel(
         DT::dataTableOutput("table")
       )
@@ -43,7 +43,7 @@ browse_skeletalvis_server <- function(input, output, session, exptable, comparis
     DT::datatable(
       exptable,
       selection = "single",  # Allow single row selection
-      options = list(pageLength = 10, info = FALSE, paging = FALSE)
+      options = list(pageLength = 20, info = FALSE, paging = FALSE)
     )
   })
 
@@ -51,11 +51,11 @@ browse_skeletalvis_server <- function(input, output, session, exptable, comparis
   selected_modal_row <- shiny::reactiveVal(NULL)
 
   # Observe the row selection in the main table
-  observeEvent(input$table_rows_selected, {
+  shiny::observeEvent(input$table_rows_selected, {
     selected_accession <- exptable[input$table_rows_selected, 1]
     matched_rows <- comparisons[comparisons$accession == selected_accession, ]
 
-    showModal(shiny::modalDialog(
+    shiny::showModal(shiny::modalDialog(
       title = paste("Comparisons for Accession:", selected_accession),
       shiny::fluidRow(
         shiny::column(6, shiny::actionButton("confirm_selection", label = "Confirm", style = "background-color: green; color: white;")),
@@ -69,22 +69,22 @@ browse_skeletalvis_server <- function(input, output, session, exptable, comparis
     output$modal_table <- DT::renderDataTable({
       DT::datatable(
         matched_rows,
-        selection = "single",
-        options = list(pageLength = 10, info = FALSE, paging = FALSE)
+        selection = list(mode = "single", selected = 1),
+                options = list(pageLength = 10, info = FALSE, paging = FALSE)
       )
     })
 
-    observeEvent(input$modal_table_rows_selected, {
+    shiny::observeEvent(input$modal_table_rows_selected, {
       selected_id <- matched_rows[input$modal_table_rows_selected, 1]
       selected_modal_row(selected_id)
     })
 
-    observeEvent(input$confirm_selection, {
+    shiny::observeEvent(input$confirm_selection, {
       shiny::stopApp(selected_modal_row())
     })
 
-    observeEvent(input$close_modal, {
-      removeModal()
+    shiny::observeEvent(input$close_modal, {
+      shiny::removeModal()
     })
   })
 }

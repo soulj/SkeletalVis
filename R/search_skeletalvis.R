@@ -1,20 +1,23 @@
-#' Search for datasets in skeletalvis
+#' Search for experiments in SkeletalVis
 #'
-#' This function allows users to search for rows matching a search term in an `expTable.txt` CSV file.
-#' The search can be done across the entire table or user-specified columns.
+#' This function allows users to search for experiments matching a search term the skeletalvis database.
+#' The search can be done across the entire expTable or user-specified columns.
 #'
 #' @param skeletalvis Folder with the skeletalvis data
 #' @param search_term A string representing the term to search for.
-#' @param columns Optional; A character vector of column names to limit the search. If NULL, the entire table is searched.
+#' @param columns Optional; A character vector of column names to limit the search. If NULL (default), the entire table is searched.
 #'
-#' @return A data frame containing rows that match the search term in the specified columns or the whole table.
-#'
+#' @return A data frame containing experiments that match the search term in the specified columns or the whole table.
+#' @export
 #' @examples
+#'
+#' skeletalvis <- load_skeletalvis()
+
 #' # Search across all columns for rows containing "SOX9"
 #' result <- search_skeletalvis(skeletalvis, "SOX9")
 #'
-#' # Search only in the 'GeneSymbol' and 'Description' columns
-#' result <- search_skeletalvis(exp_table, "SOX9", columns = c("GeneSymbol", "Description"))
+#' # Search only in the 'Perturbation' and 'Description' columns
+#' result <- search_skeletalvis(skeletalvis, "SOX9", columns = c("Perturbation", "Description"))
 search_skeletalvis <- function(skeletalvis, search_term, columns = NULL) {
 
   exp_filepath <- file.path(skeletalvis, "expTable.txt")

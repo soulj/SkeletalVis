@@ -2,47 +2,37 @@
 % Please edit documentation in R/experiment_similarity.R
 \name{experiment_similarity}
 \alias{experiment_similarity}
-\title{Get Cosine Similarity for a Query Dataset Against Fold Change Table}
+\title{Get cosine similarity for a query dataset against the skeletalvis database}
 \usage{
-experiment_similarity(dataset, foldchangeTable)
+experiment_similarity(skeletalvis, dataset, add_meta_data = TRUE)
 }
 \arguments{
-\item{dataset}{A numeric vector representing the fold change values for the query dataset.}
+\item{skeletalvis}{The path to the skeletalvis data folder.}
 
-\item{foldchangeTable}{A data frame containing fold change values with gene IDs in the first column.}
+\item{dataset}{A dataframe with human gene symbols and log2 fold changes.}
 
-\item{accessions}{A data frame containing additional information for merging, with a column named "combined".}
-
-\item{datasetName}{A name for the dataset being queried (default is "query").}
+\item{add_meta_data}{Add metadata such as species, tissues, description of overall experiment and specific comparison}
 }
 \value{
 A data frame containing cosine similarity values, IDs, and z-scores.
 }
 \description{
-This function computes the cosine similarity of a given query dataset
+This function computes the cosine similarity of the log2 fold changes of a given query dataset
 against a fold change table, returning a data frame of similarities.
 }
 \examples{
-# Load necessary library
-library(feather)
-
-# Load your feather file
-foldchange_data <- read_feather("data/mydata.feather")
+skeletalvis <- load_skeletalvis()
 
 # Create a query dataset (this should be a data frame with the first column as gene IDs)
-query_dataset <- data.frame(ID = c("BRCA1", "TP53"), fold_change = c(2.5, -1.8))
-
-# Create a data frame of accessions to merge (example format)
-accessions <- data.frame(combined = c("BRCA1", "TP53"), info = c("Gene A", "Gene B"))
+query_dataset <- data.frame(ID = c("SOX9", "ACAN"), fold_change = c(2.5, -1.8))
 
 # Get cosine similarities
-similarity_results <- getSim(
-  dataset = query_dataset$fold_change,
-  foldchangeTable = foldchange_data,
-  accessions = accessions
+similarity_results <- experiment_similarity(
+  skeletalvis = skeletalvis,
+  dataset = query_dataset,
 )
 
 # View results
-print(similarity_results)
+head(similarity_results)
 
 }

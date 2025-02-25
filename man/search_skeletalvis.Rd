@@ -2,7 +2,7 @@
 % Please edit documentation in R/search_skeletalvis.R
 \name{search_skeletalvis}
 \alias{search_skeletalvis}
-\title{Search for datasets in skeletalvis}
+\title{Search for experiments in SkeletalVis}
 \usage{
 search_skeletalvis(skeletalvis, search_term, columns = NULL)
 }
@@ -11,19 +11,21 @@ search_skeletalvis(skeletalvis, search_term, columns = NULL)
 
 \item{search_term}{A string representing the term to search for.}
 
-\item{columns}{Optional; A character vector of column names to limit the search. If NULL, the entire table is searched.}
+\item{columns}{Optional; A character vector of column names to limit the search. If NULL (default), the entire table is searched.}
 }
 \value{
-A data frame containing rows that match the search term in the specified columns or the whole table.
+A data frame containing experiments that match the search term in the specified columns or the whole table.
 }
 \description{
-This function allows users to search for rows matching a search term in an `expTable.txt` CSV file.
-The search can be done across the entire table or user-specified columns.
+This function allows users to search for experiments matching a search term the skeletalvis database.
+The search can be done across the entire expTable or user-specified columns.
 }
 \examples{
+
+skeletalvis <- load_skeletalvis()
 # Search across all columns for rows containing "SOX9"
 result <- search_skeletalvis(skeletalvis, "SOX9")
 
-# Search only in the 'GeneSymbol' and 'Description' columns
-result <- search_skeletalvis(exp_table, "SOX9", columns = c("GeneSymbol", "Description"))
+# Search only in the 'Perturbation' and 'Description' columns
+result <- search_skeletalvis(skeletalvis, "SOX9", columns = c("Perturbation", "Description"))
 }

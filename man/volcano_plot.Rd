@@ -6,34 +6,31 @@
 \usage{
 volcano_plot(
   data,
-  id_col,
-  pval_col,
-  fc_col,
-  logFCThreshold = log2(1.5),
-  adjPValThreshold = 0.05,
-  point.size = 2,
-  lab.size = 4,
-  top.points = 5
+  number_points = 5,
+  selected_points = NULL,
+  interactive = FALSE,
+  logFC_threshold = log2(1.5),
+  FDR_threshold = 0.05,
+  point_size = 2,
+  lab_size = 4
 )
 }
 \arguments{
-\item{data}{A data frame containing gene expression data.}
+\item{data}{A data frame containing gene expression data, containing an ID, log2 foldchange and FDR columns.}
 
-\item{id_col}{The column name for the id of the points (genes/experiments).}
+\item{number_points}{Number of top up and down regulated points to label}
 
-\item{pval_col}{The column name for p-values.}
+\item{selected_points}{Character vector of the IDs to label}
 
-\item{fc_col}{The column name for fold changes.}
+\item{interactive}{Should an interactive plotly graph be made?}
 
-\item{logFCThreshold}{The foldchange threshold to define up and down regulated points}
+\item{logFC_threshold}{The foldchange threshold to define up and down regulated points}
 
-\item{adjPValThreshold}{The pval threshold to define up and down regulated points}
+\item{FDR_threshold}{The pval threshold to define up and down regulated points}
 
-\item{point.size}{Size for the points}
+\item{point_size}{Size for the points}
 
-\item{lab.size}{Size for the labels}
-
-\item{top.points}{Number of top up and down regulated points to label}
+\item{lab_size}{Size for the labels}
 }
 \value{
 A ggplot object representing the volcano plot.
@@ -42,5 +39,9 @@ A ggplot object representing the volcano plot.
 Volcano Plot of Gene Expression Data
 }
 \examples{
-volcano_plot(foldChanges,"SkeletalVisID","log2FoldChange")
+skeletalvis <- load_skeletalvis()
+
+experiment_results <- get_experiment(skeletalvis, "E-MTAB-4304_1")
+
+volcano_plot(experiment_results)
 }

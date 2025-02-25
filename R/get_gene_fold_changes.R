@@ -1,85 +1,92 @@
-# Function to get results for a gene of interest
-#' Get Results for a Gene of Interest
+# Function to get gene expression results for a gene of interest
+#' Get gene fold changes for a gene of interest
 #'
-#' This function loads a Feather file and extracts results for a specified gene.
+#' This function extracts fold change and p-values across the skeletalvis database for the specified genes.
 #'
-#' @param skeletalvis The path to the Feather file.
-#' @param gene_symbol The gene symbol to extract results for.
-#' @return A data frame containing results for the specified genes.
+#' @param skeletalvis The path to the skeletalvis data folder.
+#' @param gene_symbols The human gene symbols to extract foldchange and fdr pvalues for.
+#' @param return_fdr Return FDR values (FALSE by default)
+#' @param add_meta_data Add metadata such as species, tissues, description of overall experiment and specific comparison
+#' @return A tibble containing gene expression results for the specified genes.
 #' @export
 #'
 #' @examples
-#' gene_results <- get_gene_fold_changes("skeletalvis", "SOX9")
-
-get_gene_fold_changes <- function(skeletalvis, gene_symbol, returnFDR= FALSE, addMetaData=TRUE) {
-
+#' skeletalvis <- load_skeletalvis()
+#'
+#' gene_results <- get_gene_fold_changes(skeletalvis, c("SOX9","ACAN"))
+#'
+#' head(gene_results)
+get_gene_fold_changes <- function(skeletalvis, gene_symbols, return_fdr = TRUE, add_meta_data=TRUE) {
 
   foldchange_filepath <- file.path(skeletalvis, "foldChangeTable.feather")
 
-  if (!file.exists(foldchange_filepath)) stop(sprintf("The file 'foldChangeTable.feather' does not exist in the specified directory: %s",skeletalvis))
-  if(addMetaData==TRUE) {
+  if (!file.exists(foldchange_filepath)) stop(sprintf("The file 'foldChangeTable.feather' does not exist in the specified directory: %s", skeletalvis))
 
-    metadata_filepath <- file.path(skeletalvis, "expTable.txt")
+  if (add_meta_data){
 
-    if (!file.exists(metadata_filepath)) stop(sprintf("The file 'expTable.txt' does not exist in the specified directory: %s",skeletalvis))
-    metadata <- read.csv(metadata_filepath)
+    exp_table <- get_exp_table(skeletalvis)
+    metadata <- get_comparisons(skeletalvis)
   }
 
-
-  if(returnPvalues==TRUE){
-
+  if (return_fdr) {
     pvalue_filepath <- file.path(skeletalvis, "pvalTable.feather")
-
-    if (!file.exists(pvalue_filepath)) stop(sprintf("The file 'pvalTable.feather' does not exist in the specified directory: %s",skeletalvis))
-
-    pvalues <- feather::read_feather(pvalue_filepath)
-
+    if (!file.exists(pvalue_filepath)) stop(sprintf("The file 'pvalTable.feather' does not exist in the specified directory: %s", skeletalvis))
+    pvalues <- arrow::read_feather(pvalue_filepath)
   }
 
   # Load the Feather file
-  foldChanges <- feather::read_feather(foldchange_filepath)
+  fold_changes <- arrow::read_feather(foldchange_filepath)
 
   # Check if the data contains the ID column
-  if (!"ID" %in% colnames(foldChanges)) {
+  if (!"ID" %in% colnames(fold_changes)) {
     stop("The Feather file does not contain an 'ID' column.")
   }
 
-  # Filter the data for the gene of interest
-  foldChanges <- foldChanges %>%
-    dplyr::filter(ID %in% gene_symbol) %>%
-    select(-ID) %>%
-    tidyr::pivot_longer(cols = everything(),
-                        names_to = "SkeletalVisID",
-                        values_to = "log2FoldChange")
+  # Process fold change and FDR for each gene symbol
+  gene_data <- lapply(gene_symbols, function(gene_symbol) {
+    fc <- fold_changes %>%
+      dplyr::filter(ID == gene_symbol) %>%
+      dplyr::select(-ID) %>%
+      tidyr::pivot_longer(cols = dplyr::everything(),
+                          names_to = "datasetID",
+                          values_to = "log2FoldChange") %>%
+      dplyr::mutate(Gene = gene_symbol) # Add a column to label gene
 
-  if(returnPvalues==TRUE){
+    if (return_fdr) {
+      fdr <- pvalues %>%
+        dplyr::filter(GeneName == gene_symbol) %>%
+        dplyr::select(-GeneName) %>%
+        tidyr::pivot_longer(cols = dplyr::everything(),
+                            names_to = "datasetID",
+                            values_to = "FDR")
+      fc <- dplyr::left_join(fc, fdr, by = "datasetID")
+    }
 
-  pvalues <- pvalues %>%
-    dplyr::filter(GeneName %in% gene_symbol) %>%
-    select(-GeneName) %>%
-    tidyr::pivot_longer(cols = everything(),
-                        names_to = "SkeletalVisID",
-                        values_to = "FDR")
+    fc
+  })
 
-  foldChanges <- left_join(foldChanges,pvalues,by = "SkeletalVisID")
+  # Combine data for all genes with a single datasetID column
+  fold_changes <- dplyr::bind_rows(gene_data)
 
-  foldChanges <- foldChanges %>%
-    arrange(FDR)
-
+  # Arrange by FDR or log2FoldChange
+  if (return_fdr) {
+    fold_changes <- fold_changes %>%
+      dplyr::arrange(FDR)
   } else {
-    foldChanges <- foldChanges %>%
-      arrange(log2FoldChange)
+    fold_changes <- fold_changes %>%
+      dplyr::arrange(log2FoldChange)
   }
 
-  # Check if any results were found
-  if (nrow(foldChanges) == 0) {
-    stop("No results found for the gene: ", gene_symbol)
+  # Rearrange columns to place Gene as the last column
+  fold_changes <- fold_changes %>%
+    dplyr::relocate(Gene, .after = last_col())
+
+  # Add metadata if requested
+  if (add_meta_data) {
+    metadata <- get_comparisons(skeletalvis)[,-2]
+    fold_changes <- dplyr::left_join(fold_changes, metadata, by = "datasetID")
+    fold_changes <- dplyr::left_join(fold_changes, exp_table, by = c("accession" = "ID"))
   }
 
-  if(addMetaData) {
-    foldChanges$Accession <- stringr::word(foldChanges$SkeletalVisID, 1,1, sep="_")
-    foldChanges <- left_join(foldChanges, metadata, by = c("Accession"="ID"))
-  }
-
-  return(foldChanges)
+  return(fold_changes)
 }
