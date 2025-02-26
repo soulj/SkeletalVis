@@ -51,7 +51,7 @@ experiment_similarity <- function(skeletalvis, dataset, add_meta_data = TRUE) {
   if (!file.exists(foldchange_filepath)) stop(sprintf("The file 'foldChangeTable.feather' does not exist in the specified directory: %s",skeletalvis))
 
   fold_change_table <- arrow::read_feather(foldchange_filepath)  %>%
-    dplyr::select(ID, dplyr::everything())
+    dplyr::select(.data$ID, dplyr::everything())
 
   colnames(dataset)[1:2] <- c("ID","queryFC")
 

@@ -2,6 +2,7 @@
 
 #' Volcano Plot of Gene Expression Data
 #' @importFrom dplyr %>%
+#' @importFrom rlang .data
 #' @param data A data frame containing gene expression data, containing an ID, log2 foldchange and FDR columns.
 #' @param number_points Number of top up and down regulated points to label
 #' @param selected_points Character vector of the IDs to label
@@ -72,8 +73,8 @@ volcano_plot <- function(data,  number_points=5, selected_points=NULL, interacti
   }
 
 
-  volcano_plot <- ggplot2::ggplot(data, ggplot2::aes(x = !!sym(fc_col), y = logpval,text=text)) +
-    ggplot2::geom_point(ggplot2::aes(color = Expression), size = point_size) +
+  volcano_plot <- ggplot2::ggplot(data, ggplot2::aes(x = !!sym(fc_col), y = .data$logpval, text=text)) +
+    ggplot2::geom_point(ggplot2::aes(color = .data$Expression), size = point_size) +
     cowplot::theme_cowplot(font_size = 16) +
      ggplot2::scale_color_manual(name = "Expression", values = myColors) +
     ggplot2::geom_hline(yintercept = -log10(FDR_threshold), linetype = "dashed") +
@@ -83,11 +84,11 @@ volcano_plot <- function(data,  number_points=5, selected_points=NULL, interacti
   if(!is.null(number_points)) {
     top_genes <- dplyr::bind_rows(
       data %>%
-        dplyr::filter(Expression == 'Up-regulated') %>%
+        dplyr::filter(.data$Expression == 'Up-regulated') %>%
         dplyr::arrange(!!sym(pval_col), dplyr::desc(abs(!!sym(fc_col)))) %>%
         head(number_points),
      data %>%
-       dplyr::filter(Expression == 'Down-regulated') %>%
+       dplyr::filter(.data$Expression == 'Down-regulated') %>%
        dplyr::arrange(!!sym(pval_col), dplyr::desc(abs(!!sym(fc_col)))) %>%
         head(number_points)
     )

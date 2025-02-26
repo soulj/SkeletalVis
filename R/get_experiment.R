@@ -42,18 +42,23 @@ get_experiment <- function(skeletalvis, dataset_id) {
 
   # Filter the data for the gene of interest
   fold_changes <- fold_changes %>%
-    dplyr::select(ID, dplyr::any_of(dataset_id))
+    dplyr::select(.data$ID, dplyr::any_of(dataset_id))
 
   colnames(fold_changes)[2:ncol(fold_changes)] <- paste0(colnames(fold_changes)[2:ncol(fold_changes)],"_log2FoldChange")
 
     pvalues <- pvalues %>%
-      dplyr::select(GeneName, dplyr::any_of(dataset_id))
+      dplyr::select(.data$GeneName, dplyr::any_of(dataset_id))
 
     colnames(pvalues)[2:ncol(pvalues)] <- paste0(colnames(pvalues)[2:ncol(pvalues)],"_FDR")
 
-    fold_changes <- dplyr::left_join(fold_changes,pvalues,by = c("ID"="GeneName")) %>%
-        dplyr::arrange(dplyr::desc(.[[2]])) %>%
-        dplyr::filter(!is.na(.[[2]]))
+    fold_changes <- dplyr::left_join(fold_changes, pvalues, by = c("ID"="GeneName"))
+
+    colname <- names(fold_changes)[2]
+
+    fold_changes %>%
+      dplyr::filter(!is.na(.data[[colname]])) %>%
+      dplyr::arrange(dplyr::desc(.data[[colname]]))
+
 
 
 

@@ -29,21 +29,21 @@ create_gene_heatmap <- function(data, value_column = "log2FoldChange", annotatio
 
   # Pivot data to create heatmap matrix
   heatmap_matrix <- data %>%
-    dplyr::select(datasetID, Gene, !!sym(value_column)) %>%
-    tidyr::pivot_wider(names_from = datasetID, values_from = !!sym(value_column)) %>%
+    dplyr::select(.data$datasetID, .data$Gene, !!sym(value_column)) %>%
+    tidyr::pivot_wider(names_from = .data$datasetID, values_from = !!sym(value_column)) %>%
     tibble::column_to_rownames("Gene")
 
   # Create a matrix of significance stars for overlay
   star_matrix <- data %>%
-    dplyr::select(datasetID, Gene, Significance) %>%
-    tidyr::pivot_wider(names_from = datasetID, values_from = Significance) %>%
+    dplyr::select(.data$datasetID, .data$Gene, .data$Significance) %>%
+    tidyr::pivot_wider(names_from = .data$datasetID, values_from = .data$Significance) %>%
     tibble::column_to_rownames("Gene")
 
   # Generate annotation data and assign reproducible colors
   if (!is.null(annotation_columns)) {
     annotation_data <- data %>%
-      dplyr::select(datasetID, dplyr::all_of(annotation_columns)) %>%
-      dplyr::distinct(datasetID, .keep_all = TRUE) %>%
+      dplyr::select(.data$datasetID, dplyr::all_of(annotation_columns)) %>%
+      dplyr::distinct(.data$datasetID, .keep_all = TRUE) %>%
       tibble::column_to_rownames("datasetID")
 
     # Generate colors for each annotation column using viridis for reproducibility

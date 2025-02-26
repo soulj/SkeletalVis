@@ -45,8 +45,8 @@ get_gene_fold_changes <- function(skeletalvis, gene_symbols, return_fdr = TRUE, 
   # Process fold change and FDR for each gene symbol
   gene_data <- lapply(gene_symbols, function(gene_symbol) {
     fc <- fold_changes %>%
-      dplyr::filter(ID == gene_symbol) %>%
-      dplyr::select(-ID) %>%
+      dplyr::filter(.data$ID == gene_symbol) %>%
+      dplyr::select(-.data$ID) %>%
       tidyr::pivot_longer(cols = dplyr::everything(),
                           names_to = "datasetID",
                           values_to = "log2FoldChange") %>%
@@ -54,8 +54,8 @@ get_gene_fold_changes <- function(skeletalvis, gene_symbols, return_fdr = TRUE, 
 
     if (return_fdr) {
       fdr <- pvalues %>%
-        dplyr::filter(GeneName == gene_symbol) %>%
-        dplyr::select(-GeneName) %>%
+        dplyr::filter(.data$GeneName == gene_symbol) %>%
+        dplyr::select(-.data$GeneName) %>%
         tidyr::pivot_longer(cols = dplyr::everything(),
                             names_to = "datasetID",
                             values_to = "FDR")
@@ -71,15 +71,15 @@ get_gene_fold_changes <- function(skeletalvis, gene_symbols, return_fdr = TRUE, 
   # Arrange by FDR or log2FoldChange
   if (return_fdr) {
     fold_changes <- fold_changes %>%
-      dplyr::arrange(FDR)
+      dplyr::arrange(.data$FDR)
   } else {
     fold_changes <- fold_changes %>%
-      dplyr::arrange(log2FoldChange)
+      dplyr::arrange(.data$log2FoldChange)
   }
 
   # Rearrange columns to place Gene as the last column
   fold_changes <- fold_changes %>%
-    dplyr::relocate(Gene, .after = last_col())
+    dplyr::relocate(.data$Gene, .after = dplyr::last_col())
 
   # Add metadata if requested
   if (add_meta_data) {

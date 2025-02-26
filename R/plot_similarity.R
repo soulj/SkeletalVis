@@ -33,13 +33,13 @@ plot_similarity <- function(similarity_table, top_n = 10) {
 
   # Calculate ranks and prepare data for labeling top N items by zscore
   similarity_table <- similarity_table %>%
-    dplyr::mutate(rank = rank(-zscore))  # Rank in descending order of zscore
+    dplyr::mutate(rank = rank(-.data$zscore))  # Rank in descending order of zscore
   top_labels <- similarity_table %>%
-    dplyr::arrange(dplyr::desc(zscore)) %>%
+    dplyr::arrange(dplyr::desc(.data$zscore)) %>%
     dplyr::slice_head(n = top_n)
 
   # Create the plot
-  ggplot2::ggplot(similarity_table, ggplot2::aes(x = zscore, y = rank)) +
+  ggplot2::ggplot(similarity_table, ggplot2::aes(x = .data$zscore, y = rank)) +
     ggplot2::geom_point(color = "blue") +
     ggplot2::scale_y_log10() +  # Use a log scale for the y-axis
     ggplot2::labs(
@@ -48,5 +48,5 @@ plot_similarity <- function(similarity_table, top_n = 10) {
     ) +
     cowplot::theme_cowplot(font_size = 16) +  # Apply cowplot theme
     # Add ggrepel labels for the top N items by zscore
-    ggrepel::geom_text_repel(data = top_labels, ggplot2::aes(label = datasetID), color = "red", seed = 42, min.segment.length = 0)
+    ggrepel::geom_text_repel(data = top_labels, ggplot2::aes(label = .data$datasetID), color = "red", seed = 42, min.segment.length = 0)
 }
