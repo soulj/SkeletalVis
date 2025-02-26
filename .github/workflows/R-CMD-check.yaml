@@ -51,6 +51,7 @@ jobs:
       # These extra steps will only run on Windows
       - name: Build Windows Binary
         if: runner.os == 'Windows'
+        shell: bash
         run: |
           # Check if a package tarball already exists; if not, build it.
           if ls *.tar.gz 1> /dev/null 2>&1; then
