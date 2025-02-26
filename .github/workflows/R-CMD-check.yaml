@@ -1,5 +1,4 @@
 # Workflow derived from https://github.com/r-lib/actions/tree/v2/examples
-# Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
 on:
   push:
     branches: [main, master]
@@ -12,7 +11,6 @@ permissions: read-all
 jobs:
   R-CMD-check:
     runs-on: ${{ matrix.config.os }}
-
     name: ${{ matrix.config.os }} (${{ matrix.config.r }})
 
     strategy:
@@ -49,3 +47,23 @@ jobs:
         with:
           upload-snapshots: true
           build_args: 'c("--no-manual","--compact-vignettes=gs+qpdf")'
+
+      # These extra steps will only run on Windows
+      - name: Build Windows Binary
+        if: runner.os == 'Windows'
+        run: |
+          # Check if a package tarball already exists; if not, build it.
+          if ls *.tar.gz 1> /dev/null 2>&1; then
+            PACKAGE_TAR=$(ls *.tar.gz)
+          else
+            R CMD build .
+            PACKAGE_TAR=$(ls *.tar.gz)
+          fi
+          R CMD INSTALL --build $PACKAGE_TAR
+
+      - name: Upload Windows Binary
+        if: runner.os == 'Windows'
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-binary
+          path: "*.zip"
