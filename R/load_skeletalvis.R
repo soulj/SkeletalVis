@@ -1,18 +1,39 @@
 #' Find the skeletalvis data folder and download if not present
 #'
 #' This function checks the default skeletalvis data location for the presence of the expected data and metadata files.
-#' If these files do  not exist, it downloads the files from the inbuilt URLs.
+#' If these files do not exist, it downloads the files from the inbuilt URLs.
 #'
+#' @param verbose Logical. If TRUE, prints messages about file existence and download status. Default is FALSE.
+#' @param ask Logical. If TRUE, prompts the user for confirmation before downloading files. Default is TRUE.
+#' @param demo Logical. If TRUE, loads the in built demo data used for building the vignette. Default is FALSE
 #' @return The path to the skeletalvis folder.
 #' @export
 #'
 #' @examples
-#' load_skeletalvis()
+#' # Load the demo SkeletalVis data.
+#' skeletalvis <- load_skeletalvis(demo=TRUE)
+#'
+#' # Download full dataset
+#' if (interactive()) {
+#' skeletalvis <- load_skeletalvis()
+#'}
+
 
 # Main function to load SkeletalVis data
-load_skeletalvis <- function() {
-  # Use rappdirs to determine the application data directory
-  app_dir <- rappdirs::user_data_dir("SkeletalVis")
+load_skeletalvis <- function(verbose=FALSE, ask=TRUE, demo=FALSE) {
+
+
+  if(demo){
+
+    demo_folder <- system.file("extdata", package = "SkeletalVis")
+    return(demo_folder)
+
+  }
+
+
+
+  # Determine the application data directory
+  app_dir <- tools::R_user_dir("SkeletalVis")
 
 
   urls <- c("https://www.dropbox.com/scl/fi/cslaigrypuw671zn3sirf/accessions.txt?rlkey=x9swp43drswlfqd9uyt3g8elp&st=4023lmdh&dl=1",
@@ -25,28 +46,32 @@ load_skeletalvis <- function() {
   names(urls) <- c("accessions.txt","expTable.txt","pvalTable.feather",
  "foldChangeTable.feather","network.RDS","oatargets.txt")
 
-  # Iterate over each URL and filename to check/download
+  # Iterate over each URL and filename to check/download, ask for permission to download
   downloaded_files <- lapply(names(urls), function(filename) {
     destfile <- file.path(app_dir, filename)
-    check_and_download_file(url = urls[[filename]], destfile = destfile)
+    check_and_download_file(url = urls[[filename]], destfile = destfile, verbose=verbose, ask=ask)
   })
 
   return(app_dir)
 }
 
 # Helper function to check and download a file if not present
-check_and_download_file <- function(url, destfile, verbose=FALSE) {
-  # Check if the file already exists
+check_and_download_file <- function(url, destfile, verbose=FALSE, ask=TRUE) {
   if (!file.exists(destfile)) {
-    message("Downloading ",basename(destfile))
+    if (ask) {
+      response <- readline(prompt = paste("Do you want to download", basename(destfile), "? (yes/no): "))
+      if (tolower(response) != "yes") {
+        stop("User aborted the download.")
+      }
+    }
 
-    # Create the directory if it doesn't exist
+    message("Downloading ", basename(destfile))
+
     destfolder <- dirname(destfile)
     if (!dir.exists(destfolder)) {
       dir.create(destfolder, showWarnings = TRUE, recursive = TRUE)
     }
 
-    # Use httr to download the file
     tryCatch({
       httr::GET(url, httr::write_disk(destfile, overwrite = TRUE))
       message("Download complete: ", destfile)
@@ -54,7 +79,7 @@ check_and_download_file <- function(url, destfile, verbose=FALSE) {
       stop("Error downloading the file from ", url, ": ", e$message)
     })
   } else {
-    if(verbose) message("Data already exists at: ", destfile)
+    if (verbose) message("Data already exists at: ", destfile)
   }
 
   return(destfile)

@@ -39,9 +39,9 @@ A ggplot object representing the volcano plot.
 Volcano Plot of Gene Expression Data
 }
 \examples{
-skeletalvis <- load_skeletalvis()
+skeletalvis <- load_skeletalvis(demo=TRUE)
 
-experiment_results <- get_experiment(skeletalvis, "E-MTAB-4304_1")
+experiment_results <- get_experiment(skeletalvis, "GSE155118_1")
 
 volcano_plot(experiment_results)
 }

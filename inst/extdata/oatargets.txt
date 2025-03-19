@@ -1,0 +1,1384 @@
+PMID	Gene	Effect on gene product	Model	Susceptibility observed	Inferred gene effect	Delivery	Species	pub_date	LastAuthor	Type	Intervention	simpleModel	effectConsensus	NumStudies
+24578232	A2M	Exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Rat	2014-07-01	Wei L	Exogenous	Protein	Surgical	Protective	2
+28743292	A2M	Exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Rat	2017-07-25	Wei L	Exogenous	Protein	Surgical	Protective	2
+31534049	ABAT	Overexpression	Surgical - MLI	Detrimental	Detrimental	Articular cavity	Mouse	2019-09-19	O'Keefe RJ	Exogenous	Viral	Surgical	Detrimental	3
+31534049	ABAT	Knockdown	Surgical - MLI	Protective	Detrimental	Articular cavity	Mouse	2019-09-19	O'Keefe RJ	Exogenous	siRNA	Surgical	Detrimental	3
+31534049	ABAT	Inhibition	Surgical - MLI	Protective	Detrimental	systemic	Mouse	2019-09-19	O'Keefe RJ	Exogenous	Vigabatrin	Surgical	Detrimental	3
+30813547	ACAN	Misexpression	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2019-02-26	Aszodi A	Genetic		Ageing	Protective	2
+17510707	ACAN	Protect	Surgical - DMM	Protective	Protective	Global	Mouse	2007-05-17	Fosang AJ	Genetic		Surgical	Protective	2
+34987154	ACOT12	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2022-01-05	Jin EJ	Genetic		Surgical	Protective	1
+33118211	ACVR1	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2020-10-29	Chen Q	Exogenous	LDN193189	Surgical	Detrimental	1
+15818704	ADAM15	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2005-04-01	Burkhardt H	Genetic		Ageing	Protective	1
+29618652	ADAMTS12	Removal	Spontaneous	No effect	No effect	Global	Mouse	2018-04-05	Apte SS	Genetic		Ageing	No effect	1
+15334469	ADAMTS4	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2004-08-01	Morris EA	Genetic		Surgical	No effect	1
+21337391	ADAMTS5	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2010-10-26	Plaas A	Genetic		Surgical	Detrimental	9
+21337391	ADAMTS5	Removal	TGFB and Treadmill	Protective	Detrimental	Global	Mouse	2010-10-26	Plaas A	Genetic		Exercise	Detrimental	9
+19010693	ADAMTS5	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2008-10-17	van Osch GJ	Genetic		Surgical	Detrimental	9
+17968948	ADAMTS5	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2007-11-01	Glasson SS	Genetic		Surgical	Detrimental	9
+15800624	ADAMTS5	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2005-03-31	Morris EA	Genetic		Surgical	Detrimental	9
+23954517	ADAMTS5	Inhibition	STR/ort	Protective	Detrimental	Articular cavity	Mouse	2013-08-15	Visintin M	Exogenous	Antibody	Surgical	Detrimental	9
+26410555	ADAMTS5	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2015-09-26	Malfait AM	Exogenous	Antibody	Surgical	Detrimental	9
+28120109	ADAMTS5	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017-01-24	Sasho T	Exogenous	siRNA	Surgical	Detrimental	9
+34626798	ADAMTS5	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2021-10-06	Amantini D	Exogenous	GLPG1972	Surgical	Detrimental	9
+23928557	ADAMTS7	Overexpression	Spontaneous	Detrimental	Detrimental	Cartilage	Mouse	2013-08-08	Liu CJ	Genetic		Ageing	Ambiguous	4
+23928557	ADAMTS7	Overexpression	Surgical - DMM	Detrimental	Detrimental	Cartilage	Mouse	2013-08-08	Liu CJ	Genetic		Surgical	Ambiguous	4
+23928557	ADAMTS7	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2013-08-08	Liu CJ	Genetic		Surgical	Ambiguous	4
+29618652	ADAMTS7	Removal	Spontaneous	No effect	No effect	Global	Mouse	2018-04-05	Apte SS	Genetic		Ageing	Ambiguous	4
+28492224	ADORA2A	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2017-05-11	Cronstein BN	Genetic		Ageing	Protective	3
+32778777	ADORA2A	Activation	High Fat Diet	Protective	Protective	Articular cavity	Mouse	2020-08-10	Cronstein BN	Exogenous	CGS21680	High Fat Diet	Protective	3
+32778777	ADORA2A	Activation	Surgical - ACLT	Protective	Protective	Articular cavity	Rat	2020-08-10	Cronstein BN	Exogenous	CGS21680	Surgical	Protective	3
+30088034	ADORA3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2018-08-07	Evseenko D	Genetic		Ageing	Protective	2
+34826631	ADORA3	Activation	Surgical – ACLT	Protective	Protective	systemic	Rat	2022-02-01	Gao L	Exogenous	CF101	Surgical	Protective	2
+31926929	ADRB2	Removal	Surgical - TMJ	Protective	Detrimental	MSC	Mouse	2020-01-09	Jiao K	Genetic		Surgical	Ambiguous	2
+35095883	ADRB2	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2022-01-13	Jenei-Lanzl Z	Genetic		Surgical	Ambiguous	2
+37406898	ADRM1	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2023-08-01	Dai M	Genetic		Surgical	Protective	3
+37406898	ADRM1	Inhibition	Surgical - DMM	Detrimental	Protective	Articular cavity	Mouse	2023-08-01	Dai M	Exogenous	RA190	Surgical	Protective	3
+37406898	ADRM1	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2023-08-01	Dai M	Exogenous	viral	Surgical	Protective	3
+29667227	AGER	Removal	Impact	No effect	No effect	Global	Mouse	2018-05-24	Martin JA	Genetic		Surgical	Ambiguous	4
+27236646	AGER	Removal	Surgical - TMJ	Protective	Detrimental	Global	Mouse	2016-05-14	Kooyman DL	Genetic		Surgical	Ambiguous	4
+23755017	AGER	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2013-05-28	Kooyman DL	Genetic		Surgical	Ambiguous	4
+19342682	AGER	Removal	Surgical - ACLT	No effect	No effect	Global	Mouse	2009-04-15	Terkeltaub R	Genetic		Surgical	Ambiguous	4
+30610922	AGTR1	Inhibition	Col11a1 haploinsufficient	Protective	Detrimental	systemic	Mouse	2019-01-03	Seegmiller RE	Exogenous	losartan	Genetic	Detrimental	1
+31209645	AHSG	Overexpression	Surgical - ACLT	No effect	No effect	Articular cavity	Rat	2019-06-17	Nikolaou VS	Exogenous	Exogenous	Surgical	No effect	1
+20187155	AKT1	Removal	Surgical - DMM + MM	Protective	Detrimental	Global	Mouse	2010-03-01	Kawaguchi H	Genetic		Surgical	Detrimental	1
+28694081	ALOX15	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2017-07-08	Fahmi H	Genetic		Ageing	Protective	2
+28694081	ALOX15	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2017-07-08	Fahmi H	Genetic		Surgical	Protective	2
+36053817	ALPK1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2022-10-01	Long X	Genetic		Surgical	Detrimental	5
+35689396	ALPK1	Removal	MIA	Protective	Detrimental	Global	Mouse	2022-11-01	Long X	Genetic		MIA	Detrimental	5
+36053817	ALPK1	Overexpression	Surgical – DMM	Detrimental	Detrimental	systemic	Mouse	2022-10-01	Long X	Exogenous	Viral	Surgical	Detrimental	5
+36053817	ALPK1	Overexpression	Collagenase	Detrimental	Detrimental	systemic	Mouse	2022-10-01	Long X	Exogenous	Viral	Protease	Detrimental	5
+35689396	ALPK1	Overexpression	MIA	Detrimental	Detrimental	systemic	Mouse	2022-11-01	Long X	Exogenous	Viral	MIA	Detrimental	5
+30209244	ANP32A	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2018-09-12	Lories RJ	Genetic		Surgical	Detrimental	4
+30209244	ANP32A	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2018-09-12	Lories RJ	Genetic		Protease	Detrimental	4
+30209244	ANP32A	Removal	papain	Protective	Detrimental	Global	Mouse	2018-09-12	Lories RJ	Genetic		Protease	Detrimental	4
+30209244	ANP32A	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2018-09-12	Lories RJ	Genetic		Ageing	Detrimental	4
+24022118	ANXA6	Removal	Surgical - DMM + MM	Protective	Detrimental	Global	Mouse	2013-12-01	Kirsch T	Genetic		Surgical	Detrimental	1
+23151457	APOA1	Removal	High Fat Diet	Detrimental	Protective	Global	Mouse	2012-11-11	Papachristou DJ	Genetic		High Fat Diet	Protective	1
+38734566	APOD	Overexpression	Surgical – ACLT	Protective	Detrimental	Articular cavity	Mouse	2024-05-01	Lv S	Exogenous	viral	Surgical	Detrimental	1
+29074298	APOE	Removal	High Fat Diet	Detrimental	Protective	Global	Mouse	2017-10-24	Stoop R	Genetic		High Fat Diet	Ambiguous	4
+26687826	APOE	Removal	Collagenase	Detrimental	Protective	Global	Mouse	2015-12-12	van Lent PL	Genetic		Protease	Ambiguous	4
+37144868	APOE	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2023-05-01	Zhang H	Genetic		Surgical	Ambiguous	4
+38266107	APOE	Inhibition	Collagenase	Protective	Detrimental	Articular cavity	Mouse	2024-01-01	Ding C	Exogenous	Antibody	Protease	Ambiguous	4
+30610061	ARG2	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019-01-04	Chun JS	Genetic		Surgical	Detrimental	1
+33473114	ARHGAP30	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-20	Bassett D	Genetic		Ageing	Protective	1
+31961823	ARPC2	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2020-02-27	Risbud MV	Genetic		Ageing	Protective	1
+33473114	ARRDC5	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-20	Bassett D	Genetic		Ageing	Protective	1
+37660594	ASIC1	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2023-11-01	Hu W	Exogenous	PcTx-1	Surgical	Detrimental	1
+22909215	ASIC3	Inhibition	MIA	Protective	Detrimental	Articular cavity	Rat	2012-08-21	Tani T	Exogenous	APETx2	MIA	Detrimental	1
+27159257	ATF3	Removal	Surgical - DMM + MCL	Protective	Detrimental	Cartilage	Mouse	2016-06-14	Hinoi E	Genetic		Surgical	Detrimental	1
+36380018	ATF5	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2022-11-01	Zhu L	Genetic		Surgical	Protective	1
+31511053	ATF6	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2019-09-11	Boot-Handford RP	Genetic		Surgical	No effect	1
+26438374	ATG5	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2015-10-05	Chagin AS	Genetic		Ageing	Protective	1
+8895222	ATP7A	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	1996-09-04	Jimenez P	Genetic		Ageing	Protective	1
+24386478	ATRX	Removal	Spontaneous	No effect	No effect	Forelimb	Mouse	2013-12-30	Beier F	Genetic		Ageing	No effect	1
+31357086	AURKA	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019-07-26	Li X	Exogenous	siRNA	Surgical	Detrimental	1
+30070692	AXIN1	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2018-08-02	Chen D	Genetic		Ageing	Protective	1
+29415892	AXIN2	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018-02-08	Young PP	Exogenous	XAV-939	Surgical	Detrimental	1
+37144868	AXL	Inhibition	Surgical - DMM	Detrimental	Protective	systemic	Mouse	2023-05-01	Zhang H	Exogenous	R428	Surgical	Protective	1
+30471358	B4GALNT1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2018-11-22	Iwasaki N	Genetic		Ageing	Protective	1
+26458773	BACH1	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2015-10-13	Ochi M	Genetic		Ageing	Detrimental	2
+26458773	BACH1	Removal	Surgical - DMM + MCL	Protective	Detrimental	Global	Mouse	2015-10-13	Ochi M	Genetic		Surgical	Detrimental	2
+27147707	BATF	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016-05-04	Chun JS	Genetic		Surgical	Detrimental	3
+27147707	BATF	Overexpression	Surgical - DMM	Detrimental	Detrimental	Cartilage	Mouse	2016-05-04	Chun JS	Genetic		Surgical	Detrimental	3
+27147707	BATF	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2016-05-04	Chun JS	Exogenous	Viral	Surgical	Detrimental	3
+29971011	BBS1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2018-06-19	Kooyman DL	Genetic		Ageing	Protective	1
+32611834	BCL2	Inhibition	Surgical - DMM  Mesical tear	Protective	Detrimental	Articular cavity	Rat	2020-07-01	Yang L	Exogenous	ABT263	Surgical	Detrimental	1
+32683043	BECN1	Activation	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2020-07-17	Kapoor M	Exogenous	TAT-Beclin-1	Surgical	Detrimental	1
+19932218	BGN	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2009-11-18	Hook M	Genetic		Ageing	Protective	3
+16006154	BGN	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2005-09-01	Ameye LG	Genetic		Ageing	Protective	3
+11978731	BGN	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2002-05-01	Young MF	Genetic		Ageing	Protective	3
+33473114	BHLHE40	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-20	Bassett D	Genetic		Ageing	Protective	1
+36628892	BMAL1	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2023-01-01	Wu S	Genetic		Surgical	Protective	1
+24448347	BMP2	Overexpression	Surgical - DMM	Detrimental	Detrimental	Cartilage Inducible	Mouse	2014-01-21	van der Kraan PM	Genetic		Surgical	Ambiguous	3
+33307770	BMP2	Removal	Spontaneous	Detrimental	Protective	Inducible	Mouse	2020-12-14	Yadav S	Genetic		Ageing	Ambiguous	3
+17590359	BMP2	Exogenous	Collagenase	Protective	Protective	Articular cavity	Rat	2007-06-22	Han B	Exogenous	Protein	Protease	Ambiguous	3
+33744859	BMP5	Knockdown	Surgical-DMM	Protective	Detrimental	Articular cavity	Mouse	2021-03-19	Cai D	Exogenous	siRNA	Surgical	Detrimental	1
+25889639	BMP7	Removal	Spontaneous	Detrimental	Protective	Forelimb	Mouse	2015-04-15	Tsuji K	Genetic		Ageing	Protective	5
+17977753	BMP7	Exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Rabbit	2007-10-31	Amiel D	Exogenous	Protein	Surgical	Protective	5
+18941854	BMP7	Exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Rabbit	2008-10-22	Amiel D	Exogenous	Protein	Surgical	Protective	5
+19170094	BMP7	Exogenous	Exercise	Protective	Protective	Articular cavity	Rat	2009-08-01	Muneta T	Exogenous	Protein	Exercise	Protective	5
+20872588	BMP7	Exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Rabbit	2010-11-01	Sekiya I	Exogenous	Protein	Surgical	Protective	5
+15492776	BMPR1A	Removal	Spontaneous	Detrimental	Protective	Developing Joints	Mouse	2004-10-19	Kingsley DM	Genetic		Ageing	Ambiguous	3
+28420447	BMPR1A	Activation	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2017-04-18	Nohe A	Exogenous	CK2.1	Surgical	Ambiguous	3
+33118211	BMPR1A	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2020-10-29	Chen Q	Exogenous	LDN193189	Surgical	Ambiguous	3
+36100125	BRAF	inhibitor	Surgical – ACLT	Protective	Detrimental	Articular cavity	Mouse	2022-09-01	Zheng J	Exogenous	B-Raf inhibitor 1	Surgical	Detrimental	1
+28844955	BRD2	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2017-08-24	Ma J	Exogenous	JQ1	Surgical	Detrimental	3
+29784003	BRD2	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2018-05-21	Jiang Q	Exogenous	I-BET151	Surgical	Detrimental	3
+38600628	BRD2	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2024-04-01	Yang S	Exogenous	BBC0403	Surgical	Detrimental	3
+28844955	BRD3	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2017-08-24	Ma J	Exogenous	JQ1	Surgical	Detrimental	2
+29784003	BRD3	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018-05-21	Jiang Q	Exogenous	I-BET151	Surgical	Detrimental	2
+28844955	BRD4	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2017-08-24	Ma J	Exogenous	JQ1	Surgical	Detrimental	4
+29784003	BRD4	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018-05-21	Jiang Q	Exogenous	I-BET151	Surgical	Detrimental	4
+33164842	BRD4	Inhibition	Surgical – ACLT	Protective	Detrimental	systemic	Mouse	2019-09-10	Ma J	Exogenous	JQ1	Surgical	Detrimental	4
+37666177	BRD4	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2023-10-01	Yang S	Exogenous	BBC0901	Surgical	Detrimental	4
+22057346	C3	Inhibition	Surgical - MM	Protective	Detrimental	systemic	Mouse	2011-11-06	Robinson WH	Exogenous	CR2-fH	Surgical	Detrimental	1
+22057346	C5	Removal	Surgical - MM	Protective	Detrimental	Global	Mouse	2011-11-06	Robinson WH	Genetic		Surgical	Detrimental	3
+22057346	C5	Inhibition	Surgical - MM	Protective	Detrimental	systemic	Mouse	2011-11-06	Robinson WH	Exogenous	Antibody	Surgical	Detrimental	3
+22057346	C5	Inhibition	Surgical - MM	Protective	Detrimental	systemic	Mouse	2011-11-06	Robinson WH	Exogenous	CR2-fH	Surgical	Detrimental	3
+22057346	C6	Removal	Surgical - MM	Protective	Detrimental	Global	Mouse	2011-11-06	Robinson WH	Genetic		Surgical	Detrimental	1
+26011709	CACNA1G	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2015-05-26	Kirn-Safran CB	Genetic		Ageing	Detrimental	1
+22122987	CALCA	Overexpression	Surgical - DMM	Protective	Protective	Global	Mouse	2011-11-13	Karsdal MA	Genetic		Surgical	Ambiguous	4
+31926346	CALCA	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2020-01-08	Grassel S	Genetic		Surgical	Ambiguous	4
+26686833	CALCA	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2016-01-12	Ochi M	Exogenous	BIBN4096	Surgical	Ambiguous	4
+27345362	CALCA	Exogenous	Surgical - ACLT	Protective	Protective	systemic	Rat	2016-06-27	Jean YH	Exogenous	Protein	Surgical	Ambiguous	4
+33707504	CAMK2A	Inhibition	Surgical-MLI	Detrimental	Protective	systemic	Mouse	2021-03-11	Dell'Accio F	Exogenous	KN93	Surgical	Protective	1
+34506942	CAMKK2	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2021-09-17	Sankar U	Genetic		Surgical	Detrimental	2
+34506942	CAMKK2	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2021-09-17	Sankar U	Exogenous	STO-609	Surgical	Detrimental	2
+33810460	CAMP	Exogenous	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2021-03-26	Park Y	Exogenous	Protein	Ageing	Detrimental	1
+14673996	CASP1	Removal	Surgical - DMM + MM	Detrimental	Protective	Global	Mouse	2003-12-01	Mason RM	Genetic		Surgical	Ambiguous	3
+13129693	CASP1	Inhibition	Collagenase	Protective	Detrimental	systemic	Mouse	2003-10-01	van den Berg W	Exogenous	pralnacasan	Protease	Ambiguous	3
+13129693	CASP1	Inhibition	STR/ort	Protective	Detrimental	systemic	Mouse	2003-10-01	van den Berg W	Exogenous	pralnacasan	Surgical	Ambiguous	3
+30496623	CASR	Removal	Surgical - UAC	Protective	Detrimental	Cartilage Inducible	Mouse	2019-01-07	Wang M	Genetic		Surgical	Detrimental	2
+30496623	CASR	Inhibition	Surgical - UAC	Protective	Detrimental	Articular cavity	Mouse	2019-01-07	Wang M	Exogenous	NPS2143	Surgical	Detrimental	2
+37048137	CBFB	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2023-03-01	Choi JY	Genetic		Surgical	Protective	4
+37048137	CBFB	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2023-03-01	Choi JY	Genetic		Ageing	Protective	4
+38293189	CBFB	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2024-01-01	Li YP	Genetic		Ageing	Protective	4
+38293189	CBFB	Overexpression	Surgical – ACLT	Protective	Protective	Articular cavity	Mouse	2024-01-01	Li YP	Exogenous	Viral	Surgical	Protective	4
+30917318	CBX4	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2019-03-26	Liu GH	Exogenous	Viral	Surgical	Protective	1
+33473114	CCDC6	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-20	Bassett D	Genetic		Ageing	Protective	1
+29622035	CCL17	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2018-04-05	Cook AD	Genetic		Protease	Detrimental	3
+29622035	CCL17	Inhibition	Collagenase	Protective	Detrimental	systemic	Mouse	2018-04-05	Cook AD	Exogenous	Antibody	Protease	Detrimental	3
+32028021	CCL17	Inhibition	Collagenase	Protective	Detrimental	Articular cavity	Mouse	2020-02-03	Cook AD	Exogenous	Antibody	Protease	Detrimental	3
+27965260	CCL2	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016-12-13	Robinson WH	Genetic		Surgical	Ambiguous	7
+31424112	CCL2	Removal	Surgical -ACLT	Protective	Detrimental	Global	Mouse	2019-08-30	Krawetz RJ	Genetic		Surgical	Ambiguous	7
+31424112	CCL2	Removal	Spontaneous	No effect	No effect	Global	Mouse	2019-08-30	Krawetz RJ	Genetic		Ageing	Ambiguous	7
+31424112	CCL2	Removal	Surgical - Cartilage Injury	No effect	No effect	Global	Mouse	2019-08-30	Krawetz RJ	Genetic		Surgical	Ambiguous	7
+27746376	CCL2	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2016-10-13	Vincent TL	Genetic		Surgical	Ambiguous	7
+27965260	CCL2	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2016-12-13	Robinson WH	Exogenous	bindarit	Surgical	Ambiguous	7
+32006659	CCL2	Inhibition	Collagenase	Protective	Detrimental	Articular cavity	Mouse	2020-01-29	Meng F	Exogenous	Antibody	Protease	Ambiguous	7
+33651836	CCL21	Inhibition	Surgical-MLI	Protective	Detrimental	Articular cavity	Rat	2021-03-02	Edderkaoui B	Exogenous	antibody	Surgical	Detrimental	1
+30977553	CCL25	Exogenous	Spontaneous	Protective	Protective	Articular cavity	Guinea pig 	2019-04-29	Sittinger M	Exogenous	Protein	Ageing	Protective	1
+32006659	CCL3	Inhibition	Collagenase	Protective	Detrimental	Articular cavity	Mouse	2020-01-29	Meng F	Exogenous	Antibody	Protease	Detrimental	1
+27965260	CCL5	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2016-12-13	Robinson WH	Genetic		Surgical	No effect	1
+29925506	CCN2	Removal	Surgical - DMM	Protective	Detrimental	Inducible	Mouse	2018-06-20	Vincent TL	Genetic		Surgical	Ambiguous	6
+23951098	CCN2	Overexpression	Spontaneous	Protective	Protective	Cartilage	Mouse	2013-08-12	Takigawa M	Genetic		Ageing	Ambiguous	6
+32616521	CCN2	Removal	Surgical-DMM	No effect	No effect	Cartilage Inducible	Mouse	2020-07-02	Poulet B	Genetic		Surgical	Ambiguous	6
+32616521	CCN2	Removal	Cyclic loading	No effect	No effect	Cartilage Inducible	Mouse	2020-07-02	Poulet B	Genetic		Surgical	Ambiguous	6
+15231019	CCN2	Exogenous	MIA	Protective	Protective	Articular cavity	Rat	2004-03-29	Takigawa M	Exogenous	Protein	MIA	Ambiguous	6
+16646035	CCN2	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2006-05-01	van der Kraan PM	Exogenous	Viral	Ageing	Ambiguous	6
+25541297	CCN3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2014-12-22	Boulter CA	Genetic		Ageing	Ambiguous	2
+33066270	CCN3	Overexpression	Spontaneous	Detrimental	Detrimental	Cartilage	Mouse	2020-10-13	Hattori T	Genetic		Ageing	Ambiguous	2
+28735021	CCN4	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2017-07-19	Young MF	Genetic		Surgical	Ambiguous	7
+28735021	CCN4	Removal	Spontaneous	No effect	No effect	Global	Mouse	2017-07-19	Young MF	Genetic		Ageing	Ambiguous	7
+28735021	CCN4	Removal	Surgical - ACLT	Protective	Detrimental	Global	Mouse	2017-07-19	Young MF	Genetic		Surgical	Ambiguous	7
+28735021	CCN4	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2017-07-19	Young MF	Genetic		Protease	Ambiguous	7
+19180479	CCN4	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2009-02-01	van den Berg WB	Exogenous	Viral	Surgical	Ambiguous	7
+25976248	CCN4	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2015-05-12	van der Kraan PM	Exogenous	Viral	Ageing	Ambiguous	7
+33646053	CCN4	Knockdown	Surgical-ACLT+MM	Detrimental	Protective	Articular cavity	Rat	2021-03-01	Zhou Z	Exogenous	siRNA	Surgical	Ambiguous	7
+32006659	CCR1	Inhibition	Collagenase	Protective	Detrimental	systemic	Mouse	2020-01-29	Meng F	Exogenous	BX471	Protease	Detrimental	1
+27965260	CCR2	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016-12-13	Robinson WH	Genetic		Surgical	Ambiguous	12
+31424112	CCR2	Removal	Surgical -ACLT	Protective	Detrimental	Global	Mouse	2019-08-30	Krawetz RJ	Genetic		Surgical	Ambiguous	12
+31424112	CCR2	Removal	Spontaneous	No effect	No effect	Global	Mouse	2019-08-30	Krawetz RJ	Genetic		Ageing	Ambiguous	12
+31424112	CCR2	Removal	Surgical - Cartilage Injury	Protective	Detrimental	Global	Mouse	2019-08-30	Krawetz RJ	Genetic		Surgical	Ambiguous	12
+27746376	CCR2	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016-10-13	Vincent TL	Genetic		Surgical	Ambiguous	12
+23185004	CCR2	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2012-11-26	Malfait AM	Genetic		Surgical	Ambiguous	12
+37371471	CCR2	Removal	Surgical - DMM	Protective	Detrimental	Osteoblasts Inducible	Mouse	2023-05-01	Longobardi L	Genetic		Surgical	Ambiguous	12
+36075514	CCR2	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2022-12-01	Longobardi L	Genetic		Surgical	Ambiguous	12
+26138996	CCR2	inhibitor	Surgical – ACLT	Protective	Detrimental	systemic	Rat	2015-10-01	Beier F	Exogenous	RS504393	Surgical	Ambiguous	12
+27856294	CCR2	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2016-11-14	Spagnoli A	Exogenous	RS504393	Surgical	Ambiguous	12
+27965260	CCR2	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2016-12-13	Robinson WH	Exogenous	RS-504393	Surgical	Ambiguous	12
+32006659	CCR2	Inhibition	Collagenase	Protective	Detrimental	systemic	Mouse	2020-01-29	Meng F	Exogenous	RS504393	Protease	Ambiguous	12
+29622035	CCR4	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2018-04-05	Cook AD	Genetic		Protease	Detrimental	1
+27965260	CCR5	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2016-12-13	Robinson WH	Genetic		Surgical	Ambiguous	2
+25498590	CCR5	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2014-12-09	Sandell LJ	Genetic		Surgical	Ambiguous	2
+28767178	CCR7	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2017-08-29	Scanzello CR	Genetic		Surgical	Detrimental	1
+30485272	CD14	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2018-11-28	Scanzello CR	Genetic		Surgical	Detrimental	2
+33559324	CD14	Removal	Surgical-DMM and High Fat Diet	Protective	Detrimental	Global	Mouse	2021-02-08	Chun JS	Genetic		Surgical	Detrimental	2
+35359946	CD200R1	Activation	Surgical – DMM	No effect	No effect	Articular cavity	Mouse	2022-03-14	Nam D	Exogenous	CD200Fc	Surgical	No effect	1
+30791745	CD274	Inhibition	Collagenase	Detrimental	Protective	systemic	Mouse	2019-01-01	Gao C	Exogenous	Antibody	Protease	Protective	2
+30791745	CD274	Inhibition	Surgical - ACLT	Detrimental	Protective	systemic	Mouse	2019-01-01	Gao C	Exogenous	Antibody	Surgical	Protective	2
+36103412	CD38	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2023-03-01	Liu-Bryan R	Genetic		Surgical	Ambiguous	3
+35441488	CD38	Inhibition	Surgical – DMM	Protective	Protective	Articular cavity	Mouse	2022-05-01	Feng JY	Exogenous	78c	Surgical	Ambiguous	3
+36103412	CD38	Inhibition	Surgical – DMM	Protective	Detrimental	systemic	Mouse	2023-03-01	Liu-Bryan R	Exogenous	apigenin	Surgical	Ambiguous	3
+31534047	CD47	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019-09-19	Robinson WH	Genetic		Surgical	Detrimental	2
+31534047	CD47	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2019-09-19	Robinson WH	Exogenous	Antibody	Surgical	Detrimental	2
+22057346	CD59	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2011-11-06	Robinson WH	Genetic		Surgical	Protective	2
+22057346	CD59	Removal	Surgical - MM	Detrimental	Protective	Global	Mouse	2011-11-06	Robinson WH	Genetic		Surgical	Protective	2
+27784871	CD9	Removal	Surgical - MML+MCL	No effect	No effect	Global	Mouse	2016-01-01	Ochi M	Genetic		Surgical	Ambiguous	2
+27784871	CD9	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2016-01-01	Ochi M	Genetic		Ageing	Ambiguous	2
+29314205	CDC42	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2018-02-15	Wu X	Genetic		Surgical	Detrimental	2
+29314205	CDC42	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018-02-15	Wu X	Exogenous	ZCL278	Surgical	Detrimental	2
+31307784	CDK9	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2019-07-13	Ma J	Exogenous	LDC000067	Surgical	Detrimental	2
+33164842	CDK9	Inhibition	Surgical – ACLT	Protective	Detrimental	systemic	Mouse	2019-09-10	Ma J	Exogenous	Flavopiridol	Surgical	Detrimental	2
+28128866	CDKN1A	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2017-01-27	Kuroda R	Genetic		Surgical	Protective	2
+26546411	CDKN1A	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2015-11-07	Kuroda R	Genetic		Surgical	Protective	2
+29744983	CDKN2A	Removal	Surgical - DMM	No effect	No effect	Cartilage Inducible	Mouse	2018-05-09	Sharpless NE	Genetic		Surgical	Ambiguous	4
+29744983	CDKN2A	Removal	Spontaneous	No effect	No effect	Cartilage Inducible	Mouse	2018-05-09	Sharpless NE	Genetic		Ageing	Ambiguous	4
+31644429	CDKN2A	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2019-10-22	Brondello JM	Genetic		Protease	Ambiguous	4
+35579255	CDKN2A	Knockdown	Surgical – MM	Protective	Detrimental	Articular cavity	Mouse	2022-06-14	Kim J	Exogenous	siRNA	Surgical	Ambiguous	4
+22095691	CEBPB	Haploinsufficiency	Surgical - DMM	Protective	Detrimental	Global	Mouse	2011-11-17	Kawaguchi H	Genetic		Surgical	Detrimental	2
+22095691	CEBPB	Haploinsufficiency	Spontaneous	Protective	Detrimental	Global	Mouse	2011-11-17	Kawaguchi H	Genetic		Ageing	Detrimental	2
+35474501	CEMIP	Knockdown	Collagenase	Protective	Detrimental	Articular cavity	Mouse	2022-04-27	Seny D	Exogenous	siRNA	Protease	Detrimental	1
+29074298	CETP	Removal	High Fat Diet	Detrimental	Protective	Global	Mouse	2017-10-24	Stoop R	Genetic		High Fat Diet	Protective	1
+29982662	CFD	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2018-10-01	Martel-Pelletier J	Genetic		Surgical	Detrimental	2
+32012117	CFD	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2020-02-01	Martel-Pelletier J	Genetic		Ageing	Detrimental	2
+30728500	CH25H	Removal	High Fat Diet	Protective	Detrimental	Global	Mouse	2019-02-06	Chun JS	Genetic		High Fat Diet	Detrimental	3
+30728500	CH25H	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019-02-06	Chun JS	Genetic		Surgical	Detrimental	3
+30728500	CH25H	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2019-02-06	Chun JS	Exogenous	Viral	Surgical	Detrimental	3
+33473114	CHKA	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-20	Bassett D	Genetic		Ageing	Protective	1
+32638534	CHRNA7	Removal	Surgical-MM	Detrimental	Protective	Global	Mouse	2020-07-08	Sellam J	Genetic		Surgical	Protective	2
+35479080	CHRNA7	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2022-04-08	Sellam J	Genetic		Ageing	Protective	2
+31222033	CHUK	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2019-06-20	Otero M	Genetic		Surgical	Detrimental	2
+30405206	CHUK	Inhibition	Surgical - DMM  MM	Protective	Detrimental	Articular cavity	Mouse	2018-11-07	Saito T	Exogenous	BMS-345541	Surgical	Detrimental	2
+34039624	circPde4b	Overexpression	Surgical – DMM	Protective	Protective	Articular cavity	Mouse	2021-09-01	Fang X	Exogenous	Viral	Surgical	Protective	1
+36588124	CLEC11A	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2023-01-01	Yue R	Genetic		Surgical	Protective	1
+31132406	CLK2	Inhibition	MIA	Protective	Detrimental	Articular cavity	Rat	2019-05-25	Yazici Y	Exogenous	Lorecivivint	MIA	Detrimental	2
+35218985	CLK2	Inhibition	Surgical – TMJ	Protective	Detrimental	Articular cavity	Rabbit	2022-05-01	Liu X	Exogenous	Lorecivivint	Surgical	Detrimental	2
+30716535	CLOCK	Inhibition	Spontaneous	Detrimental	Protective	Global	Mouse	2019-02-02	Qian R	Genetic		Ageing	Ambiguous	2
+25655021	CLOCK	Mutation	Spontaneous	No effect	No effect	Global	Mouse	2015-09-01	Im HJ	Genetic		Ageing	Ambiguous	2
+25937028	CNR2	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2015-04-30	Ralston SH	Genetic		Surgical	Protective	3
+25937028	CNR2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2015-04-30	Ralston SH	Genetic		Ageing	Protective	3
+25937028	CNR2	Activation	Surgical - DMM	Protective	Protective	systemic	Mouse	2015-04-30	Ralston SH	Exogenous	HU308	Surgical	Protective	3
+28898438	COL11A1	Mutation	Cyclic	Detrimental	Protective	Global	Mouse	2017-10-31	van der Meulen MCH	Genetic		Surgical	Protective	4
+27031305	COL11A1	Mutation	Surgical - TMJ	Detrimental	Protective	Global	Mouse	2016-03-16	Seegmiller R	Genetic		Surgical	Protective	4
+15023383	COL11A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2004-04-01	Bridgewater LC	Genetic		Ageing	Protective	4
+13130470	COL11A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2003-09-01	Li Y	Genetic		Ageing	Protective	4
+11668593	COL11A2	Removal	Spontaneous	No effect	No effect	Global	Mouse	2001-10-01	Mayne R	Genetic		Ageing	No effect	1
+18383364	COL1A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2008-04-01	Lipsky PE	Genetic		Ageing	Protective	1
+27031305	COL2A1	Mutation	Surgical - TMJ	Detrimental	Protective	Global	Mouse	2016-03-16	Seegmiller R	Genetic		Surgical	Protective	11
+23939426	COL2A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2013-08-09	Seegmiller RE	Genetic		Ageing	Protective	11
+23518238	COL2A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2013-03-19	Seegmiller RE	Genetic		Ageing	Protective	11
+22155431	COL2A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2011-11-26	Seegmiller RE	Genetic		Ageing	Protective	11
+22028304	COL2A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2012-02-01	Thakker RV	Genetic		Ageing	Protective	11
+16431140	COL2A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2006-01-20	Seegmiller RE	Genetic		Ageing	Protective	11
+15476249	COL2A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2004-10-01	Lammi MJ	Genetic		Ageing	Protective	11
+10943864	COL2A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2000-08-01	Vuorio E	Genetic		Ageing	Protective	11
+10903878	COL2A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2000-07-01	Mets?ranta MP	Genetic		Ageing	Protective	11
+11171689	COL2A1	Deficiency	Spontaneous	Detrimental	Protective	Global	Mouse	2001-03-01	Helminen HJ	Genetic		Ageing	Protective	11
+31958497	COL2A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2020-01-17	Oheim R	Genetic		Ageing	Protective	11
+33473114	COL4A2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-20	Bassett D	Genetic		Ageing	Protective	1
+25797646	COL5A1	Removal	Spontaneous	Detrimental	Protective	Tendons	Mouse	2015-03-20	Birk DE	Genetic		Ageing	Protective	1
+22448243	COL6A1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2012-03-20	Guilak F	Genetic		Ageing	Protective	1
+20360435	COL9A1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2010-04-01	Griffin TM	Genetic		Ageing	Protective	3
+18163498	COL9A1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2008-01-01	Setton LA	Genetic		Ageing	Protective	3
+16947423	COL9A1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2006-09-01	Li Y	Genetic		Ageing	Protective	3
+37635809	COL9A2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2023-08-01	Jin H	Genetic		Ageing	Protective	1
+17588960	COMP	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2007-06-22	Briggs MD	Genetic		Ageing	Protective	1
+30826358	CORT	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2019-02-28	Li W	Genetic		Ageing	Protective	3
+30826358	CORT	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2019-02-28	Li W	Genetic		Surgical	Protective	3
+30826358	CORT	Exogenous	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2019-02-28	Li W	Exogenous	corstatin	Surgical	Protective	3
+24449579	CPB2	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2014-01-01	Robinson WH	Genetic		Surgical	Protective	1
+35728631	CPT1	Inhibition	Surgical – DMM	Protective	Detrimental	systemic	Mouse	2022-06-18	Lu H	Exogenous	Etomoxir	Surgical	Detrimental	1
+29074298	CRP	Overexpression	High Fat Diet	Detrimental	Detrimental	Global	Mouse	2017-10-24	Stoop R	Genetic		High Fat Diet	Detrimental	2
+30248505	CRP	Overexpression	High Fat Diet	Detrimental	Detrimental	Global	Mouse	2018-09-22	Stoop R	Genetic		High Fat Diet	Detrimental	2
+27415616	CRTAC1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016-07-14	Aliprantis AO	Genetic		Surgical	Detrimental	1
+32339698	CRY1	Removal	Surgical-DMM	No effect	No effect	Global	Mouse	2020-04-24	Lotz M	Genetic		Surgical	No effect	1
+32339698	CRY2	Removal	Surgical-DMM	Detrimental	Protective	Global	Mouse	2020-04-24	Lotz M	Genetic		Surgical	Protective	1
+22995428	CSF2	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2012-09-20	Hamilton JA	Genetic		Protease	Detrimental	2
+32028021	CSF2	Inhibition	Collagenase	Protective	Detrimental	Articular cavity	Mouse	2020-02-03	Cook AD	Exogenous	Antibody	Protease	Detrimental	2
+25655021	CSNK1E	Mutation	Spontaneous	No effect	No effect	Global	Mouse	2015-09-01	Im HJ	Genetic		Ageing	Ambiguous	2
+32175635	CSNK1E	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Mouse	2020-03-16	Rong L	Exogenous	PF4800567	Surgical	Ambiguous	2
+36685663	CSPG4	Removal	Surgical – TMJ	Detrimental	Protective	Global	Mouse	2022-01-01	Han M	Genetic		Surgical	Protective	1
+25592743	CST3	Overexpression	Surgical - ACLT	No effect	No effect	Articular cavity	Rabbit	2015-01-16	Matthews GL	Exogenous	Viral	Surgical	No effect	1
+30912140	CTNNB1	Activated	Spontaneous	Detrimental	Detrimental	Cartilage	Mouse	2019-03-25	Jin H	Genetic		Ageing	Ambiguous	6
+29686224	CTNNB1	Activated	Spontaneous	Detrimental	Detrimental	Cartilage Inducible	Mouse	2018-04-23	Chen D	Genetic		Ageing	Ambiguous	6
+27018594	CTNNB1	Activated	Surgical - DMM	Protective	Protective	Cartilage Inducible	Mouse	2016-03-28	Alman BA	Genetic		Surgical	Ambiguous	6
+25340802	CTNNB1	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2014-10-23	Chen D	Genetic		Ageing	Ambiguous	6
+18767925	CTNNB1	Activated	Spontaneous	Detrimental	Detrimental	Cartilage Inducible	Mouse	2009-01-01	Chen D	Genetic		Ageing	Ambiguous	6
+18576323	CTNNB1	Inhibition	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2008-07-01	Chen D	Genetic		Ageing	Ambiguous	6
+29781506	CTSK	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2018-05-21	Drissi H	Genetic		Surgical	Ambiguous	7
+22484689	CTSK	Removal	Surgical - ACLT	Protective	Detrimental	Cartilage	Mouse	2012-03-30	Duong LT	Genetic		Surgical	Ambiguous	7
+21968827	CTSK	Removal	Surgical - DMM + MM+ACL	Protective	Detrimental	Global	Mouse	2012-02-01	Ishiguro N	Genetic		Surgical	Ambiguous	7
+19644873	CTSK	Knockdown	Surgical - ACLT	Detrimental	Protective	Articular cavity	Rabbit	2009-08-01	Uede T	Exogenous	sirna	Surgical	Ambiguous	7
+22484689	CTSK	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Rabbit	2012-03-30	Duong LT	Exogenous	L-006235	Surgical	Ambiguous	7
+29523155	CTSK	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Rabbit	2018-03-09	Grabowska U	Exogenous	MIV-711	Surgical	Ambiguous	7
+29523155	CTSK	Inhibition	Surgical - MM	Protective	Detrimental	Articular cavity	Dog	2018-03-09	Grabowska U	Exogenous	MIV-711	Surgical	Ambiguous	7
+30792936	CXCL12	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Mouse	2019-02-20	Bai X	Exogenous	antibody	Surgical	Detrimental	2
+34136574	CXCL12	Inhibition	Surgical – ACLT	Protective	Detrimental	Articular cavity	Mouse	2021-05-28	Yu B	Exogenous	AMD3100	Surgical	Detrimental	2
+25135253	CXCR2	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2014-08-18	Dell'Accio F	Genetic		Surgical	Protective	1
+28108560	CXCR3	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2017-01-20	Bernardini G	Genetic		Protease	Detrimental	1
+25732515	CXCR4	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2015-04-24	Wei L	Exogenous	AMD3100	Surgical	Detrimental	6
+26851314	CXCR4	Inhibition	MIA	Protective	Detrimental	Articular cavity	Rat	2016-01-07	Ji P	Exogenous	AMD3100	MIA	Detrimental	6
+27322244	CXCR4	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Mouse	2016-06-16	Chen A	Exogenous	AMD3100	Surgical	Detrimental	6
+27690009	CXCR4	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Rat	2016-09-29	Chen A	Exogenous	AMD3100	Surgical	Detrimental	6
+31108241	CXCR4	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Mouse	2019-05-17	Cui Z	Exogenous	AMD3100	Surgical	Detrimental	6
+32795379	CXCR4	Inhibition	Surgical – TMJ	Protective	Detrimental	Articular cavity	Rat	2020-08-14	Yuan X	Exogenous	ADM3100	Surgical	Detrimental	6
+34829531	CYBB	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2021-10-22	van den Bosch MHJ	Genetic		Protease	Detrimental	1
+30728500	CYP7B1	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2019-02-06	Chun JS	Exogenous	Viral	Surgical	Detrimental	2
+30728500	CYP7B1	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019-02-06	Chun JS	Exogenous	siRNA	Surgical	Detrimental	2
+21652695	CYTL1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2011-06-07	Chun JS	Genetic		Surgical	Protective	1
+27377816	DCN	Removal	Treadmill	Protective	Detrimental	Global	Mouse	2016-07-04	Dreier R	Genetic		Exercise	Ambiguous	3
+32162789	DCN	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2020-03-12	Han L	Genetic		Surgical	Ambiguous	3
+32162789	DCN	Removal	Surgical - DMM	Detrimental	Protective	Global Inducible	Mouse	2020-03-12	Han L	Genetic		Surgical	Ambiguous	3
+36753544	DDAH1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2023-02-01	Fan S	Genetic		Surgical	Protective	3
+36753544	DDAH1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2023-02-01	Fan S	Genetic		Ageing	Protective	3
+36753544	DDAH1	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2023-02-01	Fan S	Genetic		Surgical	Protective	3
+24795271	DDIT3	Removal	Surgical - DMM + MM	Protective	Detrimental	Global	Mouse	2014-05-02	Mizuta H	Genetic		Surgical	Detrimental	2
+38719085	DDIT3	Removal	Surgical – TMJ	Protective	Detrimental	Global	Mouse	2024-05-01	Wang J	Genetic		Surgical	Detrimental	2
+28334504	DDIT4	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2017-06-02	Lotz MK	Genetic		Surgical	Protective	1
+23912900	DDR1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2013-08-04	Miosge N	Genetic		Ageing	Ambiguous	2
+32977456	DDR1	Inhibition	Surgical – ACLT	Protective	Detrimental	systemic	Mouse	2020-09-23	Wang CZ	Exogenous	7rh	Surgical	Ambiguous	2
+29073363	DDR2	Removal	Spontaneous	No effect	No effect	Global	Mouse	2017-10-26	Franceschi RT	Genetic		Ageing	Ambiguous	7
+27640147	DDR2	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2016-09-16	Xu L	Genetic		Surgical	Ambiguous	7
+24822272	DDR2	Deficiency	Col11a1 haploinsufficient	Protective	Detrimental	Global	Mouse	2014-04-01	Xu L	Genetic		Genetic	Ambiguous	7
+21855682	DDR2	Deficiency	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2011-09-01	Li Y	Genetic		Surgical	Ambiguous	7
+20518074	DDR2	Haploinsufficiency	Surgical - DMM	Protective	Detrimental	Global	Mouse	2010-09-01	Li Y	Genetic		Surgical	Ambiguous	7
+20518074	DDR2	Haploinsufficiency	Col11a1 haploinsufficient	Protective	Detrimental	Global	Mouse	2010-09-01	Li Y	Genetic		Genetic	Ambiguous	7
+33241027	DDR2	Removal	Col11a1 haploinsufficient	Protective	Detrimental	Cartilage Inducible	Mouse	2020-09-08	Lai W	Genetic		Genetic	Ambiguous	7
+33892137	DEFA1	Exogenous	Surgical – MLI	Protective	Protective	Articular cavity	Rat	2021-07-01	Huang ZY	Exogenous	Protein	Surgical	Protective	1
+34997944	DEPP1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2022-02-01	Nakashima Y	Genetic		Surgical	Protective	1
+32916025	DEPTOR	Removal	Surgical-DMM	Detrimental	Protective	Cartilage	Mouse	2020-09-11	Zou Z	Genetic		Surgical	Protective	3
+32916025	DEPTOR	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2020-09-11	Zou Z	Genetic		Ageing	Protective	3
+32916025	DEPTOR	Overexpression	Surgical -DMM	Protective	Protective	Articular cavity	Mouse	2020-09-11	Zou Z	Exogenous	Viral	Surgical	Protective	3
+31350386	DGCR8	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2019-07-26	Liu GH	Exogenous	Viral	Surgical	Protective	2
+31350386	DGCR8	Overexpression	Spontaneous	Protective	Protective	Articular cavity	Mouse	2019-07-26	Liu GH	Exogenous	Viral	Ageing	Protective	2
+25549200	DIO1	Removal	Spontaneous	No effect	No effect	Global	Mouse	2015-02-03	Williams GR	Genetic		Ageing	No effect	1
+25550340	DIO2	Removal	Treadmill	Protective	Detrimental	Global	Mouse	2014-12-30	Lories RJ	Genetic		Exercise	Ambiguous	2
+25549200	DIO2	Removal	Spontaneous	No effect	No effect	Global	Mouse	2015-02-03	Williams GR	Genetic		Ageing	Ambiguous	2
+25080367	DKK1	Overexpression	Surgical - MM	Protective	Protective	Bone	Mouse	2014-11-01	Cohen-Solal M	Genetic		Surgical	Ambiguous	5
+22488261	DKK1	Overexpression	Surgical - DMM	Protective	Protective	Cartilage	Mouse	2012-08-01	Chun JS	Genetic		Surgical	Ambiguous	5
+20131282	DKK1	Knockdown	Surgical - ACLT	Protective	Detrimental	systemic	Mouse	2010-05-01	Wang FS	Exogenous	shRNA	Surgical	Ambiguous	5
+20131282	DKK1	Knockdown	Collagenase	Protective	Detrimental	systemic	Mouse	2010-05-01	Wang FS	Exogenous	shRNA	Protease	Ambiguous	5
+22488261	DKK1	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2012-08-01	Chun JS	Exogenous	Viral	Surgical	Ambiguous	5
+22488261	DKK2	Overexpression	Surgical - DMM	No effect	No effect	Cartilage	Mouse	2012-08-01	Chun JS	Genetic		Surgical	No effect	1
+27315306	DLX2	Overexpression	Spontaneous	Detrimental	Detrimental	Neural crest cells	Mouse	2016-06-17	Shen G	Genetic		Ageing	Detrimental	1
+28759313	DMP1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2017-07-31	Sun Y	Genetic		Ageing	Protective	2
+27766035	DMP1	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2016-09-15	Feng JQ	Genetic		Ageing	Protective	2
+25368604	DNAJC3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2014-10-17	Mason DJ	Genetic		Ageing	Protective	1
+30972197	DNMT3B	Removal	Surgical - TMJ	Detrimental	Protective	Cartilage Inducible	Mouse	2019-03-15	Mao JJ	Genetic		Surgical	Protective	4
+28614801	DNMT3B	Loss of function	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2017-06-15	O'Keefe RJ	Genetic		Ageing	Protective	4
+28614801	DNMT3B	Gain of function	Surgical - DMM	Protective	Protective	Cartilage Inducible	Mouse	2017-06-15	O'Keefe RJ	Genetic		Surgical	Protective	4
+30972197	DNMT3B	Overexpression	MIA	Protective	Protective	Articular cavity	Mouse	2019-03-15	Mao JJ	Exogenous	Viral	MIA	Protective	4
+30513362	DOT1L	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2018-12-01	Monteagudo S	Genetic		Ageing	Protective	3
+30513362	DOT1L	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2018-12-01	Monteagudo S	Genetic		Surgical	Protective	3
+28627522	DOT1L	Inhibition	Spontaneous	Detrimental	Protective	Articular cavity	Mouse	2017-06-19	Lories RJ	Exogenous	EPZ-5676	Ageing	Protective	3
+25707934	DROSHA	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2015-02-21	Chong MW	Genetic		Ageing	Protective	1
+26562438	DUSP1	Removal	Spontaneous	No effect	No effect	Global	Mouse	2015-11-12	Beier F	Genetic		Ageing	No effect	1
+34605731	DUSP14	Overexpression	Surgical – ACLT	Protective	Protective	Articular cavity	Rat	2021-12-01	Zhou Y	Exogenous	Viral	Surgical	Protective	1
+37036562	DYRK1A	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2023-08-01	Nie M	Genetic		Surgical	Ambiguous	2
+31132406	DYRK1A	Inhibition	MIA	Protective	Detrimental	Articular cavity	Rat	2019-05-25	Yazici Y	Exogenous	Lorecivivint	MIA	Ambiguous	2
+38039715	ECM1	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2024-01-01	Kang X	Exogenous	Viral	Surgical	Detrimental	2
+38039715	ECM1	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2024-01-01	Kang X	Exogenous	Viral	Surgical	Detrimental	2
+27505251	EDIL3	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2016-08-09	Yang GP	Genetic		Surgical	Protective	1
+32858189	EDN1	Overexpression	Spontaneous	Detrimental	Detrimental	Endothelial Cells	Mouse	2020-08-25	Wen C	Genetic		Ageing	Detrimental	1
+32858189	EDNRA	Inhibition	Surgical – DMM	No effect	No effect	Articular cavity	Mouse	2020-08-25	Wen C	Exogenous	BQ123	Surgical	No effect	1
+32858189	EDNRB	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2020-08-25	Wen C	Exogenous	BQ788	Surgical	Detrimental	1
+27780308	EFEMP1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2017-03-01	Lotz MK	Genetic		Ageing	Protective	2
+27780308	EFEMP1	Removal	Surgical - MML+MCL	Detrimental	Protective	Global	Mouse	2017-03-01	Lotz MK	Genetic		Surgical	Protective	2
+26980243	EFNB2	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2016-03-15	Martel-Pelletier J	Genetic		Ageing	Protective	1
+29898872	EGFR	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2018-06-11	Ouyang H	Genetic		Surgical	Ambiguous	14
+29024567	EGFR	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2017-12-29	Qin L	Genetic		Surgical	Ambiguous	14
+29024567	EGFR	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2017-12-29	Qin L	Genetic		Ageing	Ambiguous	14
+29024567	EGFR	Removal	Surgical - DMM + MM	Detrimental	Protective	Cartilage	Mouse	2017-12-29	Qin L	Genetic		Surgical	Ambiguous	14
+27911782	EGFR	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2016-11-28	Qin L	Genetic		Ageing	Ambiguous	14
+27911782	EGFR	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2016-11-28	Qin L	Genetic		Surgical	Ambiguous	14
+26120493	EGFR	Inhibition	Surgical - DMM	Detrimental	Protective	Global	Mouse	2014-08-05	Qin L	Genetic		Surgical	Ambiguous	14
+35191092	EGFR	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2022-05-01	Qin L	Genetic		Ageing	Ambiguous	14
+35191092	EGFR	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2022-05-01	Qin L	Genetic		Surgical	Ambiguous	14
+26120493	EGFR	Inhibition	Surgical - DMM	Detrimental	Protective	systemic	Mouse	2014-08-05	Qin L	Exogenous	gefitinib	Surgical	Ambiguous	14
+26138996	EGFR	inhibitor	Surgical – ACLT	Protective	Detrimental	systemic	Rat	2015-10-01	Beier F	Exogenous	AG1478	Surgical	Ambiguous	14
+28757192	EGFR	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Rabbit	2017-07-28	Ouyang H	Exogenous	gefitinib	Surgical	Ambiguous	14
+29898872	EGFR	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018-06-11	Ouyang H	Exogenous	Gefitinib	Surgical	Ambiguous	14
+33441426	EGFR	Inhibition	Surgical-DMM	Detrimental	Protective	Articular cavity	Mouse	2021-01-13	Qin L	Exogenous	gefitinib	Surgical	Ambiguous	14
+28349987	EGLN1	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2017-03-28	Mohan S	Genetic		Ageing	Protective	1
+29691435	ELF3	Overexpression	Surgical - DMM	Detrimental	Detrimental	Cartilage Inducible	Mouse	2018-04-24	Otero M	Genetic		Surgical	Detrimental	2
+29691435	ELF3	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2018-04-24	Otero M	Genetic		Surgical	Detrimental	2
+29488175	ENG	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2018-02-27	Philip A	Genetic		Surgical	No effect	1
+30111653	ENPP1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2018-09-20	Yang Y	Genetic		Ageing	Protective	4
+22510396	ENPP1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2012-04-17	Pap T	Genetic		Ageing	Protective	4
+32371389	ENPP1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2020-05-05	Pap T	Genetic		Ageing	Protective	4
+37370114	ENPP1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2023-06-01	Huang Y	Genetic		Ageing	Protective	4
+24347567	EPAS1	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2013-12-17	Chun JS	Genetic		Surgical	Ambiguous	11
+21869830	EPAS1	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2011-08-26	Chun JS	Genetic		Surgical	Ambiguous	11
+20495569	EPAS1	Overexpression	Spontaneous	Detrimental	Detrimental	Cartilage	Mouse	2010-05-23	Chun JS	Genetic		Ageing	Ambiguous	11
+20495569	EPAS1	Haploinsufficiency	Collagenase	Protective	Detrimental	Global	Mouse	2010-05-23	Chun JS	Genetic		Protease	Ambiguous	11
+20495569	EPAS1	Haploinsufficiency	Surgical - DMM	Protective	Detrimental	Global	Mouse	2010-05-23	Chun JS	Genetic		Surgical	Ambiguous	11
+32940061	EPAS1	Haploinsufficiency	Surgical-DMM	No effect	No effect	Global	Mouse	2020-09-17	Ferguson CM	Genetic		Surgical	Ambiguous	11
+20495569	EPAS1	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2010-05-23	Chun JS	Exogenous	Viral	Ageing	Ambiguous	11
+21869830	EPAS1	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2011-08-26	Chun JS	Exogenous	Viral	Surgical	Ambiguous	11
+26241779	EPAS1	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2015-08-01	Chun JS	Exogenous	Viral	Ageing	Ambiguous	11
+31357086	EPAS1	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019-07-26	Li X	Exogenous	siRNA	Surgical	Ambiguous	11
+35513246	EPAS1	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2022-05-02	Chun JS	Exogenous	Viral	Ageing	Ambiguous	11
+34989027	EPHA1	Inhibition	Surgical – Loading	Protective	Detrimental	Articular cavity	Mouse	2022-01-06	Lau WKH	Exogenous	Antibody	Surgical	Detrimental	1
+34989027	EPHA2	Inhibition	Surgical – Loading	Protective	Detrimental	Articular cavity	Mouse	2022-01-06	Lau WKH	Exogenous	Antibody	Surgical	Detrimental	1
+34989027	EPHA4	Removal	Surgical - Loading	Detrimental	Protective	Global	Mouse	2022-01-06	Lau WKH	Genetic		Surgical	Ambiguous	2
+34989027	EPHA4	Inhibition	Surgical – Loading	Protective	Detrimental	Articular cavity	Mouse	2022-01-06	Lau WKH	Exogenous	Antibody	Surgical	Ambiguous	2
+25453723	EPHB4	Overexpression	Surgical - DMM	Protective	Protective	Bone	Mouse	2014-11-29	Martel-Pelletier J	Genetic		Surgical	Protective	3
+25453723	EPHB4	Overexpression	Spontaneous	Protective	Protective	Bone	Mouse	2014-11-29	Martel-Pelletier J	Genetic		Ageing	Protective	3
+22833446	EPHB4	Overexpression	Surgical - DMM	Protective	Protective	Bone	Mouse	2012-11-01	Martel-Pelletier J	Genetic		Surgical	Protective	3
+33194044	EPO	Exogenous	Surgical – MM	Protective	Protective	systemic	Mouse	2020-10-15	Li TF	Exogenous	Protein	Surgical	Protective	1
+19932218	EPYC	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2009-11-18	Hook M	Genetic		Ageing	Protective	1
+26097038	ERG	Removal	Surgical - DMM + MM	Detrimental	Protective	Joints	Mouse	2015-10-01	Iwamoto M	Genetic		Surgical	Protective	2
+26097038	ERG	Removal	Spontaneous	Detrimental	Protective	Joints	Mouse	2015-10-01	Iwamoto M	Genetic		Ageing	Protective	2
+24966136	ERRFI1	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2014-10-01	Beier F	Genetic		Ageing	Ambiguous	6
+24670222	ERRFI1	Removal	Surgical - DMM +MM	Detrimental	Protective	Global	Mouse	2014-03-27	Williams BO	Genetic		Surgical	Ambiguous	6
+24550287	ERRFI1	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2014-02-03	Zhang YW	Genetic		Ageing	Ambiguous	6
+23705804	ERRFI1	Removal	Spontaneous	Detrimental	Protective	Forelimb	Mouse	2013-01-01	Dealy CN	Genetic		Ageing	Ambiguous	6
+16087873	ERRFI1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2005-08-08	Vande Woude GF	Genetic		Ageing	Ambiguous	6
+32430054	ERRFI1	Overexpression	Spontaneous	Detrimental	Detrimental	Cartilage	Mouse	2020-05-19	Beier F	Genetic		Ageing	Ambiguous	6
+19410028	ESR1	Removal	Spontaneous	No effect	No effect	Global	Mouse	2009-04-17	Weinans H	Genetic		Ageing	Ambiguous	2
+34171515	ESR1	Removal	Cyclic loading	Detrimental	Protective	Osteoblasts	Mouse	2021-11-01	van der Meulen MCH	Genetic		Surgical	Ambiguous	2
+19410028	ESR2	Removal	Spontaneous	No effect	No effect	Global	Mouse	2009-04-17	Weinans H	Genetic		Ageing	No effect	1
+29247173	ESRRG	Overexpression	Surgical - DMM	Detrimental	Detrimental	Cartilage	Mouse	2017-12-15	Chun JS	Genetic		Surgical	Detrimental	5
+29247173	ESRRG	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2017-12-15	Chun JS	Genetic		Surgical	Detrimental	5
+29247173	ESRRG	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2017-12-15	Chun JS	Exogenous	Viral	Ageing	Detrimental	5
+29247173	ESRRG	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017-12-15	Chun JS	Exogenous	siRNA	Surgical	Detrimental	5
+29247173	ESRRG	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2017-12-15	Chun JS	Exogenous	GSK5182	Surgical	Detrimental	5
+32612184	EVC	Removal	Surgical - DMM	No effect	No effect	Inducible	Mouse	2020-07-01	Herrero-Beaumont G	Genetic		Surgical	No effect	1
+32315715	EXT1	Removal	Spontaneous	Protective	Detrimental	Cartilage Inducible	Mouse	2020-04-18	Vortkamp A	Genetic		Ageing	Ambiguous	3
+32315715	EXT1	Removal	Surgical-ACLT	Protective	Detrimental	Cartilage Inducible	Mouse	2020-04-18	Vortkamp A	Genetic		Surgical	Ambiguous	3
+32818603	EXT1	Removal	Spontaneous	No effect	No effect	Cartilage	Mouse	2020-08-18	Matsumoto K	Genetic		Ageing	Ambiguous	3
+30327434	EZH2	Removal	Spontaneous	No effect	No effect	Cartilage	Mouse	2018-10-16	van Wijnen AJ	Genetic		Ageing	Ambiguous	3
+31910305	EZH2	Removal	Surgical - MM	Detrimental	Protective	Cartilage Inducible	Mouse	2020-01-07	Ouyang H	Genetic		Surgical	Ambiguous	3
+27539752	EZH2	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2016-08-19	Li F	Exogenous	EPZ005687	Surgical	Ambiguous	3
+25200274	F2R	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2014-12-01	Little CB	Genetic		Surgical	No effect	1
+26698846	F2RL1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2015-12-23	Ferrell WR	Genetic		Surgical	Detrimental	10
+25200274	F2RL1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2014-12-01	Little CB	Genetic		Surgical	Detrimental	10
+21285164	F2RL1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2011-02-01	Boileau C	Genetic		Surgical	Detrimental	10
+20584806	F2RL1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2010-06-28	McInnes IB	Genetic		Surgical	Detrimental	10
+20584806	F2RL1	Removal	Surgical - ACLT	Protective	Detrimental	Global	Mouse	2010-06-28	McInnes IB	Genetic		Surgical	Detrimental	10
+20584806	F2RL1	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2010-06-28	McInnes IB	Exogenous	Antibody	Surgical	Detrimental	10
+20584806	F2RL1	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2010-06-28	McInnes IB	Exogenous	p520	Surgical	Detrimental	10
+31841119	F2RL1	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Rat	2019-12-16	You H	Exogenous	AZ3451	Surgical	Detrimental	10
+32134473	F2RL1	Activation	Surgical - ACLT  MM	Detrimental	Detrimental	Articular cavity	Rat	2020-03-27	Chen H	Exogenous	SLIGRL-NH2 	Surgical	Detrimental	10
+32134473	F2RL1	Inhibition	Surgical - ACLT  MM	Protective	Detrimental	Articular cavity	Rat	2020-03-27	Chen H	Exogenous	FSLLRY-NH2	Surgical	Detrimental	10
+29549054	FABP4	Removal	High Fat Diet	Protective	Detrimental	Global	Mouse	2018-03-13	Yan CH	Genetic		High Fat Diet	Detrimental	2
+29549054	FABP4	Inhibition	High Fat Diet	Protective	Detrimental	systemic	Mouse	2018-03-13	Yan CH	Exogenous	BMS309403	High Fat Diet	Detrimental	2
+36588124	FAP	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2023-01-01	Yue R	Genetic		Surgical	Detrimental	3
+36588124	FAP	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2023-01-01	Yue R	Exogenous	FAPi	Surgical	Detrimental	3
+36588124	FAP	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2023-01-01	Yue R	Exogenous	Viral	Surgical	Detrimental	3
+38049890	FBP1	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2023-12-01	Cai D	Exogenous	Viral	Surgical	Protective	1
+27480933	FBXO32	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2016-07-30	Chun JS	Genetic		Surgical	No effect	2
+27480933	FBXO32	Overexpression	Surgical - DMM	No effect	No effect	Articular cavity	Mouse	2016-07-30	Chun JS	Exogenous	Viral	Surgical	No effect	2
+32409323	FBXO6	Removal	Surgical-ACLT	Detrimental	Protective	Global	Mouse	2020-05-14	Fan S	Genetic		Surgical	Protective	3
+32409323	FBXO6	Removal	Surgical-ACLT	Detrimental	Protective	Cartilage Inducible	Mouse	2020-05-14	Fan S	Genetic		Surgical	Protective	3
+32409323	FBXO6	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2020-05-14	Fan S	Exogenous	Viral	Surgical	Protective	3
+35058228	FBXW7	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2022-01-20	Bai X	Genetic		Ageing	Protective	3
+35058228	FBXW7	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2022-01-20	Bai X	Genetic		Surgical	Protective	3
+35058228	FBXW7	Overexpression	Surgical – DMM	Protective	Protective	Articular cavity	Mouse	2022-01-20	Bai X	Exogenous	Viral	Surgical	Protective	3
+31084709	FCER1A	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019-05-14	Robinson WH	Genetic		Surgical	Detrimental	1
+25748082	FCER1G	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2015-03-04	Schett G	Genetic		Surgical	No effect	1
+25748082	FCGR2B	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2015-03-04	Schett G	Genetic		Surgical	No effect	1
+35788130	FERMT2	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2022-07-01	Xiao G	Genetic		Ageing	Protective	1
+25585625	FFAR1	Removal	Surgical - DMM + MM	Detrimental	Protective	Global	Mouse	2015-01-13	Wittrant Y	Genetic		Surgical	Protective	1
+30075737	FFAR4	Removal	Surgical - ACLT	Detrimental	Protective	Global	Mouse	2018-08-03	Leung PS	Genetic		Surgical	Protective	1
+20733349	FGF1	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Rabbit	2010-10-31	Chen L	Exogenous	Viral	Surgical	Protective	1
+37271009	FGF10	Exogenous	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2023-07-01	Zhu X	Exogenous	Protein	Surgical	Detrimental	1
+15896984	FGF18	Exogenous	Surgical - DMM  Mesical tear	Protective	Protective	Articular cavity	Rat	2005-07-13	Ellsworth JL	Exogenous	Protein	Surgical	Protective	2
+24577103	FGF18	Exogenous	Surgical - DMM  Mesical tear	Protective	Protective	Articular cavity	Rat	2014-02-27	Kawaguchi H	Exogenous	Protein	Surgical	Protective	2
+27732085	FGF2	Overexpression	Spontaneous	Detrimental	Detrimental	Global	Mouse	2016-10-12	Hurley MM	Genetic		Ageing	Ambiguous	5
+19565481	FGF2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2009-07-01	Vincent T	Genetic		Ageing	Ambiguous	5
+19565481	FGF2	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2009-07-01	Vincent T	Genetic		Surgical	Ambiguous	5
+31901095	FGF2	Overexpression	Spontaneous	Detrimental	Detrimental	Global	Mouse	2020-01-01	Hurley MM	Genetic		Ageing	Ambiguous	5
+33029956	FGF2	Removal	Surgical-DMM	Detrimental	Protective	Global	Mouse	2020-10-07	Vincent TL	Genetic		Surgical	Ambiguous	5
+29718273	FGF23	Inhibition	HMWTg	Protective	Detrimental	systemic	Mouse	2018-06-01	Hurley MM	Exogenous	Antibody	Genetic	Detrimental	1
+33473114	FGFBP1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-20	Bassett D	Genetic		Ageing	Protective	1
+29691281	FGFR1	Removal	Spontaneous	Protective	Detrimental	Cartilage Inducible	Mouse	2018-04-24	Chen L	Genetic		Ageing	Detrimental	6
+29691281	FGFR1	Removal	Surgical - UAC	Protective	Detrimental	Cartilage Inducible	Mouse	2018-04-24	Chen L	Genetic		Surgical	Detrimental	6
+22833219	FGFR1	Removal	Spontaneous	Protective	Detrimental	Cartilage Inducible	Mouse	2012-12-01	Chen L	Genetic		Ageing	Detrimental	6
+22833219	FGFR1	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2012-12-01	Chen L	Genetic		Surgical	Detrimental	6
+27041213	FGFR1	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2016-04-04	Chen L	Exogenous	G141	Surgical	Detrimental	6
+30201491	FGFR1	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018-09-08	Chen L	Exogenous	peptide	Surgical	Detrimental	6
+28520086	FGFR3	Activated	Surgical - DMM	Protective	Protective	Cartilage	Mouse	2017-06-06	Kitoh H	Genetic		Surgical	Ambiguous	9
+28520086	FGFR3	Activated	Spontaneous	No effect	No effect	Cartilage	Mouse	2017-06-06	Kitoh H	Genetic		Ageing	Ambiguous	9
+27159076	FGFR3	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2016-10-01	Chen L	Genetic		Surgical	Ambiguous	9
+27159076	FGFR3	Activated	Surgical - DMM	Protective	Protective	Cartilage Inducible	Mouse	2016-10-01	Chen L	Genetic		Surgical	Ambiguous	9
+27159076	FGFR3	Activated	Spontaneous	Protective	Protective	Cartilage Inducible	Mouse	2016-10-01	Chen L	Genetic		Ageing	Ambiguous	9
+27041063	FGFR3	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2016-04-04	Chen L	Genetic		Ageing	Ambiguous	9
+31662319	FGFR3	Removal	Surgical - DMM	Detrimental	Protective	Myeloid Inducible	Mouse	2019-10-29	Chen L	Genetic		Surgical	Ambiguous	9
+31662319	FGFR3	Removal	Spontaneous	Detrimental	Protective	Myeloid Inducible	Mouse	2019-10-29	Chen L	Genetic		Ageing	Ambiguous	9
+16624844	FGFR3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2006-04-19	Henderson JE	Genetic		Ageing	Ambiguous	9
+30144298	FLT4	Inhibition	Surgical - DMM	Detrimental	Protective	Articular cavity	Mouse	2019-01-05	Xing L	Exogenous	Antibody	Surgical	Protective	1
+16006154	FMOD	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2005-09-01	Ameye LG	Genetic		Ageing	Protective	3
+12089156	FMOD	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2002-06-27	Chakravarti S	Genetic		Ageing	Protective	3
+11978731	FMOD	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2002-05-01	Young MF	Genetic		Ageing	Protective	3
+29870552	FN1	Mutation	Surgical - MM+Forced Exercise	Detrimental	Protective	Cartilage	Mouse	2018-06-05	Costell M	Genetic		Surgical	Protective	1
+37344157	FOS	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2023-09-01	Wagner E	Genetic		Surgical	Protective	1
+31837247	FOXC1	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019-12-14	Yin Z	Exogenous	siRNA	Surgical	Detrimental	1
+30933975	FOXD1	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2019-04-01	Liu GH	Exogenous	Viral	Surgical	Protective	1
+29444976	FOXO1	Removal	Treadmill	Detrimental	Protective	Cartilage	Mouse	2018-02-14	Lotz MK	Genetic		Exercise	Protective	8
+29444976	FOXO1	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2018-02-14	Lotz MK	Genetic		Surgical	Protective	8
+29444976	FOXO1	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2018-02-14	Lotz MK	Genetic		Ageing	Protective	8
+31980519	FOXO1	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2020-01-24	Lotz MK	Genetic		Ageing	Protective	8
+31980519	FOXO1	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2020-01-24	Lotz MK	Genetic		Ageing	Protective	8
+31980519	FOXO1	Removal	Treadmill	Detrimental	Protective	Cartilage Inducible	Mouse	2020-01-24	Lotz MK	Genetic		Exercise	Protective	8
+33199631	FOXO1	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2020-11-16	O'Keefe RJ	Genetic		Ageing	Protective	8
+33199631	FOXO1	Overexpression	Surgical-MLI	Protective	Protective	Cartilage Inducible	Mouse	2020-11-16	O'Keefe RJ	Genetic		Surgical	Protective	8
+29444976	FOXO3	Removal	Treadmill	Detrimental	Protective	Cartilage	Mouse	2018-02-14	Lotz MK	Genetic		Exercise	Protective	6
+29444976	FOXO3	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2018-02-14	Lotz MK	Genetic		Surgical	Protective	6
+29444976	FOXO3	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2018-02-14	Lotz MK	Genetic		Ageing	Protective	6
+31980519	FOXO3	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2020-01-24	Lotz MK	Genetic		Ageing	Protective	6
+31980519	FOXO3	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2020-01-24	Lotz MK	Genetic		Ageing	Protective	6
+31980519	FOXO3	Removal	Treadmill	Detrimental	Protective	Cartilage Inducible	Mouse	2020-01-24	Lotz MK	Genetic		Exercise	Protective	6
+29444976	FOXO4	Removal	Treadmill	Detrimental	Protective	Cartilage	Mouse	2018-02-14	Lotz MK	Genetic		Exercise	Protective	6
+29444976	FOXO4	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2018-02-14	Lotz MK	Genetic		Surgical	Protective	6
+29444976	FOXO4	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2018-02-14	Lotz MK	Genetic		Ageing	Protective	6
+31980519	FOXO4	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2020-01-24	Lotz MK	Genetic		Ageing	Protective	6
+31980519	FOXO4	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2020-01-24	Lotz MK	Genetic		Ageing	Protective	6
+31980519	FOXO4	Removal	Treadmill	Detrimental	Protective	Cartilage Inducible	Mouse	2020-01-24	Lotz MK	Genetic		Exercise	Protective	6
+30104377	FOXP2	Removal	Spontaneous	Detrimental	Protective	Bone	Mouse	2018-08-13	Guo X	Genetic		Ageing	Protective	2
+30104377	FOXP2	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2018-08-13	Guo X	Genetic		Ageing	Protective	2
+25450854	FRZB	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2014-10-30	Lories RJ	Genetic		Surgical	Protective	1
+34176242	FSHB	Exogenous	Surgical – DMM	Detrimental	Detrimental	Articular cavity	Mouse	2021-06-27	Xu J	Exogenous	Protein	Surgical	Detrimental	1
+33988757	FSHR	Knockdown	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2021-05-14	Xu J	Exogenous	shRNA	Surgical	Detrimental	1
+38609896	FTH1	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2024-04-01	Cai D	Exogenous	Viral	Surgical	Protective	1
+29555825	FYN	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2018-03-19	Bai X	Genetic		Ageing	Detrimental	7
+29555825	FYN	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2018-03-19	Bai X	Genetic		Surgical	Detrimental	7
+31534047	FYN	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019-09-19	Robinson WH	Genetic		Surgical	Detrimental	7
+29555825	FYN	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2018-03-19	Bai X	Exogenous	PP1	Surgical	Detrimental	7
+29555825	FYN	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2018-03-19	Bai X	Exogenous	AZD0530	Surgical	Detrimental	7
+29555825	FYN	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2018-03-19	Bai X	Exogenous	AZD0530	Surgical	Detrimental	7
+34798298	FYN	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Rat	2022-01-01	Su YX	Exogenous	AZD0530	Surgical	Detrimental	7
+31020644	GABARAP	Exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Rat	2019-04-24	Zhao J	Exogenous	Protein	Surgical	Protective	1
+32067417	GDF11	Exogenous	Spontaneous	Protective	Protective	systemic	Mouse	2020-05-21	Wei L	Exogenous	Protein	Ageing	Protective	1
+20805298	GDF5	Haploinsufficiency	Surgical - DMM	No effect	No effect	Global	Mouse	2010-08-30	Lories RJ	Genetic		Surgical	Ambiguous	5
+20805298	GDF5	Haploinsufficiency	Collagenase	Detrimental	Protective	Global	Mouse	2010-08-30	Lories RJ	Genetic		Protease	Ambiguous	5
+20805298	GDF5	Haploinsufficiency	Treadmill	Detrimental	Protective	Global	Mouse	2010-08-30	Lories RJ	Genetic		Exercise	Ambiguous	5
+17656374	GDF5	Inhibition	Spontaneous	Detrimental	Protective	Global	Mouse	2007-07-26	Ikegawa S	Genetic		Ageing	Ambiguous	5
+27851984	GDF5	Exogenous	Surgical - DMM	Protective	Protective	Articular cavity	Rat	2016-11-13	Story B	Exogenous	Protein	Surgical	Ambiguous	5
+38019905	GDF8	Removal	Surgical – ACLT	Protective	Detrimental	Global	Mouse	2023-12-01	Fry C	Genetic		Surgical	Detrimental	2
+38019905	GDF8	Inhibition	Surgical – ACLT	Protective	Detrimental	Articular cavity	Mouse	2023-12-01	Fry C	Exogenous	Antibody	Surgical	Detrimental	2
+29257344	GGCX	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Rabbit	2017-12-18	Yin M	Exogenous	Viral	Surgical	Protective	1
+15219569	GH1	Overexpression	Spontaneous	Detrimental	Detrimental	Global	Mouse	2004-07-01	Delgado-Baeza E	Genetic		Ageing	Ambiguous	3
+26275694	GH1	Activation	Collagenase	Protective	Protective	Articular cavity	Rabbit	2015-01-01	Park GY	Exogenous	AOD9604	Protease	Ambiguous	3
+30871292	GH1	Exogenous	Collagenase	Protective	Protective	Articular cavity	Mouse	2019-03-01	Marsetio AF	Exogenous	Protein	Protease	Ambiguous	3
+29070587	GHRL	Exogenous	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2018-01-03	Zhao Y	Exogenous	Protein	Surgical	Protective	1
+27682878	GJA1	Deficiency	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2016-11-08	Mayan MD	Genetic		Ageing	Protective	1
+19915594	GLI2	Overexpression	Spontaneous	Detrimental	Detrimental	Cartilage	Mouse	2009-11-15	Alman BA	Genetic		Ageing	Detrimental	1
+29434185	GLP1R	Activation	Surgical – ACLT + MM	Protective	Protective	systemic	Mouse	2018-02-12	Wang XY	Exogenous	liraglutide	Surgical	Protective	2
+35091584	GLP1R	Activation	MIA	Protective	Protective	Articular cavity	Mouse	2018-02-12	Wang XY	Exogenous	liraglutide	MIA	Protective	2
+37521864	GPRC5B	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2023-07-01	Luo J	Genetic		Surgical	Protective	2
+37521864	GPRC5B	Overexpression	Surgical – DMM	Protective	Protective	Articular cavity	Mouse	2023-07-01	Luo J	Exogenous	viral	Surgical	Protective	2
+36328754	GPX4	Removal	Surgical	Detrimental	Protective	Cartilage Inducible	Mouse	2022-11-01	Zhao Y	Genetic		Surgical	Protective	1
+30926814	GREM1	Removal	Surgical - DMM + MM	Protective	Detrimental	Cartilage Inducible	Mouse	2019-03-29	Saito T	Genetic		Surgical	Ambiguous	4
+30926814	GREM1	Inhibition	Surgical - DMM  MM	Protective	Detrimental	Articular cavity	Mouse	2019-03-29	Saito T	Exogenous	Antibody	Surgical	Ambiguous	4
+30926814	GREM1	recombinant	Surgical - DMM  MM	Detrimental	Detrimental	Articular cavity	Mouse	2019-03-29	Saito T	Exogenous	Exogenous	Surgical	Ambiguous	4
+32186934	GREM1	Knockdown	Surgical - DMM  ACLT  MM	Detrimental	Protective	Articular cavity	Mouse	2020-03-18	Qian J	Exogenous	siRNA	Surgical	Ambiguous	4
+32544091	GRIA1	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2020-07-09	Mason DJ	Exogenous	NBQX	Surgical	Detrimental	1
+32544091	GRIA2	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2020-07-09	Mason DJ	Exogenous	NBQX	Surgical	Detrimental	1
+32544091	GRIA3	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2020-07-09	Mason DJ	Exogenous	NBQX	Surgical	Detrimental	1
+32544091	GRIA4	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2020-07-09	Mason DJ	Exogenous	NBQX	Surgical	Detrimental	1
+33568523	GRK2	Removal	Surgical-DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2021-02-10	Kamal F	Genetic		Surgical	Detrimental	4
+33568523	GRK2	Inhibition	Surgical-DMM	Protective	Detrimental	systemic	Mouse	2021-02-10	Kamal F	Exogenous	paroxetine	Surgical	Detrimental	4
+33568523	GRK2	Inhibition	Surgical-DMM	Protective	Detrimental	systemic	Mouse	2021-02-10	Kamal F	Exogenous	gallein	Surgical	Detrimental	4
+33568523	GRK2	Inhibition	Surgical – DMM	Protective	Detrimental	systemic	Mouse	2022-07-01	Kamal F	Exogenous	paroxetine	Surgical	Detrimental	4
+31696655	GRK5	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019-11-06	Nakashima Y	Genetic		Surgical	Detrimental	2
+31696655	GRK5	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019-11-06	Nakashima Y	Exogenous	Amlexanox	Surgical	Detrimental	2
+25169730	GRN	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2014-08-28	Liu CJ	Genetic		Ageing	Protective	4
+25169730	GRN	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2014-08-28	Liu CJ	Genetic		Surgical	Protective	4
+25169730	GRN	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2014-08-28	Liu CJ	Exogenous	Exogenous	Surgical	Protective	4
+34226187	GRN	Exogenous	Surgical – DMM	Protective	Protective	Articular cavity	Mouse	2021-07-05	Liu CJ	Exogenous	Protein	Surgical	Protective	4
+35165253	GPR4	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2022-02-14	Liu J	Genetic		Surgical	Detrimental	4
+35165253	GPR4	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2022-02-14	Liu J	Genetic		Ageing	Detrimental	4
+35165253	GPR4	Overexpression	Surgical – DMM	Detrimental	Detrimental	Articular cavity	Mouse	2022-02-14	Liu J	Exogenous	Viral	Surgical	Detrimental	4
+35165253	GPR4	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2022-02-14	Liu J	Exogenous	NE52-QQ57	Surgical	Detrimental	4
+33473114	GRSF1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-20	Bassett D	Genetic		Ageing	Protective	1
+21911068	GSK3B	Inhibition	Spontaneous	Detrimental	Protective	Articular cavity	Mouse	2011-08-27	Karperien M	Exogenous	GIN	Ageing	Protective	3
+24757033	GSK3B	Inhibition	Surgical - DMM	Detrimental	Protective	Articular cavity	Mouse	2014-08-01	Rowan AD	Exogenous	GSK3B-i	Surgical	Protective	3
+35747513	GSK3B	Overexpression	Surgical – DMM	Protective	Protective	Articular cavity	Mouse	2022-06-14	Wu G	Exogenous	Viral	Surgical	Protective	3
+37462629	GZMA	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2023-04-01	Garcia-Alvarez F	Genetic		Surgical	Detrimental	1
+28646530	HAS1	Removal	Surgical - Cartilage Injury	Detrimental	Protective	Global	Mouse	2017-07-21	Plaas A	Genetic		Surgical	Protective	2
+26521733	HAS1	Removal	Surgical - Cartilage Injury	Detrimental	Protective	Global	Mouse	2015-11-01	Plaas A	Genetic		Surgical	Protective	2
+33441426	HBEGF	Overexpression	Surgical-DMM	Protective	Protective	Cartilage	Mouse	2021-01-13	Qin L	Genetic		Surgical	Protective	1
+37681413	HDAC1	Inhibition	Surgical – DMM	Protective	Detrimental	systemic	Mouse	2023-09-01	Lotz M	Exogenous	mocetinostat	Surgical	Detrimental	1
+35734099	HDAC4	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2022-06-16	Li P	Genetic		Ageing	Protective	3
+31310910	HDAC4	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Rat	2019-07-13	Wei XC	Exogenous	Viral	Surgical	Protective	3
+35734099	HDAC4	Overexpression	Surgical – ACLT	Protective	Protective	Articular cavity	Mouse	2022-06-16	Li P	Exogenous	Viral	Surgical	Protective	3
+32926854	HDAC6	Inhibition	Surgical – DMM	Protective	Detrimental	systemic	Mouse	2020-09-11	Gao W	Exogenous	Tubastatin A	Surgical	Detrimental	2
+33744850	HDAC6	Inhibition	Surgical-DMM	Protective	Detrimental	systemic	Mouse	2021-03-19	Chen G	Exogenous	Tubastatin A	Surgical	Detrimental	2
+36121967	HECTD1	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2023-03-01	Pan Z	Genetic		Surgical	Protective	2
+36121967	HECTD1	Overexpression	Surgical – DMM	Protective	Protective	Articular cavity	Mouse	2023-03-01	Pan Z	Exogenous	Viral	Surgical	Protective	2
+33473114	HERC1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-20	Bassett D	Genetic		Ageing	Protective	1
+25733872	HES1	Removal	Spontaneous	Protective	Detrimental	Cartilage Inducible	Mouse	2015-03-02	Saito T	Genetic		Ageing	Detrimental	1
+26403062	HFE	Removal	Surgical - DMM + MM	Detrimental	Protective	Global	Mouse	2015-09-25	Cancela ML	Genetic		Surgical	Ambiguous	2
+31132316	HFE	Removal	Spontaneous	No effect	No effect	Global	Mouse	2019-05-27	Cancela ML	Genetic		Ageing	Ambiguous	2
+32214220	HIF1A	Removal	Surgical-MCL + MM	Detrimental	Protective	Cartilage Inducible	Mouse	2020-03-25	Saito T	Genetic		Surgical	Ambiguous	3
+32587244	HIF1A	Activation	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2020-06-25	Xiao J	Exogenous	DMOG	Surgical	Ambiguous	3
+37018403	HIF1A	Activation	Surgical – ACLT	Protective	Detrimental	Global	Mouse	2023-04-01	Su J	Exogenous	DMOG	Surgical	Ambiguous	3
+31982563	HMGB1	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2020-01-23	Erlandsson Harris H	Exogenous	Antibody	Surgical	Detrimental	1
+19139395	HMGB2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2009-01-12	Lotz M	Genetic		Ageing	Protective	1
+23151456	HMOX1	Overexpression	STR/ort	No effect	No effect	Articular cavity	Mouse	2012-11-11	Armentano D	Exogenous	Viral	Surgical	No effect	1
+38414246	HNRNPK	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2024-05-01	Su P	Genetic		Ageing	Protective	3
+38414246	HNRNPK	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2024-05-01	Su P	Genetic		Surgical	Protective	3
+38414246	HNRNPK	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2024-05-01	Su P	Exogenous	Viral	Surgical	Protective	3
+32315726	HOTAIR	Knockdown	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2020-04-18	Ding L	Exogenous	siRNA	Surgical	Detrimental	1
+33473114	HPF1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-20	Bassett D	Genetic		Ageing	Protective	1
+31176016	HSD11B1	Overexpression	Surgical - DMM	Protective	Protective	Cartilage	Mouse	2019-06-05	Zhou H	Genetic		Surgical	Protective	1
+23666904	HSP90AB1	Inhibition	Exercise	Protective	Detrimental	systemic	Mouse	2013-08-01	Weinans H	Exogenous	BIIB021	Exercise	Detrimental	1
+30622281	HSPA1A	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2019-01-08	Chun JS	Exogenous	Viral	Surgical	Protective	1
+16394269	HSPA2	Overexpression	MIA	Protective	Protective	Articular cavity	Rat	2006-01-01	Gillet P	Exogenous	Viral	MIA	Protective	1
+27118120	HSPD1	Overexpression	Collagenase	Protective	Protective	Global	Mouse	2016-04-27	Wang FS	Genetic		Protease	Protective	1
+26636652	HSPG2	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016-04-01	Melrose J	Genetic		Surgical	Detrimental	2
+23339896	HSPG2	Removal	Surgical - DMM + MM	Protective	Detrimental	Cartilage	Mouse	2013-01-20	Arikawa-Hirasawa E	Genetic		Surgical	Detrimental	2
+31051168	HTRA1	Removal	Col11a1 haploinsufficient	Protective	Detrimental	Global	Mouse	2019-04-30	Xu L	Genetic		Genetic	Detrimental	3
+31051168	HTRA1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019-04-30	Xu L	Genetic		Surgical	Detrimental	3
+31051168	HTRA1	Removal	Surgical - PDE	Protective	Detrimental	Global	Mouse	2019-04-30	Xu L	Genetic		Surgical	Detrimental	3
+18344557	HYAL1	Haploinsufficiency	Spontaneous	Detrimental	Protective	Global	Mouse	2008-03-15	Triggs-Raine BL	Genetic		Ageing	Protective	1
+28765635	HYAL2	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2017-08-01	Ishiguro N	Genetic		Surgical	Protective	1
+38580748	IFNGR1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2024-04-01	Kim H	Genetic		Surgical	Protective	2
+38580748	IFNGR1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2024-04-01	Kim H	Genetic		Ageing	Protective	2
+22173325	IFT88	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2011-11-27	Serra R	Genetic		Ageing	Protective	3
+34105311	IFT88	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2021-06-08	Wann A	Genetic		Ageing	Protective	3
+34105311	IFT88	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2021-06-08	Wann A	Genetic		Surgical	Protective	3
+31638855	IGF1	Removal	Surgical - DMM	Protective	Detrimental	Liver	Mouse	2019-10-22	Svensson J	Genetic		Surgical	Ambiguous	3
+31638855	IGF1	Removal	Spontaneous	No effect	No effect	Liver	Mouse	2019-10-22	Svensson J	Genetic		Ageing	Ambiguous	3
+20733349	IGF1	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Rabbit	2010-10-31	Chen L	Exogenous	Viral	Surgical	Ambiguous	3
+26015264	IGF2	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2015-12-01	Zeng L	Exogenous	Viral	Surgical	Protective	1
+38036734	IGSF11	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2023-12-01	Lee SY	Genetic		Surgical	Detrimental	1
+24428864	IHH	Removal	Spontaneous	Protective	Detrimental	Cartilage Inducible	Mouse	2014-01-15	Wei L	Genetic		Ageing	Detrimental	2
+29440889	IHH	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Rat	2018-01-31	Wei L	Exogenous	siRNA	Surgical	Detrimental	2
+34546791	IKBKB	Activated	Spontaneous	Detrimental	Detrimental	Cartilage Inducible	Mouse	2021-09-21	Jonason JH	Genetic		Ageing	Detrimental	2
+35145063	IKBKB	Inhibition	Surgical – MLI	Protective	Detrimental	Articular cavity	Mouse	2022-02-11	Abu-Amer Y	Exogenous	IKK2i	Surgical	Detrimental	2
+36530063	IKBKE	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2023-06-01	Nakashima Y	Exogenous	BAY-985	Surgical	Detrimental	1
+26256766	IKBKG	Inhibition	Surgical - UAC	Protective	Detrimental	systemic	Mouse	2015-08-06	Wang MQ	Exogenous	NBD peptide	Surgical	Detrimental	1
+32647171	IKK2	Overexpression	Spontaneous	Detrimental	Detrimental	Cartilage Inducible	Mouse	2020-07-09	Abu-Amer Y	Genetic		Ageing	Detrimental	1
+34159843	IL10	Exogenous	High Fat Diet + Surgical - Groove	Protective	Protective	Articular cavity	Rat	2021-06-23	Mastbergen SC	Exogenous	IL4-10 FP	Surgical	Protective	1
+32431699	IL17A	Removal	MIA	Protective	Detrimental	Global	Mouse	2020-05-05	Cho ML	Genetic		MIA	Detrimental	4
+32416098	IL17A	Removal	Surgical-DMM	Protective	Detrimental	Global	Mouse	2020-05-19	Zhang X	Genetic		Surgical	Detrimental	4
+28815179	IL17A	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Rabbit	2017-07-26	Peng C	Exogenous	Protein	Ageing	Detrimental	4
+32955487	IL17A	Inhibition	Surgical – ACLT	Protective	Detrimental	Articular cavity	Mouse	2020-10-01	Elisseeff JH	Exogenous	antibody	Surgical	Detrimental	4
+21310253	IL17RA	Inhibition	Surgical - MM	Protective	Detrimental	systemic	Mouse	2011-02-22	Liu SQ	Exogenous	DNA aptamers	Surgical	Detrimental	1
+15331419	IL18	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2020-01-29	van den Berg WB	Exogenous	Viral	Ageing	Detrimental	1
+27654963	IL1A	Removal	Collagenase	No effect	No effect	Global	Mouse	2016-09-18	van Lent PL	Genetic		Protease	No effect	1
+27654963	IL1B	Removal	Collagenase	No effect	No effect	Global	Mouse	2016-09-18	van Lent PL	Genetic		Protease	Ambiguous	5
+14673996	IL1B	Removal	Surgical - DMM + MM	Detrimental	Protective	Global	Mouse	2003-12-01	Mason RM	Genetic		Surgical	Ambiguous	5
+26108147	IL1B	Knockdown	Surgical - DMM  ACL  MM	Protective	Detrimental	Articular cavity	Rabbit	2015-07-20	Liao Q	Exogenous	siRNA	Surgical	Ambiguous	5
+30842121	IL1B	Removal	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019-03-06	Chen D	Exogenous	CRISPR	Surgical	Ambiguous	5
+34298196	IL1B	Inhibition	High Fat Diet + collagenase	No effect	No effect	Articular cavity	Mouse	2021-07-21	van Lent PL	Exogenous	Antibody	Surgical	Ambiguous	5
+33133598	IL1RL1	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2020-10-23	Sacitharan PK	Exogenous	Antibody	Surgical	Detrimental	1
+32431699	IL1RN	Removal	MIA	Detrimental	Protective	Global	Mouse	2020-05-05	Cho ML	Genetic		MIA	Protective	5
+20733349	IL1RN	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Rabbit	2010-10-31	Chen L	Exogenous	Viral	Surgical	Protective	5
+25219670	IL1RN	Exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Rat	2014-09-16	Jay GD	Exogenous	Protein	Surgical	Protective	5
+27539076	IL1RN	Exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Rat	2016-08-19	D'Souza G	Exogenous	Protein	Surgical	Protective	5
+34963343	IL1RN	Activation	Surgical – ACLT	Protective	Protective	Articular cavity	Rat	2021-12-29	Bodick N	Exogenous	FX201	Surgical	Protective	5
+28426699	IL20	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017-04-20	Chang MS	Exogenous	Antibody	Surgical	Detrimental	1
+32636527	IL22	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2020-07-07	Sacitharan PK	Exogenous	antibody	Surgical	Detrimental	1
+32636527	IL22RA1	Removal	Surgical-DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2020-07-07	Sacitharan PK	Genetic		Surgical	Detrimental	2
+32636527	IL22RA1	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2020-07-07	Sacitharan PK	Exogenous	antibody	Surgical	Detrimental	2
+27183574	IL3	Exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2016-05-13	Wani MR	Exogenous	Protein	Surgical	Protective	1
+33133598	IL33	Removal	Surgical-DMM	Protective	Detrimental	Fibroblast-like Synoviocyte Inducible	Mouse	2020-10-23	Sacitharan PK	Genetic		Surgical	Detrimental	5
+33133598	IL33	Removal	Surgical-DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2020-10-23	Sacitharan PK	Genetic		Surgical	Detrimental	5
+33133598	IL33	Exogenous	Surgical – DMM	Detrimental	Detrimental	Articular cavity	Mouse	2020-10-23	Sacitharan PK	Exogenous	Protein	Surgical	Detrimental	5
+33133598	IL33	Exogenous	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2020-10-23	Sacitharan PK	Exogenous	Protein	Ageing	Detrimental	5
+33133598	IL33	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2020-10-23	Sacitharan PK	Exogenous	Antibody	Surgical	Detrimental	5
+31068441	IL36A	Exogenous	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2019-05-08	Spagnoli A	Exogenous	Protein	Surgical	Detrimental	1
+31068441	IL36RN	Exogenous	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2019-05-08	Spagnoli A	Exogenous	Protein	Surgical	Protective	1
+34126239	IL4	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2021-08-01	Robinson WH	Genetic		Surgical	Protective	4
+18182309	IL4	Exogenous	Surgical - DMM  ACL  MM	Protective	Protective	Articular cavity	Rat	2008-01-07	Ozaki T	Exogenous	Protein	Surgical	Protective	4
+30891766	IL4	recombinant	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2019-03-19	Sun HB	Exogenous	Exogenous	Surgical	Protective	4
+34159843	IL4	Exogenous	High Fat Diet + Surgical - Groove	Protective	Protective	Articular cavity	Rat	2021-06-23	Mastbergen SC	Exogenous	IL4-10 FP	Surgical	Protective	4
+34126239	IL4R	Removal	Surgical - DMM	Detrimental	Protective	Myeloid	Mouse	2021-08-01	Robinson WH	Genetic		Surgical	Protective	1
+21590680	IL6	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2011-09-01	Chun JS	Genetic		Surgical	Ambiguous	6
+15639639	IL6	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2005-01-01	van den Berg WB	Genetic		Ageing	Ambiguous	6
+15639639	IL6	Removal	Collagenase	No effect	No effect	Global	Mouse	2005-01-01	van den Berg WB	Genetic		Protease	Ambiguous	6
+35881692	IL6	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2022-07-01	Hilton MJ	Genetic		Surgical	Ambiguous	6
+21590680	IL6	Exogenous	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2011-09-01	Chun JS	Exogenous	Protein	Ageing	Ambiguous	6
+29736207	IL6	Inhibition	Surgical – ACLT	Protective	Detrimental	systemic	Mouse	2018-04-15	Wang Q	Exogenous	antibody	Surgical	Ambiguous	6
+27789465	IL6R	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2016-10-27	Richette P	Exogenous	Antibody	Surgical	Detrimental	1
+36947594	IL6ST	Mutation	Surgical - DMM	Protective	Detrimental	Global	Mouse	2023-03-01	Evseenko D	Genetic		Surgical	Ambiguous	3
+29436471	IL6ST	Activation	Surgical - MM	Protective	Protective	Articular cavity	Mouse	2018-02-07	Evseenko D	Exogenous	RCGD 423	Surgical	Ambiguous	3
+36947594	IL6ST	Inhibition	Surgical – DMM	Protective	Detrimental	Global	Rat	2023-03-01	Evseenko D	Exogenous	R805	Surgical	Ambiguous	3
+29622035	IRF4	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2018-04-05	Cook AD	Genetic		Protease	Detrimental	1
+36963293	IRF7	Knockdown	Surgical – MMTL	Protective	Detrimental	Articular cavity	Mouse	2023-05-01	Zha Z	Exogenous	viral	Surgical	Detrimental	1
+33940137	ITCH	Removal	Surgical-DMM	Detrimental	Protective	Global	Mouse	2021-08-29	Xing L	Genetic		Surgical	Protective	3
+33940137	ITCH	Removal	Surgical-DMM	Detrimental	Protective	Macrophage	Mouse	2021-08-29	Xing L	Genetic		Surgical	Protective	3
+35385713	ITCH	Overexpression	Surgical – DMM	Protective	Protective	Articular cavity	Mouse	2022-06-01	Zheng S	Exogenous	Viral	Surgical	Protective	3
+14558093	ITGA1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2003-10-01	Lotz M	Genetic		Ageing	Protective	4
+27211864	ITGA1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2016-05-20	Clark AL	Genetic		Surgical	Protective	4
+37649532	ITGA1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2023-08-01	Clark A	Genetic		Ageing	Protective	4
+24018042	ITGA1	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2013-09-07	Jin EJ	Exogenous	Viral	Surgical	Protective	4
+27280771	ITGA5	Removal	Surgical - DMM + MCL	Protective	Detrimental	Cartilage	Mouse	2016-06-09	Enomoto-Iwamoto M	Genetic		Surgical	Detrimental	1
+33392201	ITGAM	Removal	Surgical-MM	Detrimental	Protective	Global	Mouse	2020-12-18	Nasi S	Genetic		Surgical	Protective	1
+32768686	ITGAV	Activation	Surgical – ACLT	Protective	Protective	systemic	Mouse	2020-08-05	Yu Z	Exogenous	Irisin	Surgical	Protective	1
+31534047	ITGB3	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019-09-19	Robinson WH	Genetic		Surgical	Detrimental	2
+31534047	ITGB3	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2019-09-19	Robinson WH	Exogenous	P11	Surgical	Detrimental	2
+30305454	ITGBL1	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2018-10-10	Park TJ	Exogenous	Viral	Surgical	Protective	2
+30305454	ITGBL1	Knockdown	Spontaneous	Detrimental	Protective	Articular cavity	Mouse	2018-10-10	Park TJ	Exogenous	siRNA	Ageing	Protective	2
+34052462	JAK1	Inhibition	Surgical – MCL+MM	Protective	Detrimental	Articular cavity	Rat	2021-10-01	Yeh CT	Exogenous	tofacitinib	Surgical	Detrimental	1
+27147707	JUN	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2016-05-04	Chun JS	Exogenous	siRNA	Surgical	Detrimental	2
+29476740	JUN	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2018-02-21	Kimura T	Exogenous	T-5224	Surgical	Detrimental	2
+31735552	KAT2B	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2019-11-14	Pan X	Exogenous	Salidroside	Surgical	Detrimental	1
+28314754	KDM6B	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2017-03-17	Ouyang H	Genetic		Surgical	Ambiguous	4
+28314754	KDM6B	Knockdown	Surgical - DMM	Detrimental	Protective	Articular cavity	Mouse	2017-03-17	Ouyang H	Exogenous	Viral	Surgical	Ambiguous	4
+29622035	KDM6B	Inhibition	Collagenase	Protective	Detrimental	Articular cavity	Mouse	2018-04-05	Cook AD	Exogenous	Antibody	Protease	Ambiguous	4
+32394143	KDM6B	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2020-05-11	Jiangan T	Exogenous	GSK-J4	Surgical	Ambiguous	4
+29026147	KDR	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017-10-12	Olsen BR	Exogenous	vandetanib	Surgical	Detrimental	1
+29920476	KL	Exogenous	Collagenase	Protective	Protective	Articular cavity	Mouse	2018-06-19	Brondello JM	Exogenous	Protein	Protease	Protective	2
+31950348	KL	Exogenous	papain	Protective	Protective	Articular cavity	Rat	2020-03-11	Belmonte J	Exogenous	Protein	Protease	Protective	2
+38217021	KLF10	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2024-01-01	Lu H	Exogenous	Viral	Surgical	Detrimental	1
+37648149	KLF15	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2023-01-01	Kuroda R	Genetic		Surgical	Protective	1
+35534137	KLF2	Removal	Surgical	Detrimental	Protective	Cartilage Inducible	Mouse	2022-05-09	Lotz M	Genetic		Surgical	Protective	3
+31827706	KLF2	Overexpression	MIA	Protective	Protective	Articular cavity	Rat	2019-11-19	Li X	Exogenous	Viral	MIA	Protective	3
+35534137	KLF2	Overexpression	Surgical – DMM	Protective	Protective	Articular cavity	Mouse	2022-05-09	Lotz M	Exogenous	Viral	Surgical	Protective	3
+35534137	KLF4	Overexpression	Surgical – DMM	Protective	Protective	Articular cavity	Mouse	2022-05-09	Lotz M	Exogenous	Viral	Surgical	Protective	2
+34891002	KLF4	Overexpression	Surgical – DMM	Protective	Protective	Articular cavity	Rat	2022-01-01	Huang Y	Exogenous	Viral	Surgical	Protective	2
+33559324	LBP	Removal	Surgical-DMM and High Fat Diet	Protective	Detrimental	Global	Mouse	2021-02-08	Chun JS	Genetic		Surgical	Detrimental	1
+23151457	LCAT	Removal	High Fat Diet	Detrimental	Protective	Global	Mouse	2012-11-11	Papachristou DJ	Genetic		High Fat Diet	Protective	1
+27477830	LCN2	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2016-07-29	Chun JS	Genetic		Surgical	No effect	2
+27477830	LCN2	Overexpression	Surgical - DMM	No effect	No effect	Articular cavity	Mouse	2016-07-29	Chun JS	Exogenous	Viral	Surgical	No effect	2
+37018403	LCP1	Removal	Surgical - ACLT	Protective	Detrimental	Global	Mouse	2023-04-01	Su J	Genetic		Surgical	Detrimental	1
+32647171	LDHA	Removal	Surgical-MM	Protective	Detrimental	Cartilage	Mouse	2020-07-09	Abu-Amer Y	Genetic		Surgical	Detrimental	1
+29074298	LDLR	Removal	High Fat Diet	Detrimental	Protective	Global	Mouse	2017-10-24	Stoop R	Genetic		High Fat Diet	Protective	2
+24286458	LDLR	Removal	Collagenase	Detrimental	Protective	Global	Mouse	2013-11-04	van Lent PL	Genetic		Protease	Protective	2
+27390029	LEPR	Mutation	Surgical - DMM + MCL	Detrimental	Protective	Global	Mouse	2016-07-05	Caram?s B	Genetic		Surgical	Ambiguous	2
+28823646	LEPR	Knockdown	Surgical - ACLT	Protective	Detrimental	Articular cavity	Rat	2017-08-18	Li J	Exogenous	shRNA	Surgical	Ambiguous	2
+17545192	LGALS3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2007-06-01	Reboul P	Genetic		Ageing	Ambiguous	5
+17545192	LGALS3	Removal	MIA	Detrimental	Protective	Global	Mouse	2007-06-01	Reboul P	Genetic		MIA	Ambiguous	5
+32098291	LGALS3	Removal	Surgical - MM	Detrimental	Protective	Global	Mouse	2020-02-22	Ea HK	Genetic		Surgical	Ambiguous	5
+32098291	LGALS3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2020-02-22	Ea HK	Genetic		Ageing	Ambiguous	5
+17326835	LGALS3	Exogenous	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2007-01-01	Reboul P	Exogenous	Protein	Ageing	Ambiguous	5
+36026443	LIN28A	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2022-08-01	Hay E	Genetic		Surgical	Protective	2
+36026443	LIN28A	Overexpression	Surgical - DMM	Protective	Protective	Cartilage Inducible	Mouse	2022-08-01	Hay E	Genetic		Surgical	Protective	2
+31569601	LOXL2	Overexpression	MIA	Protective	Protective	Global	Mouse	2019-09-27	Bais MV	Genetic		MIA	Protective	1
+36414669	LRP3	Removal	Surgical - ACLT	Detrimental	Protective	Cartilage	Mouse	2022-11-01	Ao Y	Genetic		Surgical	Protective	2
+36414669	LRP3	Overexpression	Surgical – ACLT	Protective	Protective	Articular cavity	Mouse	2022-11-01	Ao Y	Exogenous	Viral	Surgical	Protective	2
+24479426	LRP5	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2014-01-31	Ryu JH	Genetic		Surgical	Detrimental	2
+24479426	LRP5	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2014-01-31	Ryu JH	Genetic		Ageing	Detrimental	2
+23756208	LRP6	Deficiency	Surgical - DMM + ACL+MM	Detrimental	Protective	Global	Mouse	2013-06-10	Williams BO	Genetic		Surgical	Protective	1
+37086004	LTA4H	Inhibition	Surgical - DMM	Protective	Protective	systemic	Mouse	2024-06-01	Mao X	Exogenous	bestatin	Surgical	Protective	1
+11790802	LTBP3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2002-01-14	Rifkin DB	Genetic		Ageing	Protective	1
+12089156	LUM	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2002-06-27	Chakravarti S	Genetic		Ageing	Protective	1
+35461155	MAOA	Overexpression	Surgical – ACLT	Protective	Protective	Articular cavity	Rat	2022-08-01	Wang Y	Exogenous	Viral	Surgical	Protective	1
+12794826	MAP2K1	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Rabbit	2003-06-01	Martel-Pelletier J	Exogenous	PD 198306	Surgical	Detrimental	1
+12794826	MAP2K2	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Rabbit	2003-06-01	Martel-Pelletier J	Exogenous	PD 198306	Surgical	Detrimental	1
+26405834	MAP3K5	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2015-09-29	Freeman TA	Genetic		Ageing	Detrimental	3
+26405834	MAP3K5	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2015-09-29	Freeman TA	Genetic		Surgical	Detrimental	3
+34322020	MAP3K5	Inhibition	Surgical – ACLT	Protective	Detrimental	Articular cavity	Rat	2021-07-12	Tu C	Exogenous	Selonsertib	Surgical	Detrimental	3
+18975318	MAPK14	Inhibition	Spontaneous	Detrimental	Protective	Global	Mouse	2008-11-01	Chen Q	Genetic		Ageing	Ambiguous	2
+29524442	MAPK14	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018-03-07	All?mann E	Exogenous	PH-797804	Surgical	Ambiguous	2
+35849954	MAPK3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2022-07-01	Sun X	Genetic		Ageing	Protective	1
+32418287	MAPK8	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2020-05-17	Carlson CS	Genetic		Ageing	Ambiguous	2
+32418287	MAPK8	Removal	Surgical-DMM	No effect	No effect	Global	Mouse	2020-05-17	Carlson CS	Genetic		Surgical	Ambiguous	2
+26663140	MAPK9	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016-05-01	Saklatvala J	Genetic		Surgical	Ambiguous	3
+32418287	MAPK9	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2020-05-17	Carlson CS	Genetic		Ageing	Ambiguous	3
+32418287	MAPK9	Removal	Surgical-DMM	No effect	No effect	Global	Mouse	2020-05-17	Carlson CS	Genetic		Surgical	Ambiguous	3
+27270603	MATN1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2016-06-07	Chen Q	Genetic		Surgical	Protective	2
+31963938	MATN1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2020-01-19	Aszodi A	Genetic		Ageing	Protective	2
+31963938	MATN2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2020-01-19	Aszodi A	Genetic		Ageing	Protective	1
+16877353	MATN3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2006-08-01	Chen Q	Genetic		Ageing	Protective	3
+31963938	MATN3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2020-01-19	Aszodi A	Genetic		Ageing	Protective	3
+33227438	MATN3	Mutation	Surgical - MM	Detrimental	Protective	Global	Mouse	2020-11-21	Zaucke F	Genetic		Surgical	Protective	3
+31963938	MATN4	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2020-01-19	Aszodi A	Genetic		Ageing	Protective	1
+37797712	MBTPS2	Haploinsufficiency	Spontaneous	Detrimental	Protective	Global	Mouse	2023-12-01	Pohl S	Genetic		Ageing	Protective	1
+25191747	MC1R	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2014-09-05	Gr?ssel S	Genetic		Surgical	Protective	1
+26797130	MCAT	Overexpression	Spontaneous	Protective	Protective	Global	Mouse	2016-01-21	Loeser RF	Genetic		Ageing	Protective	1
+31084709	MCL1	Removal	Surgical - DMM	Protective	Detrimental	Mast cells	Mouse	2019-05-14	Robinson WH	Genetic		Surgical	Detrimental	1
+25366485	MDK	Exogenous	Surgical - DMM	Protective	Protective	systemic	Mouse	2014-01-01	Yu Y	Exogenous	Protein	Surgical	Protective	1
+26103880	MECP2	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2015-06-24	Jin EJ	Exogenous	Viral	Surgical	Detrimental	2
+26103880	MECP2	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2015-06-24	Jin EJ	Exogenous	siRNA	Surgical	Detrimental	2
+34706873	METTL3	Knockdown	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2021-10-27	Guo B	Exogenous	siRNA	Surgical	Detrimental	2
+37724835	METTL3	Knockdown	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2023-09-01	Zong Y	Exogenous	viral	Surgical	Detrimental	2
+34031369	MFGE8	Exogenous	Surgical – DMM	Protective	Protective	Articular cavity	Mouse	2021-05-25	Cai D	Exogenous	Protein	Surgical	Protective	2
+34031369	MFGE8	Inhibition	Surgical – DMM	Detrimental	Protective	Articular cavity	Mouse	2021-05-25	Cai D	Exogenous	Antibody	Surgical	Protective	2
+32416221	MFN2	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Rat	2020-05-19	Wu L	Exogenous	Viral	Surgical	Detrimental	2
+32416221	MFN2	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Rat	2020-05-19	Wu L	Exogenous	Viral	Surgical	Detrimental	2
+21368873	MIA	Removal	Surgical - DMM + MM	Protective	Detrimental	Global	Mouse	2010-11-11	Bosserhoff AK	Genetic		Surgical	Detrimental	1
+27564840	MIF	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2017-02-01	Loeser RF	Genetic		Ageing	Ambiguous	2
+27564840	MIF	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2017-02-01	Loeser RF	Genetic		Surgical	Ambiguous	2
+31647983	MINK1	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2019-10-21	Ouyang H	Genetic		Ageing	Ambiguous	2
+31647983	MINK1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2019-10-21	Ouyang H	Genetic		Surgical	Ambiguous	2
+32626917	mir-1	Overexpression	Surgical-ACLT	Protective	Protective	Cartilage	Mouse	2020-05-12	Li P	Genetic		Surgical	Protective	1
+24018042	mir-101	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2013-09-07	Jin EJ	Exogenous	Viral	Surgical	Ambiguous	3
+25921548	mir-101	Overexpression	MIA	Detrimental	Detrimental	Articular cavity	Rat	2015-04-29	Ao Y	Exogenous	Viral	MIA	Ambiguous	3
+25921548	mir-101	Knockdown	MIA	Protective	Detrimental	Articular cavity	Rat	2015-04-29	Ao Y	Exogenous	siRNA	MIA	Ambiguous	3
+29858052	mir-106a	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2018-02-08	Wang Y	Exogenous	agomir	Surgical	Protective	1
+30731321	mir-10a	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2018-12-25	Zhang J	Exogenous	Antagomir	Surgical	Detrimental	2
+30731321	mir-10a	Overexpression	Surgical - ACLT	Detrimental	Detrimental	Articular cavity	Mouse	2018-12-25	Zhang J	Exogenous	agomir	Surgical	Detrimental	2
+34149433	mir-10a-3p	Overexpression	Surgical – ACLT	Protective	Protective	Articular cavity	Rat	2021-06-03	Wang P	Exogenous	agomir	Surgical	Protective	1
+34360007	mir-126	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2021-07-20	Jin EJ	Exogenous	Antagomir	Surgical	Detrimental	1
+30206206	mir-128a	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Rat	2018-09-11	Wang FS	Exogenous	Viral	Ageing	Detrimental	2
+30206206	mir-128a	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Rat	2018-09-11	Wang FS	Exogenous	Antagomir	Surgical	Detrimental	2
+31160553	mir-140	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2019-06-03	Asahara H	Genetic		Ageing	Protective	5
+20466812	mir-140	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2010-05-13	Asahara H	Genetic		Ageing	Protective	5
+20466812	mir-140	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2010-05-13	Asahara H	Genetic		Surgical	Protective	5
+28647469	mir-140	Overexpression	Surgical - ACLT MM	Protective	Protective	Articular cavity	Rat	2017-06-21	Shen B	Exogenous	agomir	Surgical	Protective	5
+31790972	mir-140	Overexpression	Surgical - DMM  ACLT	Protective	Protective	Articular cavity	Rat	2019-11-09	Shen B	Exogenous	agomir	Surgical	Protective	5
+33109602	mir-141/200c	Removal	Surgical-DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2020-10-28	Lu J	Genetic		Surgical	Detrimental	4
+33109602	mir-141/200c	Removal	Spontaneous	Protective	Detrimental	Cartilage Inducible	Mouse	2020-10-28	Lu J	Genetic		Ageing	Detrimental	4
+33109602	mir-141/200c	Overexpression	Surgical – DMM	Detrimental	Detrimental	Articular cavity	Mouse	2020-10-28	Lu J	Exogenous	NP-mimic	Surgical	Detrimental	4
+33109602	mir-141/200c	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2020-10-28	Lu J	Exogenous	NP-inhibitor	Surgical	Detrimental	4
+27447821	mir-142	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2016-10-01	Yu H	Exogenous	Viral	Surgical	Protective	1
+29575548	mir-146a	Overexpression	Surgical - DMM	Protective	Protective	Cartilage	Mouse	2018-03-24	Chen Q	Genetic		Surgical	Ambiguous	6
+29575548	mir-146a	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2018-03-24	Chen Q	Genetic		Surgical	Ambiguous	6
+29575548	mir-146a	Overexpression	Spontaneous	Protective	Protective	Cartilage	Mouse	2018-03-24	Chen Q	Genetic		Ageing	Ambiguous	6
+29575548	mir-146a	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2018-03-24	Chen Q	Genetic		Ageing	Ambiguous	6
+28383548	mir-146a	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2017-04-06	Zhang X	Genetic		Ageing	Ambiguous	6
+28383548	mir-146a	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2017-04-06	Zhang X	Genetic		Surgical	Ambiguous	6
+31422941	mir-146b	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019-08-17	Cai D	Exogenous	Antagomir	Surgical	Detrimental	1
+33192200	mir-152	Overexpression	Surgical – ACLT	Protective	Protective	Articular cavity	Rat	2020-10-27	Cheng L	Exogenous	Mimic	Surgical	Protective	1
+30287418	mir-181a	Knockdown	Surgical - Cartilage Injury	Protective	Detrimental	Articular cavity	Mouse	2018-10-04	Kapoor M	Exogenous	ASO	Surgical	Detrimental	1
+23313477	mir-181b	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2013-01-09	Jin EJ	Exogenous	Viral	Surgical	Protective	1
+35148687	mir-18a	Overexpression	Surgical – DMM	Protective	Protective	Articular cavity	Rat	2022-02-11	Xu H	Exogenous	Viral	Surgical	Protective	1
+31253842	mir-204	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2019-06-28	Chen D	Genetic		Ageing	Ambiguous	7
+31253842	mir-204	Removal	Spontaneous	Detrimental	Protective	Forelimb	Mouse	2019-06-28	Chen D	Genetic		Ageing	Ambiguous	7
+30106092	mir-204	Overexpression	Surgical - DMM  ACL  MM	Protective	Protective	Articular cavity	Rat	2018-08-07	Li X	Exogenous	agomir	Surgical	Ambiguous	7
+30944169	mir-204	Exogenous	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2019-04-03	Kim JH	Exogenous	Mimic	Ageing	Ambiguous	7
+30944169	mir-204	Exogenous	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2019-04-03	Kim JH	Exogenous	Mimic	Surgical	Ambiguous	7
+30944169	mir-204	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019-04-03	Kim JH	Exogenous	anti mir-204	Surgical	Ambiguous	7
+31253842	mir-204	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2019-06-28	Chen D	Exogenous	Viral	Surgical	Ambiguous	7
+30932160	mir-21	Removal	Spontaneous	Protective	Detrimental	Cartilage Inducible	Mouse	2019-04-01	Zheng X	Genetic		Ageing	Detrimental	7
+30932160	mir-21	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2019-04-01	Zheng X	Genetic		Surgical	Detrimental	7
+32357909	mir-21	Removal	Surgical-TMJ	Protective	Detrimental	Global	Mouse	2020-05-01	Zhao H	Genetic		Surgical	Detrimental	7
+33231490	mir-21	Removal	Surgical - TMJ	Protective	Detrimental	Global	Mouse	2020-10-09	Zhao H	Genetic		Surgical	Detrimental	7
+25196583	mir-21	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2014-09-05	Jin EJ	Exogenous	Viral	Surgical	Detrimental	7
+25196583	mir-21	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2014-09-05	Jin EJ	Exogenous	siRNA	Surgical	Detrimental	7
+30932160	mir-21	Removal	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019-04-01	Zheng X	Exogenous	Antagomir	Surgical	Detrimental	7
+31253842	mir-211	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2019-06-28	Chen D	Genetic		Ageing	Protective	2
+31253842	mir-211	Removal	Spontaneous	Detrimental	Protective	Forelimb	Mouse	2019-06-28	Chen D	Genetic		Ageing	Protective	2
+33714889	miR-214	Inhibition	Spontaneous	Detrimental	Protective	Articular cavity	Mouse	2021-03-01	Ding C	Exogenous	Antagomir	Ageing	Protective	2
+33714889	miR-214	Overexpression	Surgical-DMM	Protective	Protective	Articular cavity	Mouse	2021-03-01	Ding C	Exogenous	agomir	Surgical	Protective	2
+28919376	mir-218	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017-08-19	Im HJ	Exogenous	inhibitor	Surgical	Detrimental	1
+26673737	mir-222	Knockdown	Surgical - DMM	Detrimental	Protective	Articular cavity	Mouse	2014-12-09	Jin EJ	Exogenous	siRNA	Surgical	Protective	1
+32186934	mir-23a	Inhibition	Surgical - DMM  ACLT  MM	Protective	Detrimental	Articular cavity	Mouse	2020-03-18	Qian J	Exogenous	Antagomir	Surgical	Detrimental	1
+32186934	mir-23b	Inhibition	Surgical - DMM  ACLT  MM	Protective	Detrimental	Articular cavity	Mouse	2020-03-18	Qian J	Exogenous	Antagomir	Surgical	Detrimental	1
+31134620	mir-27a	Overexpression	Surgical – ACLT MM	Protective	Protective	Articular cavity	Rat	2019-05-27	Wang H	Exogenous	mimic	Surgical	Protective	1
+28620193	mir-29a	Overexpression	Collagenase	Protective	Protective	Global	Mouse	2017-06-15	Wang FS	Genetic		Protease	Protective	2
+28620193	mir-29a	Overexpression	Collagenase	Protective	Protective	Articular cavity	Mouse	2017-06-15	Wang FS	Exogenous	Injection	Protease	Protective	2
+32693649	mir-29b	Inhibition	Surgical - UAC	Detrimental	Protective	Articular cavity	Mouse	2020-07-21	Jiao K	Exogenous	Antagomir	Surgical	Protective	3
+32693649	mir-29b	Overexpression	Surgical - UAC	Protective	Protective	Articular cavity	Mouse	2020-07-21	Jiao K	Exogenous	agomir	Surgical	Protective	3
+35353555	mir-29b	Overexpression	Surgical – ACLT	Protective	Protective	Articular cavity	Rat	2022-03-30	Fang X	Exogenous	agomir	Surgical	Protective	3
+31075235	mir-320	Inhibition	Collagenase	Protective	Protective	Articular cavity	Mouse	2019-05-08	Zhang Z	Exogenous	agomir	Protease	Protective	1
+33034147	mir-34a	Removal	Surgical-DMM	Protective	Detrimental	Global	Mouse	2020-10-08	Kapoor M	Genetic		Surgical	Detrimental	5
+33034147	mir-34a	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2020-10-08	Kapoor M	Exogenous	Mimic	Ageing	Detrimental	5
+33034147	mir-34a	Inhibition	Surgical – DMM and HFD	Protective	Detrimental	Articular cavity	Mouse	2020-10-08	Kapoor M	Exogenous	ASO	Surgical	Detrimental	5
+33034147	mir-34a	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2020-10-08	Kapoor M	Exogenous	ASO	Surgical	Detrimental	5
+34783292	mir-34a	Inhibition	Surgical – ACLT	Protective	Detrimental	Articular cavity	Rat	2021-12-12	Xu T	Exogenous	inhibitor	Surgical	Detrimental	5
+35092863	mir-3680	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Rat	2022-01-21	Chen X	Exogenous	Antagomir	Surgical	Detrimental	1
+26103880	mir-370	Knockdown	Surgical - DMM	Detrimental	Protective	Articular cavity	Mouse	2015-06-24	Jin EJ	Exogenous	siRNA	Surgical	Protective	2
+26103880	mir-370	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2015-06-24	Jin EJ	Exogenous	Viral	Surgical	Protective	2
+26103880	mir-373	Knockdown	Surgical - DMM	Detrimental	Protective	Articular cavity	Mouse	2015-06-24	Jin EJ	Exogenous	siRNA	Surgical	Protective	2
+26103880	mir-373	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2015-06-24	Jin EJ	Exogenous	Viral	Surgical	Protective	2
+32335541	mir-375	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2020-04-26	Mao X	Exogenous	Antagomir	Surgical	Detrimental	2
+32045921	mir-375	Inhibition	Surgical - ACLT  MM	Protective	Detrimental	Articular cavity	Mouse	2020-02-11	Guo WC	Exogenous	Antagomir	Surgical	Detrimental	2
+35474736	miR-378	Inhibition	Surgical – ACLT + DMM	Protective	Detrimental	Articular cavity	Mouse	2022-06-14	Li G	Exogenous	inhibitor	Surgical	Detrimental	1
+31586040	mir-455	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2019-10-04	Zhang Z	Genetic		Ageing	Protective	1
+30145794	mir-483	Overexpression	Spontaneous	Detrimental	Detrimental	Inducible	Mouse	2018-08-26	Bai X	Genetic		Ageing	Detrimental	4
+28139355	mir-483	Overexpression	Surgical - DMM	Detrimental	Detrimental	Inducible	Mouse	2017-01-27	Bai X	Genetic		Surgical	Detrimental	4
+28139355	mir-483	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2017-01-27	Bai X	Exogenous	Viral	Ageing	Detrimental	4
+30145794	mir-483	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2018-08-26	Bai X	Exogenous	Viral	Surgical	Detrimental	4
+31085006	mir-671	Overexpression	Surgical - DMM	Protective	Protective	systemic	Mouse	2019-04-28	Zhu Y	Exogenous	Mimics	Surgical	Protective	1
+32584470	mir-877	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2020-06-25	Nie Z	Exogenous	agomir	Surgical	Protective	1
+34102226	mir-892b	Inhibition	Surgical – MMTL	Protective	Detrimental	Articular cavity	Rat	2021-08-15	Zheng J	Exogenous	Antagomir	Surgical	Detrimental	1
+31169312	mir-9	Overexpression	Surgical - tibial plateau fracture	Protective	Protective	Articular cavity	Mouse	2019-06-06	Tan Z	Exogenous	Viral	Surgical	Protective	3
+32377874	mir-9	Overexpression	Surgical - DMM  ACLT	Protective	Protective	Articular cavity	Rat	2020-05-06	Qi S	Exogenous	agomir	Surgical	Protective	3
+32377874	mir-9	Inhibition	Surgical - DMM  ACLT	Detrimental	Protective	Articular cavity	Rat	2020-05-06	Qi S	Exogenous	Antagomir	Surgical	Protective	3
+33473114	MKRN2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-20	Bassett D	Genetic		Ageing	Protective	1
+33115953	MKX	Exogenous	Surgical – DMM	Protective	Protective	Articular cavity	Mouse	2020-10-28	Lotz M	Exogenous	Protein	Surgical	Protective	1
+23298463	MMP13	Removal	Surgical - DMM + MM	Protective	Detrimental	Cartilage Inducible	Mouse	2013-01-08	Chen D	Genetic		Surgical	Ambiguous	11
+19950295	MMP13	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2009-12-01	Thompson EW	Genetic		Ageing	Ambiguous	11
+19950295	MMP13	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2009-12-01	Thompson EW	Genetic		Surgical	Ambiguous	11
+11134178	MMP13	Overexpression	Spontaneous	Detrimental	Detrimental	Global	Mouse	2001-01-01	DeGennaro LJ	Genetic		Ageing	Ambiguous	11
+31700695	MMP13	Removal	Spontaneous	Detrimental	Protective	Osteocytes	Mouse	2019-11-05	Alliston T	Genetic		Ageing	Ambiguous	11
+17623656	MMP13	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Rabbit	2007-07-10	Dyer RD	Exogenous	MMP13 inhibitor	Surgical	Ambiguous	11
+23298463	MMP13	Inhibition	Surgical - MMTL	Protective	Detrimental	systemic	Mouse	2013-01-08	Chen D	Exogenous	CL82198	Surgical	Ambiguous	11
+24848439	MMP13	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2014-05-22	Takahashi K	Exogenous	siRNA	Surgical	Ambiguous	11
+28120109	MMP13	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017-01-24	Sasho T	Exogenous	siRNA	Surgical	Ambiguous	11
+30345823	MMP13	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018-10-26	Sasho T	Exogenous	siRNA	Surgical	Ambiguous	11
+30842121	MMP13	Removal	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019-03-06	Chen D	Exogenous	CRISPR	Surgical	Ambiguous	11
+21216815	MMP17	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2011-01-07	Newham P	Genetic		Surgical	No effect	1
+17195217	MMP3	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2007-01-01	van den Berg WB	Genetic		Ageing	Ambiguous	2
+14673996	MMP3	Removal	Surgical - DMM + MM	Detrimental	Protective	Global	Mouse	2003-12-01	Mason RM	Genetic		Surgical	Ambiguous	2
+32183900	MPST	Removal	Surgical-MM	Detrimental	Protective	Global	Mouse	2020-03-17	Busso N	Genetic		Surgical	Protective	1
+27766031	MSR1	Removal	Surgical - ACLT	Protective	Detrimental	Global	Mouse	2016-08-26	Chen Q	Genetic		Surgical	Detrimental	1
+30385786	MST1	Removal	Surgical - ACLT	Protective	Detrimental	Cartilage	Mouse	2018-11-01	Mak KK	Genetic		Surgical	Detrimental	2
+30385786	MST1	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2018-11-01	Mak KK	Genetic		Surgical	Detrimental	2
+30385786	MST2	Removal	Surgical - ACLT	Protective	Detrimental	Cartilage	Mouse	2018-11-01	Mak KK	Genetic		Surgical	Detrimental	2
+30385786	MST2	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2018-11-01	Mak KK	Genetic		Surgical	Detrimental	2
+26903440	MT1A	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2016-02-22	Chun JS	Genetic		Surgical	Ambiguous	2
+26903440	MT1A	Overexpression	Surgical - DMM	No effect	No effect	Articular cavity	Mouse	2016-02-22	Chun JS	Exogenous	Viral	Surgical	Ambiguous	2
+26903440	MT2A	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2016-02-22	Chun JS	Genetic		Surgical	Ambiguous	2
+26903440	MT2A	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2016-02-22	Chun JS	Exogenous	Viral	Surgical	Ambiguous	2
+24529376	MTF1	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2014-02-13	Chun JS	Genetic		Surgical	Detrimental	2
+26241779	MTF1	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2015-08-01	Chun JS	Exogenous	Viral	Ageing	Detrimental	2
+24651621	MTOR	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2014-03-20	Kapoor M	Genetic		Surgical	Detrimental	6
+31007149	MTOR	Removal	Surgical - UAC	Protective	Detrimental	Cartilage Inducible	Mouse	2019-04-21	Wang M	Genetic		Surgical	Detrimental	6
+27052304	MTOR	Inhibition	Collagenase	Protective	Detrimental	Articular cavity	Rabbit	2016-04-06	Meng H	Exogenous	Torin 1	Protease	Detrimental	6
+27301478	MTOR	Inhibition	Collagenase	Protective	Detrimental	Articular cavity	Rabbit	2016-06-01	Cui YP	Exogenous	Torin 1	Protease	Detrimental	6
+30145794	MTOR	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2018-08-26	Bai X	Exogenous	Rapamycin	Surgical	Detrimental	6
+31407595	MTOR	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019-08-13	Jin Q	Exogenous	Rapamycin	Surgical	Detrimental	6
+24703622	MYD88	Removal	Surgical - DMM +MM	No effect	No effect	Global	Mouse	2014-04-02	Busso N	Genetic		Surgical	No effect	1
+31063807	NAAA	Inhibition	MIA	Protective	Detrimental	Articular cavity	Mouse	2019-05-04	Li Y	Exogenous	N-Acylethanolamine acid amidase	MIA	Detrimental	1
+24347567	NAMPT	Overexpression	Surgical - DMM	Detrimental	Detrimental	Cartilage	Mouse	2013-12-17	Chun JS	Genetic		Surgical	Detrimental	3
+24347567	NAMPT	Inhibition	Spontaneous	Protective	Detrimental	Articular cavity	Mouse	2013-12-17	Chun JS	Exogenous	FK866	Ageing	Detrimental	3
+24347567	NAMPT	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2013-12-17	Chun JS	Exogenous	Viral	Ageing	Detrimental	3
+31742919	NCAM1	Removal	MIA	Detrimental	Protective	Global	Mouse	2019-11-19	Feng ZW	Genetic		MIA	Protective	1
+30195046	NCF1	Removal	Collagenase	No effect	No effect	Global	Mouse	2018-09-05	van den Bosch MHJ	Genetic		Protease	Ambiguous	2
+32069893	NCF1	Knockdown	MIA	Protective	Detrimental	Articular cavity	Rat	2020-02-13	Kim DW	Exogenous	siRNA	MIA	Ambiguous	2
+30261507	NCOA3	Knockdown	Surgical - DMM	Detrimental	Protective	Articular cavity	Mouse	2018-09-27	Qi X	Exogenous	sirna	Surgical	Protective	1
+32315715	NDST1	Haploinsufficiency	Surgical-ACLT	Protective	Detrimental	Global	Mouse	2020-04-18	Vortkamp A	Genetic		Surgical	Detrimental	2
+32315715	NDST1	Removal	Surgical-ACLT	Protective	Detrimental	Cartilage	Mouse	2020-04-18	Vortkamp A	Genetic		Surgical	Detrimental	2
+31357086	NEDD9	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019-07-26	Li X	Exogenous	siRNA	Surgical	Detrimental	1
+35798413	NEK7	Knockdown	Surgical – ACLT	Protective	Detrimental	Articular cavity	Mouse	2022-09-01	Sai J	Exogenous	Viral	Surgical	Detrimental	1
+31634652	NELL1	Deficiency	Spontaneous	Detrimental	Protective	Global	Mouse	2019-10-12	Soo C	Genetic		Ageing	Protective	1
+34537377	NFAT5	Haploinsufficiency	Surgical - DMM	Protective	Detrimental	Global	Mouse	2021-09-16	Yoon CH	Genetic		Surgical	Detrimental	1
+24248346	NFATC1	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2013-11-18	Aliprantis AO	Genetic		Ageing	Ambiguous	3
+19526482	NFATC1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2009-10-01	Anderson HC	Genetic		Ageing	Ambiguous	3
+35167509	NFATC1	Removal	Spontaneous	Detrimental	Detrimental	Global	Mouse	2022-05-18	Asher M	Genetic		Ageing	Ambiguous	3
+30915215	NFATC2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2019-03-02	Wang J	Genetic		Ageing	Protective	3
+24248346	NFATC2	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2013-11-18	Aliprantis AO	Genetic		Ageing	Protective	3
+21452283	NFATC2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2011-08-01	Wang J	Genetic		Ageing	Protective	3
+26408027	NFE2L2	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2015-09-26	Cao W	Genetic		Surgical	Protective	5
+26408027	NFE2L2	Removal	MIA	Detrimental	Protective	Global	Mouse	2015-09-26	Cao W	Genetic		MIA	Protective	5
+35225151	NFE2L2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2022-01-28	Pufe T	Genetic		Ageing	Protective	5
+32564468	NFE2L2	Activation	Surgical - DMM	Protective	Protective	systemic	Mouse	2020-06-21	Yang Y	Exogenous	Nomilin	Surgical	Protective	5
+34466014	NFE2L2	Overexpression	Surgical – ACLT	Protective	Protective	Articular cavity	Mouse	2021-08-24	Chen B	Exogenous	Viral	Surgical	Protective	5
+29604191	NFKBIZ	Overexpression	Spontaneous	Detrimental	Detrimental	Cartilage	Mouse	2018-07-25	Park Y	Genetic		Ageing	Detrimental	2
+29604191	NFKBIZ	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2018-07-25	Park Y	Genetic		Surgical	Detrimental	2
+30842121	NGF	Removal	Surgical - DMM	Detrimental	Protective	Articular cavity	Mouse	2019-03-06	Chen D	Exogenous	CRISPR	Surgical	Protective	1
+38622181	NGFR	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2024-04-01	Huang J	Genetic		Surgical	Detrimental	1
+26683663	NID2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2015-12-10	Miosge N	Genetic		Ageing	Protective	1
+34330063	NKX3-2	Overexpression	Surgical - DMM	Protective	Protective	Inducible	Mouse	2021-07-27	Kim DW	Genetic		Surgical	Protective	2
+34330063	NKX3-2	Overexpression	Spontaneous	Protective	Protective	Inducible	Mouse	2021-07-27	Kim DW	Genetic		Ageing	Protective	2
+34777685	NLRP3	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2021-11-30	You H	Exogenous	MCC950	Surgical	Detrimental	1
+32290085	NOG	Exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Rat	2020-04-10	Tang CH	Exogenous	Protein	Surgical	Protective	1
+14673996	NOS2	Removal	Surgical - DMM + MM	Detrimental	Protective	Global	Mouse	2003-12-01	Mason RM	Genetic		Surgical	Ambiguous	2
+37428931	NOS2	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2023-07-01	Lohning M	Genetic		Ageing	Ambiguous	2
+26851274	NOTCH1	Deficiency	Surgical - DMM	Detrimental	Protective	Global	Mouse	2016-02-05	Distler JH	Genetic		Surgical	Ambiguous	2
+26198357	NOTCH1	Activated	Spontaneous	Detrimental	Detrimental	Cartilage Inducible	Mouse	2015-07-21	Hilton MJ	Genetic		Ageing	Ambiguous	2
+29940267	NOTCH2	Activated	Surgical - DMM	Detrimental	Detrimental	Global	Mouse	2018-06-22	Canalis E	Genetic		Surgical	Detrimental	1
+31304988	NOX4	Removal	Tibial Compression	Protective	Detrimental	Global	Mouse	2019-08-01	Haudenschild DR	Genetic		Surgical	Detrimental	2
+36810185	NOX4	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2023-02-01	Hannouche D	Genetic		Surgical	Detrimental	2
+32101625	NPY	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2020-02-26	Wu S	Exogenous	Exogenous	Surgical	Detrimental	3
+32101625	NPY	Exogenous	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2020-03-12	Wu S	Exogenous	Protein	Ageing	Detrimental	3
+32101625	NPY	Exogenous	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2020-03-12	Wu S	Exogenous	Protein	Surgical	Detrimental	3
+29474860	NR1D1	Inhibition	Surgical - MM	Protective	Detrimental	systemic	Mouse	2018-02-20	Im HJ	Exogenous	SR9009	Surgical	Detrimental	1
+35224782	NR1H4	Activation	Surgical – ACLT	Protective	Protective	systemic	Mouse	2022-04-01	Dong S	Exogenous	GW4064	Surgical	Protective	1
+25749104	NR1I2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2015-03-06	Inoue S	Genetic		Ageing	Protective	1
+37105394	NR3C1	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2023-04-01	Zhou H	Genetic		Surgical	Detrimental	1
+32258036	NR4A1	Activation	Surgical - MM	Protective	Protective	Articular cavity	Rat	2020-03-17	Wu L	Exogenous	Cytosporone B	Surgical	Protective	1
+35747513	NR4A3	Knockdown	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2022-06-14	Wu G	Exogenous	siRNA	Surgical	Detrimental	1
+34383111	NRG4	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2021-08-12	Xiang Guangda	Genetic		Surgical	Protective	1
+28492224	NT5E	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2017-05-11	Cronstein BN	Genetic		Ageing	Protective	1
+26286016	NTRK1	Inhibition	Surgical – MIA	No effect	No effect	systemic	Rat	2015-08-18	Walsh D	Exogenous	AR786	Surgical	No effect	2
+26286016	NTRK1	Inhibition	Surgical – MM	No effect	No effect	systemic	Rat	2015-08-18	Walsh D	Exogenous	AR786	Surgical	No effect	2
+32003758	NUCB2	Exogenous	Surgical - MM	Protective	Protective	Articular cavity	Rat	2020-01-30	Xiong Y	Exogenous	Protein	Surgical	Protective	1
+30143643	NUDT7	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2018-08-24	Jin EJ	Genetic		Surgical	Protective	1
+37566478	NUPR1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2023-09-01	Yammani R	Genetic		Surgical	Protective	1
+25917196	OCRL	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2015-05-01	Zhou Y	Exogenous	Viral	Surgical	Protective	1
+38389178	OGT	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2024-12-01	Liu S	Genetic		Surgical	Detrimental	1
+28348422	OLR1	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2017-02-14	Akagi M	Genetic		Ageing	Detrimental	2
+26901593	OLR1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016-02-22	Akagi M	Genetic		Surgical	Detrimental	2
+37730805	OMD	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2023-09-01	Henrotin Y	Genetic		Surgical	Detrimental	2
+37730805	OMD	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2023-09-01	Henrotin Y	Genetic		Ageing	Detrimental	2
+38464287	OPA1	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2024-02-01	Collins J	Genetic		Ageing	Protective	1
+28097228	OPRK1	Removal	Surgical - Cartilage Injury	Detrimental	Protective	Global	Mouse	2017-01-12	Evseenko D	Genetic		Surgical	Protective	2
+32249508	OPRK1	Activation	Surgical - PMM	Protective	Protective	Articular cavity	Mouse	2020-04-05	Evseenko D	Exogenous	JT09	Surgical	Protective	2
+29323130	OPTC	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2018-01-11	Martel-Pelletier J	Genetic		Surgical	Detrimental	1
+32859940	OSCAR	Removal	Surgical-DMM	Protective	Detrimental	Global	Mouse	2020-08-28	Lee SY	Genetic		Surgical	Detrimental	3
+32859940	OSCAR	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2020-08-28	Lee SY	Exogenous	OSCAR-Fc fusion protein	Surgical	Detrimental	3
+38310093	OSCAR	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2024-02-01	Lee SY	Exogenous	5-ASA	Surgical	Detrimental	3
+14673992	OSM	Exogenous	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2003-12-01	Cawston TE	Exogenous	Protein	Ageing	Detrimental	1
+26138248	PANX3	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2015-07-04	Beier F	Genetic		Surgical	Ambiguous	3
+33426805	PANX3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-10	Beier F	Genetic		Ageing	Ambiguous	3
+38499500	PANX3	Removal	Treadmill	Detrimental	Protective	Global	Mouse	2024-03-01	Beier F	Genetic		Exercise	Ambiguous	3
+15882565	PAPSS2	Inhibition	Spontaneous	Detrimental	Protective	Global	Mouse	2005-05-01	Jirik FR	Genetic		Ageing	Protective	1
+30659184	PBXIP1	Removal	Surgical - ACLT	Protective	Detrimental	Cartilage	Mouse	2019-01-18	Wang Y	Genetic		Surgical	Detrimental	2
+30659184	PBXIP1	Knockdown	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2019-01-18	Wang Y	Exogenous	siRNA	Surgical	Detrimental	2
+32208385	PDGFB	Removal	Surgical-DMM	Protective	Detrimental	Preosteoclasts	Mouse	2020-04-23	Wan M	Genetic		Surgical	Detrimental	2
+32208385	PDGFB	Overexpression	Spontaneous	Detrimental	Detrimental	Preosteoclasts	Mouse	2020-04-23	Wan M	Genetic		Ageing	Detrimental	2
+35008608	PDIA3	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2021-12-24	Dreier R	Genetic		Ageing	Protective	1
+31351471	PDPN	Removal	Loading	Protective	Detrimental	Bone	Mouse	2019-07-27	Farquharson C	Genetic		Surgical	Detrimental	1
+36718653	PELI1	Knockdown	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2023-02-01	Cheng P	Exogenous	Viral	Surgical	Detrimental	1
+30143643	PGAM1	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018-08-24	Jin EJ	Exogenous	siRNA	Surgical	Detrimental	1
+38433252	PGAM5	Removal	Surgical - DMM	Protective	Detrimental	Macrophage	Mouse	2024-03-01	Zhang X	Genetic		Surgical	Detrimental	2
+38433252	PGAM5	Knockdown	Surgical - DMM	Protective	Detrimental	Synovial macrophages	Mouse	2024-03-01	Zhang X	Exogenous	siRNA	Surgical	Detrimental	2
+34727094	PHD2	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2021-11-02	Monteagudo S	Exogenous	IOX2	Surgical	Detrimental	1
+21643724	PHEX	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2011-06-04	Macica CM	Genetic		Ageing	Protective	1
+26746148	PHLPP1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2015-12-31	Westendorf JJ	Genetic		Surgical	Detrimental	3
+29068480	PHLPP1	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017-11-28	Westendorf JJ	Exogenous	NSC117079	Surgical	Detrimental	3
+38432607	PHLPP1	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2024-03-01	Westendorf JJ	Exogenous	NSC117079	Surgical	Detrimental	3
+29068480	PHLPP2	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017-11-28	Westendorf JJ	Exogenous	NSC117079	Surgical	Detrimental	1
+38395992	PIEZO1	Removal	Spontaneous	Protective	Detrimental	Cartilage	Mouse	2024-02-01	Schinke T	Genetic		Ageing	Detrimental	1
+37422640	PIM1	Inhibition	Surgical – DMM	Protective	Detrimental	systemic	Mouse	2023-07-01	Zhu L	Exogenous	SMI-4a	Surgical	Detrimental	1
+36743414	PINCH1	Removal	Spontaneous	No effect	No effect	Cartilage Inducible	Mouse	2023-01-01	Xiao G	Genetic		Ageing	No effect	1
+31684073	PINK1	Removal	MIA	Protective	Detrimental	Global	Mouse	2019-11-02	Beom J	Genetic		MIA	Detrimental	1
+37008048	PIP5K1C	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2023-04-01	Xiao G	Genetic		Ageing	Protective	1
+17549029	PITX1	Haploinsufficiency	Spontaneous	Detrimental	Protective	Global	Mouse	2007-09-01	Moreau A	Genetic		Ageing	Protective	2
+33473114	PITX1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-20	Bassett D	Genetic		Ageing	Protective	2
+33827816	PLA2G2A	Inhibition	Cyclic loading	Protective	Detrimental	Articular cavity	Mouse	2021-04-07	Cheng Z	Exogenous	sPLA2i-Nps	Surgical	Detrimental	2
+33827816	PLA2G2A	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2021-04-07	Cheng Z	Exogenous	sPLA2i-Nps	Surgical	Detrimental	2
+25892493	PLAU	Exogenous	Spontaneous	Detrimental	Detrimental	Articular cavity	Rat	2015-04-20	Tang JG	Exogenous	Protein	Ageing	Detrimental	1
+31134620	PLK2	Knockdown	Surgical – ACLT MM	Protective	Detrimental	Articular cavity	Rat	2019-05-27	Wang H	Exogenous	siRNA	Surgical	Detrimental	1
+21378032	POMC	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Rat	2011-03-04	Hsieh JL	Exogenous	adenoviral	Surgical	Protective	1
+33982891	POSTN	Knockdown	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2021-05-13	Rai MF	Exogenous	siRNA	Surgical	Detrimental	1
+30729704	PPARA	Activation	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2019-02-07	Xia C	Exogenous	WY14643	Surgical	Protective	1
+25331977	PPARD	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2015-02-01	Beier F	Genetic		Surgical	Detrimental	1
+25573665	PPARG	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2015-01-08	Kapoor M	Genetic		Surgical	Protective	5
+23375622	PPARG	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2013-01-30	Kapoor M	Genetic		Ageing	Protective	5
+31239244	PPARG	Removal	Surgical - DMM	Detrimental	Protective	Inducible	Mouse	2019-06-25	Cao W	Genetic		Surgical	Protective	5
+34987154	PPARG	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2022-01-05	Jin EJ	Genetic		Surgical	Protective	5
+15692987	PPARG	Activation	Surgical - MM	Protective	Protective	systemic	Guinea pig 	2005-02-01	Pelletier JP	Exogenous	Pioglitazone	Surgical	Protective	5
+37120427	PPM1A	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2023-02-01	Jin H	Genetic		Surgical	Detrimental	1
+17599750	PPP3CA	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2007-07-01	Kim WU	Exogenous	Cyclosporin A	Surgical	Detrimental	1
+37462629	PRF1	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2023-04-01	Garcia-Alvarez F	Genetic		Surgical	No effect	1
+30629676	PRG4	Overexpression	Dominant-negative TGFBR2	Protective	Protective	Global	Mouse	2019-01-10	Serra R	Genetic		Genetic	Protective	10
+24834922	PRG4	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2014-05-16	Nah HD	Genetic		Ageing	Protective	10
+23530215	PRG4	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2013-03-25	Jay GD	Genetic		Ageing	Protective	10
+23486780	PRG4	Overexpression	Spontaneous	Protective	Protective	Global	Mouse	2013-03-13	Lee BH	Genetic		Ageing	Protective	10
+23486780	PRG4	Overexpression	Surgical - ACLT	Protective	Protective	Global	Mouse	2013-03-13	Lee BH	Genetic		Surgical	Protective	10
+31119776	PRG4	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2019-06-26	Krawetz R	Genetic		Ageing	Protective	10
+20506144	PRG4	Exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2010-08-01	Elsaid KA	Exogenous	Protein	Surgical	Protective	10
+28129516	PRG4	Exogenous	Surgical - DMM	Protective	Protective	Articular cavity	Rat	2017-01-27	Fleming BC	Exogenous	Protein	Surgical	Protective	10
+30070147	PRG4	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2018-10-17	Lee BHL	Exogenous	Viral	Surgical	Protective	10
+34610749	PRG4	Overexpression	Surgical – ACLT	Protective	Protective	Articular cavity	Rabbit	2021-10-06	Martin J	Exogenous	Viral	Surgical	Protective	10
+28225087	PRKAA1	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2017-02-22	Jiang Q	Genetic		Ageing	Ambiguous	8
+28225087	PRKAA1	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2017-02-22	Jiang Q	Genetic		Surgical	Ambiguous	8
+26741062	PRKAA1	Removal	Exercise	No effect	No effect	Cartilage	Mouse	2016-01-07	Jin D	Genetic		Exercise	Ambiguous	8
+30031925	PRKAA1	Activation	Spontaneous	Protective	Protective	systemic	Mouse	2018-07-20	Liu-Bryan R	Exogenous	berberine	Ageing	Ambiguous	8
+32087740	PRKAA1	Activation	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2020-02-22	Lei G	Exogenous	Metformin	Surgical	Ambiguous	8
+32156705	PRKAA1	Activation	Surgical - DMM	Protective	Protective	systemic	Mouse	2020-03-10	Chen D	Exogenous	Metformin	Surgical	Ambiguous	8
+31945013	PRKAA1	Activation	Surgical - DMM	Protective	Protective	systemic	Mouse	2020-01-16	Cai D	Exogenous	Metformin	Surgical	Ambiguous	8
+34914744	PRKAA1	Activation	Surgical - DMM	Protective	Protective	systemic	Mouse	2021-12-16	Jin Q	Exogenous	Metformin	Surgical	Ambiguous	8
+28225087	PRKAA2	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2017-02-22	Jiang Q	Genetic		Ageing	Protective	2
+28225087	PRKAA2	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2017-02-22	Jiang Q	Genetic		Surgical	Protective	2
+33532587	PRKAB1	Activation	Collagenase	Protective	Protective	Articular cavity	Mouse	2020-09-10	Zhang L	Exogenous	MK8722	Protease	Protective	1
+26783110	PRKCD	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016-01-18	Im HJ	Genetic		Surgical	Detrimental	2
+37890601	PRKCD	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2024-01-01	Im HJ	Genetic		Surgical	Detrimental	2
+32887644	PRMT5	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2020-09-04	Zheng J	Exogenous	EPZ015666	Surgical	Detrimental	1
+38057865	PROK2	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2023-12-01	Chun JS	Exogenous	Viral	Surgical	Ambiguous	2
+38057865	PROK2	Knockdown	Surgical - DMM	No effect	No effect	Articular cavity	Mouse	2023-12-01	Chun JS	Exogenous	Viral	Surgical	Ambiguous	2
+30111653	PTCH1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2018-09-20	Yang Y	Genetic		Ageing	Protective	3
+19915594	PTCH1	Deficiency	Spontaneous	Detrimental	Protective	Global	Mouse	2009-11-15	Alman BA	Genetic		Ageing	Protective	3
+31482846	PTCH1	Removal	Spontaneous	Detrimental	Protective	Forelimb	Mouse	2019-09-04	Li B	Genetic		Ageing	Protective	3
+31646013	PTEN	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2019-08-05	Yang X	Genetic		Ageing	Protective	2
+31646013	PTEN	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2019-08-05	Yang X	Genetic		Ageing	Protective	2
+28544596	PTGDR	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2017-08-01	Fahmi H	Genetic		Surgical	Protective	4
+28544596	PTGDR	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2017-08-01	Fahmi H	Genetic		Ageing	Protective	4
+28544596	PTGDR	Removal	Surgical - DMM	Detrimental	Protective	systemic	Mouse	2017-08-01	Fahmi H	Genetic		Surgical	Protective	4
+28544596	PTGDR	Activation	Surgical - DMM	Protective	Protective	systemic	Mouse	2017-08-01	Fahmi H	Exogenous	BW245C	Surgical	Protective	4
+32336048	PTGDS	Removal	Surgical-DMM	Detrimental	Protective	Global	Mouse	2020-04-26	Fahmi H	Genetic		Surgical	Protective	3
+33361529	PTGDS	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2020-12-23	Fahmi H	Genetic		Ageing	Protective	3
+32336048	PTGDS	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2020-04-26	Fahmi H	Exogenous	Virus	Surgical	Protective	3
+35260562	PTGER4	Removal	Surgical - ACLT	Protective	Detrimental	Osteoblasts	Mouse	2022-03-09	Luo J	Genetic		Surgical	Ambiguous	2
+31889132	PTGER4	Activation	Surgical - DMM  MM	Protective	Protective	systemic	Mouse	2019-12-30	Saito T	Exogenous	KAG-308	Surgical	Ambiguous	2
+18163499	PTGES	Removal	Surgical - DMM + MM	No effect	No effect	Global	Mouse	2008-01-01	Kawaguchi H	Genetic		Surgical	No effect	1
+21905007	PTGS2	Removal	Surgical - DMM + MM	No effect	No effect	Global	Mouse	2012-01-01	Kawaguchi H	Genetic		Surgical	Ambiguous	7
+32441256	PTGS2	Removal	Surgical-DMM	No effect	No effect	Osteoblasts	Mouse	2020-05-22	Cao X	Genetic		Surgical	Ambiguous	7
+21905007	PTGS2	Inhibition	Surgical - DMM  MM	No effect	No effect	systemic	Mouse	2012-01-01	Kawaguchi H	Exogenous	celecoxib	Surgical	Ambiguous	7
+29205898	PTGS2	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Rabbit	2017-12-05	Jeong KS	Exogenous	celecoxib	Surgical	Ambiguous	7
+29622035	PTGS2	Inhibition	Collagenase	No effect	No effect	systemic	Mouse	2018-04-05	Cook AD	Exogenous	SC58128	Protease	Ambiguous	7
+31495059	PTGS2	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Rat	2019-10-13	Hsuan Jean Y	Exogenous	Etoricoxib	Surgical	Ambiguous	7
+31666999	PTGS2	Inhibition	STR/ort	Protective	Detrimental	systemic	Mouse	2019-09-11	Cao X	Exogenous	celecoxib	Surgical	Ambiguous	7
+32154622	PTH	Exogenous	Spontaneous	Protective	Protective	systemic	Mouse	2020-03-10	Zhou X	Exogenous	Protein	Ageing	Protective	5
+33101657	PTH	Exogenous	Collagenase	Protective	Protective	Articular cavity	Mouse	2020-10-16	Zhang L	Exogenous	Protein	Protease	Protective	5
+33359852	PTH	Exogenous	Surgical-MM	Protective	Protective	systemic	Mouse	2021-02-01	Li TF	Exogenous	Protein	Surgical	Protective	5
+34105258	PTH	Exogenous	Collagenase	Protective	Protective	Articular cavity	Mouse	2021-07-01	Zhang L	Exogenous	Protein	Protease	Protective	5
+38640238	PTH	Exogenous	Cyclic loading	Protective	Protective	systemic	Mouse	2024-04-01	van der Meulen M	Exogenous	Protein	Surgical	Protective	5
+31534047	PTK2	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2019-09-19	Robinson WH	Exogenous	PF-573228	Surgical	Detrimental	3
+32518750	PTK2	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Mouse	2020-05-19	Cui Z	Exogenous	Defactinib	Surgical	Detrimental	3
+32324278	PTK2	Inhibition	Surgical - ACLT	Protective	Detrimental	Subchondral bone	Rat	2020-04-23	Cui Z	Exogenous	Y15	Surgical	Detrimental	3
+34569725	PTPN11	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2021-09-27	Sun Y	Genetic		Surgical	Detrimental	4
+35865095	PTPN11	Removal	Surgical - DMM	Protective	Detrimental	Myeloid	Mouse	2022-07-01	Shi D	Genetic		Surgical	Detrimental	4
+33898435	PTPN11	Knockdown	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2021-04-09	Xiao J	Exogenous	siRNA	Surgical	Detrimental	4
+34569725	PTPN11	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2021-09-27	Sun Y	Exogenous	SHP099	Surgical	Detrimental	4
+37542771	PTX3	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2023-08-01	Liu X	Genetic		Surgical	Detrimental	3
+35739102	PTX3	Exogenous	Surgical – DMM	Detrimental	Detrimental	Articular cavity	Mouse	2022-06-24	Cai D	Exogenous	Protein	Surgical	Detrimental	3
+35739102	PTX3	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2022-06-24	Cai D	Exogenous	Antibody	Surgical	Detrimental	3
+35034101	PUM1	Overexpression	Surgical – DMM	Protective	Protective	Articular cavity	Mouse	2022-01-16	Lee WJ	Exogenous	Viral	Surgical	Protective	1
+38733337	PUM2	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2024-05-01	Wang N	Exogenous	Viral	Surgical	Detrimental	1
+33473114	RAB17	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-20	Bassett D	Genetic		Ageing	Protective	1
+24257023	RAC1	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2013-11-20	Ouyang HW	Exogenous	Viral	Surgical	Detrimental	2
+24257023	RAC1	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2013-11-20	Ouyang HW	Exogenous	NSC23766	Surgical	Detrimental	2
+26522700	RBPJ	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2015-10-30	Hilton MJ	Genetic		Ageing	Ambiguous	4
+23839930	RBPJ	Removal	Spontaneous	Detrimental	Protective	Forelimb	Mouse	2013-10-01	Hilton MJ	Genetic		Ageing	Ambiguous	4
+23839930	RBPJ	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2013-10-01	Hilton MJ	Genetic		Ageing	Ambiguous	4
+23319657	RBPJ	Inhibition	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2013-01-14	Kawaguchi H	Genetic		Surgical	Ambiguous	4
+27830706	RELA	Removal	Surgical - DMM + MM	Detrimental	Protective	Cartilage Inducible	Mouse	2016-11-10	Saito T	Genetic		Surgical	Ambiguous	4
+27830706	RELA	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2016-11-10	Saito T	Genetic		Ageing	Ambiguous	4
+31981416	RELA	Removal	Spontaneous	Detrimental	Protective	MSC	Mouse	2020-01-25	Deng Q	Genetic		Ageing	Ambiguous	4
+27681622	RELA	Knockdown	Surgical - Injury	Protective	Detrimental	Articular cavity	Mouse	2016-09-28	Pham CT	Exogenous	sirna	Surgical	Ambiguous	4
+29991473	RHEB	Removal	Collagenase	Protective	Detrimental	Macrophage	Mouse	2018-07-10	Bai X	Genetic		Protease	Ambiguous	2
+31229684	RHEB	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2019-06-20	Lee SH	Exogenous	Viral	Surgical	Ambiguous	2
+34039624	RIC8A	Overexpression	Surgical – DMM	Detrimental	Detrimental	Articular cavity	Mouse	2021-09-01	Fang X	Exogenous	Viral	Surgical	Detrimental	1
+30542285	RIPK1	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018-11-27	Chen AM	Exogenous	Necrostatin1	Surgical	Detrimental	1
+35732460	RIPK2	Activated	Surgical - DMM	Detrimental	Detrimental	Global	Mouse	2022-06-22	Grunwald DJ	Genetic		Surgical	Detrimental	1
+32895234	RIPK3	Removal	Surgical-DMM	Protective	Detrimental	Global	Mouse	2020-09-07	Kim YS	Genetic		Surgical	Detrimental	2
+32895234	RIPK3	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2020-09-07	Kim YS	Exogenous	Viral	Ageing	Detrimental	2
+33473114	RNF114	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-20	Bassett D	Genetic		Ageing	Protective	1
+21325780	ROCK1	Inhibition	MIA	Protective	Detrimental	Articular cavity	Rat	2011-02-16	Shimizu Y	Exogenous	AS1892802	MIA	Detrimental	1
+21325780	ROCK2	Inhibition	MIA	Protective	Detrimental	Articular cavity	Rat	2011-02-16	Shimizu Y	Exogenous	AS1892802	MIA	Detrimental	1
+37343369	ROR1	Knockdown	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2023-08-01	Zhu C	Exogenous	Viral	Surgical	Detrimental	1
+32938794	ROR2	Knockdown	Surgical – MLI	Protective	Detrimental	Articular cavity	Mouse	2020-09-16	Dell'Accio F	Exogenous	siRNA	Surgical	Detrimental	1
+30728500	RORA	Overexpression	Surgical - DMM	Detrimental	Detrimental	Cartilage	Mouse	2019-02-06	Chun JS	Genetic		Surgical	Detrimental	3
+30728500	RORA	Inhibition	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019-02-06	Chun JS	Genetic		Surgical	Detrimental	3
+30728500	RORA	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2019-02-06	Chun JS	Exogenous	Viral	Surgical	Detrimental	3
+30792936	RPTOR	Removal	Surgical - ACLT	Protective	Detrimental	Global	Mouse	2019-02-20	Bai X	Genetic		Surgical	Detrimental	1
+32550912	RSK3	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2020-05-25	Zhou G	Genetic		Surgical	Protective	1
+29991473	RSPO2	Inhibition	Collagenase	Protective	Detrimental	Articular cavity	Mouse	2018-07-10	Bai X	Exogenous	antibody	Protease	Detrimental	1
+31113964	RUNX1	Removal	Surgical - MMTL+MCL	Detrimental	Protective	Cartilage	Mouse	2019-05-21	Chung UI	Genetic		Surgical	Protective	2
+26728350	RUNX1	Overexpression	Surgical - DMM  MM	Protective	Protective	Articular cavity	Mouse	2016-01-05	Ohba S	Exogenous	mRNA	Surgical	Protective	2
+28539595	RUNX2	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2017-05-24	Chen D	Genetic		Surgical	Ambiguous	9
+25628784	RUNX2	Overexpression	TGFB and Treadmill	Protective	Protective	Cartilage	Mouse	2014-11-22	Zheng Q	Genetic		Exercise	Ambiguous	9
+22095691	RUNX2	Haploinsufficiency	Surgical - DMM	Protective	Detrimental	Global	Mouse	2011-11-17	Kawaguchi H	Genetic		Surgical	Ambiguous	9
+22095691	RUNX2	Haploinsufficiency	Spontaneous	Protective	Detrimental	Global	Mouse	2011-11-17	Kawaguchi H	Genetic		Ageing	Ambiguous	9
+20525838	RUNX2	Overexpression	Spontaneous	No effect	No effect	Global	Mouse	2010-06-04	Cohen-Solal ME	Genetic		Ageing	Ambiguous	9
+16868966	RUNX2	Haploinsufficiency	Surgical - DMM  + MM	Protective	Detrimental	Global	Mouse	2006-08-01	Kawaguchi H	Genetic		Surgical	Ambiguous	9
+31189030	RUNX2	Overexpression	Surgical - MLI	Detrimental	Detrimental	Cartilage Inducible	Mouse	2019-06-12	Jonason JH	Genetic		Surgical	Ambiguous	9
+36261443	RUNX2	Haploinsufficiency	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2022-10-01	Saito T	Genetic		Surgical	Ambiguous	9
+36261443	RUNX2	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2022-10-01	Saito T	Genetic		Surgical	Ambiguous	9
+36261443	RUNX3	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2022-10-01	Saito T	Genetic		Surgical	Ambiguous	2
+36261443	RUNX3	Removal	Spontaneous	No effect	No effect	Cartilage Inducible	Mouse	2022-10-01	Saito T	Genetic		Ageing	Ambiguous	2
+25180294	S100A9	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2014-09-01	van Lent PL	Genetic		Surgical	Ambiguous	6
+25180294	S100A9	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2014-09-01	van Lent PL	Genetic		Protease	Ambiguous	6
+22143922	S100A9	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2012-05-01	van den Berg WB	Genetic		Protease	Ambiguous	6
+22143922	S100A9	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2012-05-01	van den Berg WB	Genetic		Surgical	Ambiguous	6
+25969431	S100A9	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2015-05-12	van Lent PL	Exogenous	paquinimod	Surgical	Ambiguous	6
+25969431	S100A9	Inhibition	Collagenase	Protective	Detrimental	systemic	Mouse	2015-05-12	van Lent PL	Exogenous	paquinimod	Protease	Ambiguous	6
+34144150	S1PR2	Inhibition	Surgical – MM	Protective	Detrimental	Articular cavity	Mouse	2021-06-16	Cohen-Solal M	Exogenous	JTE-013	Surgical	Detrimental	1
+33853646	SAA3P	Overexpression	Surgical – DMM	No effect	No effect	Articular cavity	Mouse	2021-04-14	Chun JS	Exogenous	Viral	Surgical	No effect	1
+36923091	SCD	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2023-02-01	Huang W	Genetic		Surgical	Protective	1
+37540756	SCIN	Removal	Surgical - DMM	Detrimental	Protective	Inducible	Mouse	2023-08-01	Kandel R	Genetic		Surgical	Protective	1
+19684582	SDC4	Removal	Surgical - DMM + MM	Protective	Detrimental	Global	Mouse	2009-08-16	Pap T	Genetic		Surgical	Ambiguous	3
+19684582	SDC4	Inhibition	Surgical - DMM  MM	Protective	Detrimental	Articular cavity	Mouse	2009-08-16	Pap T	Exogenous	Antibody	Surgical	Ambiguous	3
+37626753	SDC4	Exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2023-08-01	Sudo A	Exogenous	Protein	Surgical	Ambiguous	3
+35061535	SEL1L	Knockdown	Spontaneous	Detrimental	Protective	Articular cavity	Mouse	2022-01-21	Park TJ	Exogenous	shRNA	Ageing	Protective	2
+35061535	SEL1L	Knockdown	Surgical – DMM	Detrimental	Protective	Articular cavity	Mouse	2022-01-02	Park TJ	Exogenous	shRNA	Surgical	Protective	2
+35151027	SEMA4D	Inhibition	Surgical – TMJ	Protective	Detrimental	Articular cavity	Mouse	2022-03-01	Feng J	Exogenous	Antibody	Surgical	Detrimental	1
+35140209	SEPHS1	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2022-02-09	Kim JH	Genetic		Ageing	Protective	2
+35140209	SEPHS1	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2022-02-09	Kim JH	Genetic		Surgical	Protective	2
+28893232	SERPINE1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2017-09-11	Kaji H	Genetic		Surgical	Protective	1
+24056368	SETDB1	Removal	Spontaneous	Detrimental	Protective	Forelimb	Mouse	2013-09-20	Yang L	Genetic		Ageing	Protective	1
+25450854	SFRP1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2014-10-30	Lories RJ	Genetic		Surgical	Protective	1
+33473114	SH3BP4	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-20	Bassett D	Genetic		Ageing	Protective	1
+32308389	SHC1	Knockdown	MIA	Protective	Detrimental	Articular cavity	Rat	2020-04-08	Kim DW	Exogenous	siRNA	MIA	Detrimental	1
+26103880	SHMT2	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2015-06-24	Jin EJ	Exogenous	Viral	Surgical	Detrimental	2
+26103880	SHMT2	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2015-06-24	Jin EJ	Exogenous	siRNA	Surgical	Detrimental	2
+27009967	SIK3	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2016-03-24	Tsumaki N	Genetic		Surgical	Detrimental	2
+27009967	SIK3	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2016-03-24	Tsumaki N	Exogenous	pterosin B	Surgical	Detrimental	2
+23723318	SIRT1	Removal	Surgical - DMM + MM	Detrimental	Protective	Cartilage	Mouse	2013-05-30	Kurosaka M	Genetic		Surgical	Protective	11
+23723318	SIRT1	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2013-05-30	Kurosaka M	Genetic		Ageing	Protective	11
+23587642	SIRT1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2013-04-13	McBurney MW	Genetic		Ageing	Protective	11
+23124828	SIRT1	Inhibition	Spontaneous	Detrimental	Protective	Global	Mouse	2013-01-01	McBurney MW	Genetic		Ageing	Protective	11
+22258484	SIRT1	Haploinsufficiency	Spontaneous	Detrimental	Protective	Global	Mouse	2012-01-17	Dvir-Ginzberg M	Genetic		Ageing	Protective	11
+32665267	SIRT1	Removal	Surgical-DMM	Detrimental	Protective	Cartilage	Mouse	2020-07-14	Dvir-Ginzberg M	Genetic		Surgical	Protective	11
+32499111	SIRT1	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2020-06-01	Wu S	Genetic		Ageing	Protective	11
+32499111	SIRT1	Removal	Surgical-DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2020-06-01	Wu S	Genetic		Surgical	Protective	11
+34639026	SIRT1	Overexpression	Surgical - DMM	Protective	Protective	Global	Mouse	2021-10-01	Matsushita T	Genetic		Surgical	Protective	11
+29922443	SIRT1	Activation	Surgical - DMM	Protective	Protective	systemic	Mouse	2018-05-05	Kuroda R	Exogenous	SRT1720	Surgical	Protective	11
+31989845	SIRT1	Activation	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2020-01-28	Matsushita T	Exogenous	SRT2104	Surgical	Protective	11
+36214465	SIRT3	Removal	High Fat Diet	Protective	Detrimental	Cartilage Inducible	Mouse	2022-12-01	Griffin T	Genetic		High Fat Diet	Detrimental	1
+33984464	SIRT5	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-05-10	Zhu S	Genetic		Ageing	Protective	1
+33147653	SIRT6	Overexpression	Surgical-ION	Protective	Protective	Global	Mouse	2020-11-04	Kim JR	Genetic		Surgical	Protective	6
+33147653	SIRT6	Removal	Surgical-ION	Detrimental	Protective	Osteoblasts	Mouse	2020-11-04	Kim JR	Genetic		Surgical	Protective	6
+37550003	SIRT6	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2023-11-01	Loeser RF	Genetic		Ageing	Protective	6
+26639398	SIRT6	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2015-12-07	Pan Z	Exogenous	Viral	Surgical	Protective	6
+33147653	SIRT6	Overexpression	Surgical-ION	Protective	Protective	intraosseous	Mouse	2020-11-04	Kim JR	Exogenous	Viral	Surgical	Protective	6
+35443857	SIRT6	Overexpression	Surgical – MCL + MM	Protective	Protective	Articular cavity	Mouse	2022-04-21	Qin J	Exogenous	Viral	Surgical	Protective	6
+29402405	SIRT7	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2018-02-02	Yamagata K	Genetic		Ageing	Detrimental	2
+29402405	SIRT7	Removal	Treadmill	Protective	Detrimental	Global	Mouse	2018-02-02	Yamagata K	Genetic		Exercise	Detrimental	2
+33473114	SLAMF9	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-20	Bassett D	Genetic		Ageing	Protective	1
+35608871	SLC2A1	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2022-06-01	Long F	Genetic		Surgical	Protective	3
+35608871	SLC2A1	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2022-06-01	Long F	Genetic		Ageing	Protective	3
+35608871	SLC2A1	Overexpression	Surgical - DMM	Protective	Protective	Cartilage Inducible	Mouse	2022-06-01	Long F	Genetic		Surgical	Protective	3
+24529376	SLC39A8	Overexpression	Surgical - DMM	Detrimental	Detrimental	Cartilage	Mouse	2014-02-13	Chun JS	Genetic		Surgical	Detrimental	5
+24529376	SLC39A8	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2014-02-13	Chun JS	Genetic		Surgical	Detrimental	5
+24529376	SLC39A8	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2014-02-13	Chun JS	Exogenous	Viral	Ageing	Detrimental	5
+26241779	SLC39A8	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2015-08-01	Chun JS	Exogenous	Viral	Ageing	Detrimental	5
+35513246	SLC39A8	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2022-05-02	Chun JS	Exogenous	Viral	Ageing	Detrimental	5
+33485930	SLPI	Overexpression	Surgical-DMM	No effect	No effect	Articular cavity	Mouse	2021-01-21	Chun JS	Exogenous	Viral	Surgical	No effect	1
+20506210	SMAD3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2010-08-01	O'Keefe RJ	Genetic		Ageing	Protective	4
+11285272	SMAD3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2001-04-02	Deng CX	Genetic		Ageing	Protective	4
+26272361	SMAD3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2015-08-10	Tanaka E	Genetic		Ageing	Protective	4
+22674505	SMAD3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2012-10-01	Alliston T	Genetic		Ageing	Protective	4
+14673995	SMAD6	Overexpression	papain	Protective	Protective	Articular cavity	Mouse	2003-12-01	van den Berg WB	Exogenous	Viral	Protease	Protective	1
+14673995	SMAD7	Overexpression	papain	Protective	Protective	Articular cavity	Mouse	2003-12-01	van den Berg WB	Exogenous	Viral	Protease	Protective	1
+33473114	SMG9	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-20	Bassett D	Genetic		Ageing	Protective	1
+27018594	SMO	Activated	Surgical - DMM	Detrimental	Detrimental	Cartilage Inducible	Mouse	2016-03-28	Alman BA	Genetic		Surgical	Ambiguous	6
+19915594	SMO	Activated	Spontaneous	Detrimental	Detrimental	Cartilage	Mouse	2009-11-15	Alman BA	Genetic		Ageing	Ambiguous	6
+19915594	SMO	Removal	Surgical - MM	Protective	Detrimental	Cartilage Inducible	Mouse	2009-11-15	Alman BA	Genetic		Surgical	Ambiguous	6
+31608494	SMO	Removal	Surgical -ACLT	Protective	Detrimental	Inducible	Mouse	2019-10-24	Sakai A	Genetic		Surgical	Ambiguous	6
+31608494	SMO	Removal	Surgical - ACLT + Climbing	Protective	Detrimental	Cartilage Inducible	Mouse	2019-10-24	Sakai A	Genetic		Surgical	Ambiguous	6
+34085927	SMO	Activation	Surgical - Meniscus Tear	Protective	Protective	Articular cavity	Mouse	2021-06-04	Qin L	Exogenous	purmorphamine	Surgical	Ambiguous	6
+26815610	SMURF2	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016-01-27	Song J	Genetic		Surgical	Ambiguous	3
+26815610	SMURF2	Removal	Spontaneous	No effect	No effect	Global	Mouse	2016-01-27	Song J	Genetic		Ageing	Ambiguous	3
+18821706	SMURF2	Overexpression	Spontaneous	Detrimental	Detrimental	Cartilage	Mouse	2008-10-01	Rosier RN	Genetic		Ageing	Ambiguous	3
+35272487	SOCS2	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2022-03-01	Staines KA	Genetic		Surgical	No effect	1
+26108578	SOD2	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2015-06-25	Shimizu T	Genetic		Ageing	Protective	2
+26108578	SOD2	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2015-06-25	Shimizu T	Genetic		Surgical	Protective	2
+25593283	SOD3	Inhibition	Treadmill	Detrimental	Protective	Global	Mouse	2015-01-15	Regan EA	Genetic		Exercise	Protective	1
+29377313	SOST	Overexpression	Tibial compression	Protective	Protective	Global	Mouse	2018-04-02	Loots GG	Genetic		Surgical	Ambiguous	6
+25656376	SOST	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2015-02-06	Cohen-Solal M	Genetic		Surgical	Ambiguous	6
+23233270	SOST	Removal	Spontaneous	No effect	No effect	Global	Mouse	2013-03-01	Babij P	Genetic		Ageing	Ambiguous	6
+31966426	SOST	Overexpression	Surgical - DMM	Detrimental	Detrimental	Global	Mouse	2017-11-01	Jiang Q	Genetic		Surgical	Ambiguous	6
+31828128	SOST	Removal	Surgical-ACLT	Detrimental	Protective	Global	Mouse	2019-11-11	Bai D	Genetic		Surgical	Ambiguous	6
+23233270	SOST	Inhibition	Surgical - Meniscus Tear	No effect	No effect	Articular cavity	Rat	2013-03-01	Babij P	Exogenous	Antibody	Surgical	Ambiguous	6
+32269734	SOX9	Overexpression	Spontaneous	Detrimental	Detrimental	Hypertrophic cartilage	Mouse	2020-03-15	Zhou G	Genetic		Ageing	Ambiguous	3
+33597301	SOX9	Removal	Surgical-DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2021-02-23	Lefebvre V	Genetic		Surgical	Ambiguous	3
+31496660	SOX9	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2019-08-13	Li Y	Exogenous	Viral	Surgical	Ambiguous	3
+34144150	SPHK1	Removal	Surgical - MM	Protective	Detrimental	Myeloid	Mouse	2021-06-16	Cohen-Solal M	Genetic		Surgical	Detrimental	1
+21346391	SPHK2	Inhibition	MIA	Protective	Detrimental			2011-02-22	Smith CD	Exogenous	ABC294640	MIA	Detrimental	1
+19644889	SPP1	Deficiency	Surgical - DMM + MM	Detrimental	Protective	Global	Mouse	2009-08-01	Uede T	Genetic		Surgical	Ambiguous	5
+19644889	SPP1	Deficiency	Spontaneous	Detrimental	Protective	Global	Mouse	2009-08-01	Uede T	Genetic		Ageing	Ambiguous	5
+33144900	SPP1	Knockdown	Surgical – DMM	Detrimental	Protective	Articular cavity	Rat	2020-10-22	Gao SG	Exogenous	siRNA	Surgical	Ambiguous	5
+34982732	SPP1	Inhibition	Surgical – ACLT + DMM	Protective	Detrimental	Articular cavity	Mouse	2022-01-04	Ding Y	Exogenous	Antibody	Surgical	Ambiguous	5
+34982732	SPP1	Exogenous	Surgical – ACLT + DMM	Detrimental	Detrimental	Articular cavity	Mouse	2022-01-04	Ding Y	Exogenous	Protein	Surgical	Ambiguous	5
+28464560	ST14	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017-07-05	Rowan AD	Exogenous	Compound 59	Surgical	Detrimental	2
+28464560	ST14	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2017-07-05	Rowan AD	Exogenous	Antibody	Surgical	Detrimental	2
+28252046	ST3GAL5	Removal	Surgical - Injury	Protective	Detrimental	Global	Mouse	2017-03-02	Iwasaki N	Genetic		Surgical	Ambiguous	3
+24333297	ST3GAL5	Removal	Surgical - DMM + MM	Detrimental	Protective	Global	Mouse	2013-12-12	Iwasaki N	Genetic		Surgical	Ambiguous	3
+24333297	ST3GAL5	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2013-12-12	Iwasaki N	Genetic		Ageing	Ambiguous	3
+30471358	ST8SIA1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2018-11-22	Iwasaki N	Genetic		Ageing	Protective	1
+27789465	STAT3	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2016-10-27	Richette P	Exogenous	inhibitor	Surgical	Detrimental	3
+29736207	STAT3	Inhibition	Surgical – ACLT	Protective	Detrimental	systemic	Mouse	2018-04-15	Wang Q	Exogenous	AG490	Surgical	Detrimental	3
+34650433	STAT3	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2021-09-28	You H	Exogenous	Alantolactone	Surgical	Detrimental	3
+34126239	STAT6	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2021-08-01	Robinson WH	Genetic		Surgical	Protective	1
+33414452	STING	Knockdown	Surgical-DMM	Protective	Detrimental	Articular cavity	Mouse	2021-01-12	Zhang X	Exogenous	shRNA	Surgical	Detrimental	1
+37259103	STING1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2023-05-01	Chun JS	Genetic		Surgical	Detrimental	1
+30385786	STK3	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2018-11-01	Mak KK	Genetic		Surgical	Detrimental	2
+30385786	STK3	Removal	Surgical - ACLT	Protective	Detrimental	Cartilage	Mouse	2018-11-01	Mak KK	Genetic		Surgical	Detrimental	2
+30385786	STK4	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2018-11-01	Mak KK	Genetic		Surgical	Detrimental	2
+30385786	STK4	Removal	Surgical - ACLT	Protective	Detrimental	Cartilage	Mouse	2018-11-01	Mak KK	Genetic		Surgical	Detrimental	2
+20479257	SULF1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2010-05-17	Lotz MK	Genetic		Ageing	Protective	3
+20479257	SULF1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2010-05-17	Lotz MK	Genetic		Surgical	Protective	3
+27808352	SULF1	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2016-11-03	Neo M	Exogenous	Protein	Surgical	Protective	3
+20479257	SULF2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2010-05-17	Lotz MK	Genetic		Ageing	Protective	2
+20479257	SULF2	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2010-05-17	Lotz MK	Genetic		Surgical	Protective	2
+34848799	SYK	Inhibition	Surgical – Mesical Tear	Protective	Detrimental	systemic	Rat	2021-11-30	Chilov GG	Exogenous	MT-SYK-03	Surgical	Detrimental	1
+31926346	TAC1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2020-01-08	Grassel S	Genetic		Surgical	Protective	2
+34915568	TAC1	Activation	Surgical – DMM	Protective	Protective	Articular cavity	Mouse	2021-10-06	Adachi N	Exogenous	septide	Surgical	Protective	2
+33781898	TARDBP	Exogenous	Surgical-DMM	Protective	Protective	Articular cavity	Mouse	2021-03-26	Shi D	Exogenous	Protein	Surgical	Protective	1
+32295898	TET1	Removal	Surgical-DMM	Protective	Detrimental	Global	Mouse	2020-04-15	Bhutani N	Genetic		Surgical	Detrimental	2
+32295898	TET1	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2020-04-15	Bhutani N	Exogenous	2-HG	Surgical	Detrimental	2
+25964075	TFAP2E	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2015-05-12	Bosserhoff AK	Genetic		Surgical	Protective	1
+30154423	TFEB	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2018-08-28	Zhang X	Exogenous	Viral	Surgical	Protective	1
+27457421	TGFA	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016-07-26	Beier F	Genetic		Surgical	Ambiguous	3
+27457421	TGFA	Removal	Spontaneous	No effect	No effect	Global	Mouse	2016-07-26	Beier F	Genetic		Ageing	Ambiguous	3
+33441426	TGFA	Overexpression	Surgical-DMM	Protective	Protective	Articular cavity	Mouse	2021-01-13	Qin L	Exogenous	TGFA-Nanoparticles	Surgical	Ambiguous	3
+24309371	TGFB1	Activated	Spontaneous	Detrimental	Detrimental	Bone	Mouse	2013-12-05	Wang M	Genetic		Ageing	Ambiguous	7
+23685840	TGFB1	Activated	Spontaneous	Detrimental	Detrimental	Global	Mouse	2013-05-19	Cao X	Genetic		Ageing	Ambiguous	7
+11237660	TGFB1	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2001-02-01	van den Berg WB	Exogenous	Viral	Ageing	Ambiguous	7
+12077282	TGFB1	Removal	papain	Protective	Detrimental	Articular cavity	Mouse	2002-07-01	van den Berg WB	Exogenous	soluble TGF-beta-RII	Protease	Ambiguous	7
+14673995	TGFB1	Inhibition	papain	Detrimental	Protective	Articular cavity	Mouse	2003-12-01	van den Berg WB	Exogenous	MLAP-1	Protease	Ambiguous	7
+14673995	TGFB1	Overexpression	papain	Protective	Protective	Articular cavity	Mouse	2003-12-01	van den Berg WB	Exogenous	Viral	Protease	Ambiguous	7
+26837060	TGFB1	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Mouse	2016-02-02	Cao X	Exogenous	Antibody	Surgical	Ambiguous	7
+31673109	TGFB1I1	Removal	Surgical - DMM + MM	Protective	Detrimental	Global	Mouse	2019-10-31	Miyazaki A	Genetic		Surgical	Detrimental	2
+37156857	TGFB1I1	Knockdown	Surgical – MM	Protective	Detrimental	Articular cavity	Rat	2023-05-01	Kim-Kaneyama JR	Exogenous	Viral	Surgical	Detrimental	2
+30078186	TGFBR1	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2018-08-05	Chen L	Genetic		Ageing	Ambiguous	6
+28716756	TGFBR1	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2017-07-14	Chen L	Genetic		Ageing	Ambiguous	6
+33452687	TGFBR1	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2021-01-16	Chen L	Genetic		Ageing	Ambiguous	6
+33452687	TGFBR1	Removal	Surgical-DMM	Detrimental	Protective	Cartilage	Mouse	2021-01-16	Chen L	Genetic		Surgical	Ambiguous	6
+23685840	TGFBR1	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Rat	2013-05-19	Cao X	Exogenous	SB505124	Surgical	Ambiguous	6
+23685840	TGFBR1	Inhibition	Surgical - ACLT	Protective	Detrimental	Bone	Rat	2013-05-19	Cao X	Exogenous	Antibody	Surgical	Ambiguous	6
+26355014	TGFBR2	Removal	Spontaneous	No effect	No effect	Cartilage Inducible	Mouse	2015-09-04	Xu L	Genetic		Ageing	Ambiguous	10
+26355014	TGFBR2	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2015-09-04	Xu L	Genetic		Surgical	Ambiguous	10
+23982761	TGFBR2	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2013-12-01	Chen D	Genetic		Ageing	Ambiguous	10
+23685840	TGFBR2	Removal	Surgical - ACLT	Protective	Detrimental	MSC	Mouse	2013-05-19	Cao X	Genetic		Surgical	Ambiguous	10
+31068441	TGFBR2	Removal	Spontaneous	Detrimental	Protective	Forelimb Inducible	Mouse	2019-05-08	Spagnoli A	Genetic		Ageing	Ambiguous	10
+31068441	TGFBR2	Removal	Surgical	Detrimental	Protective	Forelimb Inducible	Mouse	2019-05-08	Spagnoli A	Genetic		Surgical	Ambiguous	10
+33022131	TGFBR2	Removal	Surgical-MCL + MM	Detrimental	Protective	Osteocytes	Mouse	2020-10-06	Alliston T	Genetic		Surgical	Ambiguous	10
+33199631	TGFBR2	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2020-11-16	O'Keefe RJ	Genetic		Ageing	Ambiguous	10
+26355014	TGFBR2	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2015-09-04	Xu L	Exogenous	losartan	Surgical	Ambiguous	10
+31950348	TGFBR2	Exogenous	papain	Protective	Protective	Articular cavity	Rat	2020-03-11	Belmonte J	Exogenous	Protein	Protease	Ambiguous	10
+34014552	TGM2	Removal	Surgical - DMM+ACL	Protective	Detrimental	Global	Mouse	2021-05-20	Han HS	Genetic		Surgical	Detrimental	2
+32764573	TGM2	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2020-08-06	Han S	Exogenous	ZDON	Surgical	Detrimental	2
+20309955	THBS1	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2010-10-01	Wu CL	Exogenous	Viral	Surgical	Protective	1
+22664108	TIMP2	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2012-06-01	Xiao T	Genetic		Surgical	Protective	1
+30379418	TIMP3	Overexpression	STR/ORT	Protective	Protective	Cartilage	Mouse	2019-02-14	Bou-Gharios G	Genetic		Genetic	Protective	3
+17328064	TIMP3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2007-03-01	Mort JS	Genetic		Ageing	Protective	3
+32518385	TIMP3	Overexpression	Surgical-DMM	Protective	Protective	Cartilage	Mouse	2020-06-09	Bou-Gharios G	Genetic		Surgical	Protective	3
+24703622	TLR1	Removal	Surgical - DMM +MM	No effect	No effect	Global	Mouse	2014-04-02	Busso N	Genetic		Surgical	No effect	1
+24703622	TLR2	Removal	Surgical - DMM +MM	No effect	No effect	Global	Mouse	2014-04-02	Busso N	Genetic		Surgical	Ambiguous	2
+33559324	TLR2	Removal	Surgical-DMM and High Fat Diet	Protective	Detrimental	Global	Mouse	2021-02-08	Chun JS	Genetic		Surgical	Ambiguous	2
+35277480	TLR3	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2022-03-11	Bertrand J	Genetic		Surgical	Detrimental	1
+31044181	TLR4	Removal	High Fat Diet	Protective	Detrimental	Global	Mouse	2018-10-04	Humphrey MB	Genetic		High Fat Diet	Ambiguous	5
+26245312	TLR4	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2015-11-01	Malfait AM	Genetic		Surgical	Ambiguous	5
+24703622	TLR4	Removal	Surgical - DMM +MM	No effect	No effect	Global	Mouse	2014-04-02	Busso N	Genetic		Surgical	Ambiguous	5
+32914937	TLR4	Inhibition	Surgical – TMJ	Protective	Detrimental	systemic	Mouse	2020-09-11	Long X	Exogenous	TAK-242	Surgical	Ambiguous	5
+33060735	TLR4	Inhibition	MIA	Protective	Detrimental	Articular cavity	Rat	2020-10-15	Kim J	Exogenous	TAP2	MIA	Ambiguous	5
+30240938	TLR5	Removal	Spontaneous	No effect	No effect	Global	Mouse	2018-09-18	Hernandez CJ	Genetic		Ageing	No effect	1
+24703622	TLR6	Removal	Surgical - DMM +MM	No effect	No effect	Global	Mouse	2014-04-02	Busso N	Genetic		Surgical	No effect	1
+19747998	TNC	Removal	Surgical - DMM + ACL	Detrimental	Protective	Global	Mouse	2009-09-06	Uchida A	Genetic		Surgical	Protective	3
+19747998	TNC	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2009-09-06	Uchida A	Genetic		Ageing	Protective	3
+29219023	TNC	Exogenous	Surgical - DMM  ACLT	Protective	Protective	Articular cavity	Mouse	2016-12-04	Sudo A	Exogenous	Protein	Surgical	Protective	3
+29622035	TNF	Removal	Collagenase	No effect	No effect	Global	Mouse	2018-04-05	Cook AD	Genetic		Protease	Ambiguous	5
+26713606	TNF	Removal	High Fat Diet	Protective	Detrimental	Global	Mouse	2016-06-01	Mooney RA	Genetic		High Fat Diet	Ambiguous	5
+14673992	TNF	Exogenous	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2003-12-01	Cawston TE	Exogenous	Protein	Ageing	Ambiguous	5
+26108147	TNF	Knockdown	Surgical - DMM  ACL  MM	Protective	Detrimental	Articular cavity	Rabbit	2015-07-20	Liao Q	Exogenous	siRNA	Surgical	Ambiguous	5
+26445328	TNF	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Rat	2015-07-31	Yi CQ	Exogenous	adalimumab	Surgical	Ambiguous	5
+34463587	TNFAIP3	Overexpression	Surgical – DMM	Protective	Protective	Articular cavity	Mouse	2021-08-31	Zhang K	Exogenous	Viral	Surgical	Protective	1
+33029956	TNFAIP6	Removal	Surgical-DMM	Detrimental	Protective	Global	Mouse	2020-10-07	Vincent TL	Genetic		Surgical	Protective	2
+29564448	TNFAIP6	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Rat	2018-05-01	Temenoff JS	Exogenous	Exogenous	Surgical	Protective	2
+30623241	TNFRSF11B	Removal	Surgical-TMJ	Detrimental	Protective	Global	Mouse	2019-01-08	Wang P	Genetic		Surgical	Protective	8
+27541035	TNFRSF11B	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2016-08-19	Zhang Q	Genetic		Ageing	Protective	8
+26018435	TNFRSF11B	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2015-05-27	Simonet WS	Genetic		Ageing	Protective	8
+17907189	TNFRSF11B	Haploinsufficiency	Spontaneous	Detrimental	Protective	Global	Mouse	2007-10-01	Muneta T	Genetic		Ageing	Protective	8
+17907189	TNFRSF11B	Haploinsufficiency	Surgical - DMM	Detrimental	Protective	Global	Mouse	2007-10-01	Muneta T	Genetic		Surgical	Protective	8
+17907189	TNFRSF11B	Exogenous	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2007-10-01	Muneta T	Exogenous	Protein	Surgical	Protective	8
+18668550	TNFRSF11B	Exogenous	Surgical - DMM  MM	Protective	Protective	Articular cavity	Mouse	2008-08-01	Cohen-Solal ME	Exogenous	Protein	Surgical	Protective	8
+23723320	TNFRSF11B	Exogenous	MIA	Protective	Protective	systemic	Rat	2013-05-30	Chapman V	Exogenous	Protein	MIA	Protective	8
+28648299	TNFSF11	Activation	MIA	Protective	Protective	Articular cavity	Mouse	2017-06-13	Aoki K	Exogenous	OP3-4	MIA	Protective	1
+29415892	TNKS	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018-02-08	Young PP	Exogenous	XAV-939	Surgical	Detrimental	3
+31653858	TNKS	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019-10-25	Kim JH	Exogenous	XAV939	Surgical	Detrimental	3
+31653858	TNKS	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019-10-25	Kim JH	Exogenous	IWR-1	Surgical	Detrimental	3
+31653858	TNKS2	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019-10-25	Kim JH	Exogenous	XAV939	Surgical	Detrimental	2
+31653858	TNKS2	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019-10-25	Kim JH	Exogenous	IWR-1	Surgical	Detrimental	2
+27792866	TP63	Removal	Spontaneous	Protective	Detrimental	Cartilage	Mouse	2017-03-01	Saito T	Genetic		Ageing	Detrimental	2
+27792866	TP63	Removal	Surgical - DMM + MM	Protective	Detrimental	Cartilage	Mouse	2017-03-01	Saito T	Genetic		Surgical	Detrimental	2
+37002200	TRADD	Inhibition	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2023-03-01	Zhu W	Exogenous	ICCB-19	Surgical	Detrimental	1
+32416098	TRAF3	Overexpression	Surgical-DMM	Protective	Protective	Global	Mouse	2020-05-19	Zhang X	Genetic		Surgical	Protective	2
+32416098	TRAF3	Knockdown	Surgical - DMM	Detrimental	Protective	Articular cavity	Mouse	2020-05-19	Zhang X	Exogenous	siRNA	Surgical	Protective	2
+32895234	TRIM24	Knockdown	Spontaneous	Detrimental	Protective	Articular cavity	Mouse	2020-09-07	Kim YS	Exogenous	Viral	Ageing	Protective	1
+26521748	TRPA1	Removal	MIA	Protective	Detrimental	Global	Mouse	2015-11-01	Moilanen E	Genetic		MIA	Detrimental	1
+33381767	TRPC5	Removal	Surgical-PMM	No effect	No effect	Global	Mouse	2020-12-01	Brain S	Genetic		Surgical	No effect	2
+33381767	TRPC5	Removal	MIA	No effect	No effect	Global	Mouse	2020-12-01	Brain S	Genetic		MIA	No effect	2
+33586252	TRPV2	Removal	Surgical-DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2021-08-01	Saito T	Genetic		Surgical	Protective	3
+33586252	TRPV2	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2021-08-01	Saito T	Genetic		Ageing	Protective	3
+33586252	TRPV2	Removal	Surgical-MCL	Detrimental	Protective	Cartilage Inducible	Mouse	2021-08-01	Saito T	Genetic		Surgical	Protective	3
+27388701	TRPV4	Removal	Surgical - DMM	No effect	No effect	Cartilage Inducible	Mouse	2016-07-08	Guilak F	Genetic		Surgical	Ambiguous	4
+27388701	TRPV4	Removal	Spontaneous	Protective	Detrimental	Cartilage Inducible	Mouse	2016-07-08	Guilak F	Genetic		Ageing	Ambiguous	4
+23178209	TRPV4	Removal	High Fat Diet	Detrimental	Protective	Global	Mouse	2012-11-23	Guilak F	Genetic		High Fat Diet	Ambiguous	4
+20583100	TRPV4	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2010-10-01	Guilak F	Genetic		Ageing	Ambiguous	4
+28063212	TRPV6	Removal	Surgical - ACLT	Detrimental	Protective	Global	Mouse	2017-04-10	Ye T	Genetic		Surgical	Protective	1
+31007149	TSC1	Removal	Surgical - UAC	Detrimental	Protective	Cartilage	Mouse	2019-04-21	Wang M	Genetic		Surgical	Protective	9
+30792936	TSC1	Removal	Surgical - ACLT	Detrimental	Protective	Global	Mouse	2019-02-20	Bai X	Genetic		Surgical	Protective	9
+30408629	TSC1	Removal	Surgical - DMM	Detrimental	Protective	B cells	Mouse	2018-11-06	Cai DZ	Genetic		Surgical	Protective	9
+30145794	TSC1	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2018-08-26	Bai X	Genetic		Ageing	Protective	9
+29991473	TSC1	Removal	Collagenase	Detrimental	Protective	Macrophage	Mouse	2018-07-10	Bai X	Genetic		Protease	Protective	9
+29329496	TSC1	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2018-03-24	Bai X	Genetic		Surgical	Protective	9
+29329496	TSC1	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2018-03-24	Bai X	Genetic		Surgical	Protective	9
+28043938	TSC1	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2016-12-31	Cai D	Genetic		Surgical	Protective	9
+28043938	TSC1	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2016-12-31	Cai D	Genetic		Ageing	Protective	9
+28941045	TTR	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2017-09-22	Lotz MK	Genetic		Surgical	Ambiguous	3
+28941045	TTR	Overexpression	Surgical - DMM	Detrimental	Detrimental	Global	Mouse	2017-09-22	Lotz MK	Genetic		Surgical	Ambiguous	3
+28941045	TTR	Overexpression	Spontaneous	Detrimental	Detrimental	Global	Mouse	2017-09-22	Lotz MK	Genetic		Ageing	Ambiguous	3
+30302948	TUT7	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019-03-06	Haqqi TM	Genetic		Surgical	Detrimental	1
+30258877	TWIST1	Activated	Surgical - DMM	Protective	Protective	Cartilage	Mouse	2016-02-24	Drissi H	Genetic		Surgical	Protective	1
+31044181	TYROBP	Removal	High Fat Diet	Detrimental	Protective	Global	Mouse	2018-10-04	Humphrey MB	Genetic		High Fat Diet	Protective	1
+32640182	UCMA	Exogenous	MIA	Protective	Protective	Articular cavity	Rat	2020-07-08	Kalaci A	Exogenous	Protein	MIA	Protective	1
+22391889	UGCG	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2012-08-01	Iwasaki N	Genetic		Ageing	Protective	2
+22391889	UGCG	Removal	Surgical - DMM + MM	Detrimental	Protective	Cartilage	Mouse	2012-08-01	Iwasaki N	Genetic		Surgical	Protective	2
+33473114	UNK	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-20	Bassett D	Genetic		Ageing	Protective	1
+29026147	VEGFA	Haploinsufficiency	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2017-10-12	Olsen BR	Genetic		Surgical	Detrimental	6
+25230745	VEGFA	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Rabbit	2014-09-18	Mochida J	Exogenous	Bevacizumab	Surgical	Detrimental	6
+26531672	VEGFA	Exogenous	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2015-11-04	Yang C	Exogenous	Protein	Ageing	Detrimental	6
+29026147	VEGFA	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017-10-12	Olsen BR	Exogenous	Antibody	Surgical	Detrimental	6
+29329496	VEGFA	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018-03-24	Bai X	Exogenous	bevacizumab	Surgical	Detrimental	6
+29488610	VEGFA	Exogenous	Surgical - ACLT	Detrimental	Detrimental	Articular cavity	Rat	2018-02-28	Weng JQ	Exogenous	Protein	Surgical	Detrimental	6
+24999110	VHL	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2014-07-04	Chen L	Genetic		Ageing	Protective	2
+24999110	VHL	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2014-07-04	Chen L	Genetic		Surgical	Protective	2
+33247195	VCP	Inhibition	Cyclic loading	Protective	Detrimental	systemic	Rat	2020-11-27	Matsuda S	Exogenous	KUS121	Surgical	Detrimental	2
+34341460	VCP	Exogenous	MIA	Protective	Detrimental	systemic	Rat	2021-08-02	Kakizuka A	Exogenous	KUS121	MIA	Detrimental	2
+30745310	WNT16	Removal	Surgical - ACLT	Detrimental	Protective	Cartilage	Mouse	2019-02-11	Mak KK	Genetic		Surgical	Ambiguous	6
+27147711	WNT16	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2016-05-04	Dell'Accio F	Genetic		Surgical	Ambiguous	6
+32140758	WNT16	Overexpression	Surgical - DMM	No effect	No effect	Osteoblasts	Mouse	2020-03-05	Moverare-Skrtic S	Genetic		Surgical	Ambiguous	6
+36367882	WNT16	Removal	Surgical - DMM	No effect	No effect	Cartilage Inducible	Mouse	2022-11-01	Moverare-Skrtic S	Genetic		Surgical	Ambiguous	6
+25976248	WNT16	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2015-05-12	van der Kraan PM	Exogenous	Viral	Ageing	Ambiguous	6
+30745310	WNT16	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2019-02-11	Mak KK	Exogenous	Viral	Surgical	Ambiguous	6
+32151961	WNT3A	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2020-03-06	He W	Exogenous	FzD7 CRD	Surgical	Detrimental	1
+35560108	WNT4	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2022-05-12	Hartmann C	Genetic		Ageing	Protective	1
+38645498	WNT5A	Removal	Surgical – ACLT	No effect	No effect	Osteoblasts	Mouse	2024-01-01	Tian FM	Genetic		Surgical	No effect	2
+25976248	WNT5A	Overexpression	Spontaneous	No effect	No effect	Articular cavity	Mouse	2015-05-12	van der Kraan PM	Exogenous	Viral	Ageing	No effect	2
+28165497	WNT7A	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2017-02-06	Zeng L	Exogenous	Viral	Surgical	Protective	1
+25976248	WNT8A	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2015-05-12	van der Kraan PM	Exogenous	Viral	Ageing	Detrimental	1
+35560108	WNT9A	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2022-05-12	Hartmann C	Genetic		Ageing	Protective	1
+37563688	WTAP	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2023-08-01	Liu W	Exogenous	viral	Surgical	Detrimental	1
+38414246	WWC1	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2024-05-01	Su P	Exogenous	siRNA	Surgical	Detrimental	1
+31160553	WWP2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2019-06-03	Asahara H	Genetic		Ageing	Protective	3
+31160553	WWP2	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2019-06-03	Asahara H	Genetic		Surgical	Protective	3
+31160553	WWP2	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2019-06-03	Asahara H	Exogenous	mRNA	Surgical	Protective	3
+26903297	XDH	Inhibition	High Fat Diet	Protective	Detrimental	systemic	Mouse	2016-02-20	Asou Y	Exogenous	febuxostat	High Fat Diet	Detrimental	1
+30385786	YAP1	Overexpression	Surgical - ACLT	Detrimental	Protective	Cartilage	Mouse	2018-11-01	Mak KK	Genetic		Surgical	Ambiguous	4
+30385786	YAP1	Removal	Surgical - DMM	Protective	Protective	Cartilage	Mouse	2018-11-01	Mak KK	Genetic		Surgical	Ambiguous	4
+30465058	YAP1	Knockdown	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2018-11-21	Yu B	Exogenous	siRNA	Surgical	Ambiguous	4
+30933975	YAP1	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2019-04-01	Liu GH	Exogenous	Viral	Surgical	Ambiguous	4
+34226187	YWHAE	Removal	Spontaneous	Detrimental	Protective	Inducible	Mouse	2021-07-05	Liu CJ	Genetic		Ageing	Protective	3
+34226187	YWHAE	Removal	Surgical - DMM	Detrimental	Protective	Inducible	Mouse	2021-07-05	Liu CJ	Genetic		Surgical	Protective	3
+34226187	YWHAE	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2021-07-05	Liu CJ	Genetic		Surgical	Protective	3
+33853646	ZC3H12A	Haploinsufficiency	Surgical-DMM	Detrimental	Protective	Global	Mouse	2021-04-14	Chun JS	Genetic		Surgical	Protective	3
+33853646	ZC3H12A	Overexpression	Surgical – DMM	Protective	Protective	Articular cavity	Mouse	2021-04-14	Chun JS	Exogenous	Viral	Surgical	Protective	3
+33853646	ZC3H12A	Knockdown	Surgical – DMM	Detrimental	Protective	Articular cavity	Mouse	2021-04-14	Chun JS	Exogenous	Viral	Surgical	Protective	3
+30622281	ZFP36L1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019-01-08	Chun JS	Genetic		Surgical	Detrimental	2
+30622281	ZFP36L1	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019-01-08	Chun JS	Exogenous	siRNA	Surgical	Detrimental	2
+37217512	ZMPSTE24	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2023-05-01	Zou W	Genetic		Ageing	Protective	1
+33473114	ZNF341	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2021-01-20	Bassett D	Genetic		Ageing	Protective	1
+31201921	EGR1	Exogenous	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2019-05-01	Shi P	Exogenous	Viral	Ageing	Detrimental	1

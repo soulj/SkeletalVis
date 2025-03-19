@@ -4,15 +4,28 @@
 \alias{load_skeletalvis}
 \title{Find the skeletalvis data folder and download if not present}
 \usage{
-load_skeletalvis()
+load_skeletalvis(verbose = FALSE, ask = TRUE, demo = FALSE)
+}
+\arguments{
+\item{verbose}{Logical. If TRUE, prints messages about file existence and download status. Default is FALSE.}
+
+\item{ask}{Logical. If TRUE, prompts the user for confirmation before downloading files. Default is TRUE.}
+
+\item{demo}{Logical. If TRUE, loads the in built demo data used for building the vignette. Default is FALSE}
 }
 \value{
 The path to the skeletalvis folder.
 }
 \description{
 This function checks the default skeletalvis data location for the presence of the expected data and metadata files.
-If these files do  not exist, it downloads the files from the inbuilt URLs.
+If these files do not exist, it downloads the files from the inbuilt URLs.
 }
 \examples{
-load_skeletalvis()
+# Load the demo SkeletalVis data.
+skeletalvis <- load_skeletalvis(demo=TRUE)
+
+# Download full dataset
+if (interactive()) {
+skeletalvis <- load_skeletalvis()
+}
 }

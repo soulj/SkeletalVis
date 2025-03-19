@@ -24,7 +24,7 @@ N IDs with the highest z-scores can be displayed using ggrepel.
 }
 \examples{
 data(query)
-skeletalvis <- load_skeletalvis()
+skeletalvis <- load_skeletalvis(demo=TRUE)
 similarityTable <- experiment_similarity(skeletalvis, query)
 
 # Plot similarity table with labels for top 5 items

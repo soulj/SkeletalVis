@@ -1,7 +1,7 @@
 library(testthat)
 
 test_that("getMetaData handles missing file", {
-  skeletalvis_path <- tempdir()  # Use a temporary directory for tests
+  skeletalvis_path <- withr::local_tempdir()  # Use a temporary directory for tests
 
   # Ensure accessions.txt does not exist
   metadata_filepath <- file.path(skeletalvis_path, "accessions.txt")
@@ -17,7 +17,7 @@ test_that("getMetaData handles missing file", {
 })
 
 test_that("getMetaData returns correct structure and columns", {
-  skeletalvis_path <- tempdir()
+  skeletalvis_path <- withr::local_tempdir()
 
   # Create mock data for accessions.txt
   mock_data <- data.frame(
@@ -40,7 +40,7 @@ test_that("getMetaData returns correct structure and columns", {
 })
 
 test_that("getMetaData includes expected number of rows", {
-  skeletalvis_path <- tempdir()
+  skeletalvis_path <- withr::local_tempdir()
 
   # Create mock data with multiple rows
   mock_data <- data.frame(

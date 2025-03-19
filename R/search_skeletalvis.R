@@ -11,7 +11,7 @@
 #' @export
 #' @examples
 #'
-#' skeletalvis <- load_skeletalvis()
+#' skeletalvis <- load_skeletalvis(demo=TRUE)
 
 #' # Search across all columns for rows containing "SOX9"
 #' result <- search_skeletalvis(skeletalvis, "SOX9")

@@ -29,7 +29,7 @@ cos.sim <- function(i, X) {
 #' @return A data frame containing cosine similarity values, IDs, and z-scores.
 #'
 #' @examples
-#' skeletalvis <- load_skeletalvis()
+#' skeletalvis <- load_skeletalvis(demo=TRUE)
 #'
 #' # Create a query dataset (this should be a data frame with the first column as gene IDs)
 #' query_dataset <- data.frame(ID = c("SOX9", "ACAN"), fold_change = c(2.5, -1.8))
@@ -51,7 +51,7 @@ experiment_similarity <- function(skeletalvis, dataset, add_meta_data = TRUE) {
   if (!file.exists(foldchange_filepath)) stop(sprintf("The file 'foldChangeTable.feather' does not exist in the specified directory: %s",skeletalvis))
 
   fold_change_table <- arrow::read_feather(foldchange_filepath)  %>%
-    dplyr::select(.data$ID, dplyr::everything())
+    dplyr::select("ID", dplyr::everything())
 
   colnames(dataset)[1:2] <- c("ID","queryFC")
 

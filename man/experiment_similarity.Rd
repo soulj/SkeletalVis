@@ -21,7 +21,7 @@ This function computes the cosine similarity of the log2 fold changes of a given
 against a fold change table, returning a data frame of similarities.
 }
 \examples{
-skeletalvis <- load_skeletalvis()
+skeletalvis <- load_skeletalvis(demo=TRUE)
 
 # Create a query dataset (this should be a data frame with the first column as gene IDs)
 query_dataset <- data.frame(ID = c("SOX9", "ACAN"), fold_change = c(2.5, -1.8))

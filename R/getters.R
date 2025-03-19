@@ -11,7 +11,7 @@
 #'
 #' @examples
 #' # Get the path to the directory with the accessions.txt file
-#' skeletalvis_path <- load_skeletalvis()
+#' skeletalvis_path <- load_skeletalvis(demo=TRUE)
 #'
 #' # Retrieve the metadata
 #' metadata <- get_comparisons(skeletalvis_path)
@@ -54,7 +54,7 @@ get_comparisons <- function(skeletalvis, accession = NULL) {
 #'
 #' @examples
 #' # Get the path to the directory with the accessions.txt file
-#' skeletalvis_path <- load_skeletalvis()
+#' skeletalvis_path <- load_skeletalvis(demo=TRUE)
 #'
 #' # Retrieve the metadata
 #' exptable <- get_exp_table(skeletalvis_path)

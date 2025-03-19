@@ -2,7 +2,7 @@
 % Please edit documentation in R/browse_skeletalvis.R
 \name{browse_skeletalvis}
 \alias{browse_skeletalvis}
-\title{Browse the skeletalvis experiment and comparion table}
+\title{Browse the skeletalvis experiment and comparison table}
 \usage{
 browse_skeletalvis(skeletalvis)
 }
@@ -18,6 +18,9 @@ The user can click on the row to select the comparison of interest within that e
 }
 \examples{
 # Assuming 'skeletalvis' is the directory containing the skeletalvis data
-# selected_id <- browse_skeletalvis("path/to/skeletalvis")
+if(interactive()){
+skeletalvis <- load_skeletalvis(demo=TRUE)
+selected_id <- browse_skeletalvis(skeletalvis)
+}
 
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/get_experiment.R
 \name{get_experiment}
 \alias{get_experiment}
-\title{Get Results for an experiment of interest}
+\title{This function loads the differential expression data (log2 foldchanges and adjusted p-values) for a given dataset id}
 \usage{
 get_experiment(skeletalvis, dataset_id)
 }
@@ -15,9 +15,9 @@ get_experiment(skeletalvis, dataset_id)
 A data frame containing differential expression results for the specified dataset ID.
 }
 \description{
-This function loads the skeletalvis data for a given dataset id
+This function loads the differential expression data (log2 foldchanges and adjusted p-values) for a given dataset id
 }
 \examples{
-skeletalvis <- load_skeletalvis()
-experiment_results <- get_experiment(skeletalvis, "E-MTAB-4304_1")
+skeletalvis <- load_skeletalvis(demo=TRUE)
+experiment_results <- get_experiment(skeletalvis, "GSE12860_6")
 }

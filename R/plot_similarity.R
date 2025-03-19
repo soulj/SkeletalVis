@@ -14,7 +14,7 @@
 #' @export
 #' @examples
 #' data(query)
-#' skeletalvis <- load_skeletalvis()
+#' skeletalvis <- load_skeletalvis(demo=TRUE)
 #' similarityTable <- experiment_similarity(skeletalvis, query)
 #'
 #'# Plot similarity table with labels for top 5 items

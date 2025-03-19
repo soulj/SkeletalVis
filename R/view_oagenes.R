@@ -25,7 +25,7 @@
 #'
 #'
 #' @examples
-#' skeletalvis <- load_skeletalvis()
+#' skeletalvis <- load_skeletalvis(demo=TRUE)
 #' oatargets <- view_oagenes(skeletalvis)
 #'
 #' @export

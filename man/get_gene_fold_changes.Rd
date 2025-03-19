@@ -27,7 +27,7 @@ A tibble containing gene expression results for the specified genes.
 This function extracts fold change and p-values across the skeletalvis database for the specified genes.
 }
 \examples{
-skeletalvis <- load_skeletalvis()
+skeletalvis <- load_skeletalvis(demo=TRUE)
 
 gene_results <- get_gene_fold_changes(skeletalvis, c("SOX9","ACAN"))
 

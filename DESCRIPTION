@@ -1,11 +1,10 @@
 Package: SkeletalVis
 Type: Package
-Title: Exploration and visualisation of skeletal transcriptomics data
+Title: Exploration and Visualisation of Skeletal Transcriptomics Data
 Version: 0.1.0
 Author: Jamie Soul
 Maintainer: Jamie Soul <jamie.soul@liverpool.ac.uk>
-Description: Allows search and visualisation of a collection of uniformly processed skeletal transcriptomic datasets.
-    Users can find datasets where genes of intererest are differentially expressed and find datasets with a similar gene expression pattern to their own data.
+Description: Allows search and visualisation of a collection of uniformly processed skeletal transcriptomic datasets. Users can identify datasets where genes of intererest are differentially expressed and find datasets with a similar gene expression pattern to their own data.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -13,13 +12,13 @@ RoxygenNote: 7.3.2
 Suggests: 
     knitr,
     rmarkdown,
+    mockery,
     quarto,
-    testthat (>= 3.0.0)
+    testthat (>= 3.0.0),
+    withr
 Config/testthat/edition: 3
 Imports: 
     arrow,
-    circlize,
-    ComplexHeatmap,
     cowplot,
     dplyr,
     DT,
@@ -30,14 +29,11 @@ Imports:
     miniUI,
     pbapply,
     plotly,
-    rappdirs,
     rlang,
     shiny,
     stats,
     tidyr,
-    tibble,
     utils,
-    viridis,
     visNetwork
 VignetteBuilder: quarto
 Depends: 

@@ -4,14 +4,14 @@
 \alias{view_network}
 \title{View the OATarget gene network}
 \usage{
-view_network(skeletalvis, query, hide_unannotated = FALSE, physics = TRUE)
+view_network(skeletalvis, query, hide_unannotated = TRUE, physics = TRUE)
 }
 \arguments{
 \item{skeletalvis}{A string specifying the path to the directory containing the "network.RDS" file.}
 
 \item{query}{The name of the gene to visualise within the network.}
 
-\item{hide_unannotated}{A logical value indicating whether to hide nodes with no measured effect (default: FALSE).}
+\item{hide_unannotated}{A logical value indicating whether to hide nodes with no measured effect (default: TRUE).}
 
 \item{physics}{A logical value indicating whether to enable physics for the network (default: TRUE).}
 }
@@ -19,21 +19,21 @@ view_network(skeletalvis, query, hide_unannotated = FALSE, physics = TRUE)
 A visNetwork interactive network'
 }
 \description{
-This function visualises the protein-protein interaction network surrounding a specified gene, highligting those genes that have been experiementally pertubated and the resulting effect of OA.
+This function visualises the protein-protein interaction network surrounding a specified gene, highlighting those genes that have been experimentally pertubated and the resulting effect of OA.
 }
 \details{
 The function extracts the subnetwork surrounding the specified gene.
 Nodes are coloured based on their effect ("Protective", "Detrimental", "Ambiguous", "No effect", or "Not measured").
-If `hide_unannotated = TRUE`, nodes with no measured effect are removed unless they are the target gene.
+If `hide_unannotated = TRUE`, nodes not yet studied are removed unless they are the target gene.
 }
 \examples{
 # Specify the path to the skeletalvis directory
-skeletalvis <- load_skeletalvis()
+skeletalvis <- load_skeletalvis(demo=TRUE)
 
 # Visualize the network for a specific gene
-vis <- view_network(skeletalvis, "MMP13")
+vis <- view_network(skeletalvis, "COL2A1")
 
-# Hide unannotated nodes
-vis_filtered <- view_network(skeletalvis, "MMP13", hide_unannotated = TRUE)
+# Show unannotated nodes
+vis_filtered <- view_network(skeletalvis, "COL2A1", hide_unannotated = FALSE)
 
 }

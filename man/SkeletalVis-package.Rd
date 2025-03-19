@@ -4,8 +4,8 @@
 \name{SkeletalVis-package}
 \alias{SkeletalVis}
 \alias{SkeletalVis-package}
-\title{SkeletalVis: Exploration and visualisation of skeletal transcriptomics data}
+\title{SkeletalVis: Exploration and Visualisation of Skeletal Transcriptomics Data}
 \description{
-Allows search and visualisation of a collection of uniformly processed skeletal transcriptomic datasets. Users can find datasets where genes of intererest are differentially expressed and find datasets with a similar gene expression pattern to their own data.
+Allows search and visualisation of a collection of uniformly processed skeletal transcriptomic datasets. Users can identify datasets where genes of intererest are differentially expressed and find datasets with a similar gene expression pattern to their own data.
 }
 \keyword{internal}

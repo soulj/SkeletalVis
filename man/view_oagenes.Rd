@@ -33,7 +33,7 @@ A data frame with the following columns:
 This function retrieves the OATargets table of curated osteoarthritis damage associated genes
 }
 \examples{
-skeletalvis <- load_skeletalvis()
+skeletalvis <- load_skeletalvis(demo=TRUE)
 oatargets <- view_oagenes(skeletalvis)
 
 }

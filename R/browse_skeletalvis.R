@@ -1,5 +1,4 @@
-
-#' Browse the skeletalvis experiment and comparion table
+#' Browse the skeletalvis experiment and comparison table
 #'
 #' This function opens an interactive table showing the experiments available for analysis.
 #' The user can click on the row to select the comparison of interest within that experiment.
@@ -9,18 +8,22 @@
 #'
 #' @examples
 #' # Assuming 'skeletalvis' is the directory containing the skeletalvis data
-#' # selected_id <- browse_skeletalvis("path/to/skeletalvis")
+#' if(interactive()){
+#' skeletalvis <- load_skeletalvis(demo=TRUE)
+#' selected_id <- browse_skeletalvis(skeletalvis)
+#' }
 #'
 #' @export
 browse_skeletalvis <- function(skeletalvis) {
   exp_filepath <- file.path(skeletalvis, "expTable.txt")
-  comp_filepath <- file.path(skeletalvis, "comparisons.txt")
+  comp_filepath <- file.path(skeletalvis, "accessions.txt")
 
   if (!file.exists(exp_filepath)) stop("The file 'expTable.txt' does not exist in the specified directory.")
-  if (!file.exists(comp_filepath)) stop("The file 'comparisons.txt' does not exist in the specified directory.")
+  if (!file.exists(comp_filepath)) stop("The file 'accessions.txt' does not exist in the specified directory.")
 
   exptable <- utils::read.csv(exp_filepath, header = TRUE, stringsAsFactors = FALSE)
   comparisons <- utils::read.delim(comp_filepath, header = TRUE, stringsAsFactors = FALSE)
+  comparisons$ID <- paste(comparisons$accession, comparisons$comparison, sep="_")
 
   shiny::runGadget(
     miniUI::miniPage(
@@ -75,7 +78,7 @@ browse_skeletalvis_server <- function(input, output, session, exptable, comparis
     })
 
     shiny::observeEvent(input$modal_table_rows_selected, {
-      selected_id <- matched_rows[input$modal_table_rows_selected, 1]
+      selected_id <- matched_rows[input$modal_table_rows_selected, "ID"]
       selected_modal_row(selected_id)
     })
 

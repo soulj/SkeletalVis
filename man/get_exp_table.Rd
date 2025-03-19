@@ -17,7 +17,7 @@ A dataframe containing the experiment information
 }
 \examples{
 # Get the path to the directory with the accessions.txt file
-skeletalvis_path <- load_skeletalvis()
+skeletalvis_path <- load_skeletalvis(demo=TRUE)
 
 # Retrieve the metadata
 exptable <- get_exp_table(skeletalvis_path)

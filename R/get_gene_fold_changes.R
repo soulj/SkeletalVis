@@ -11,7 +11,7 @@
 #' @export
 #'
 #' @examples
-#' skeletalvis <- load_skeletalvis()
+#' skeletalvis <- load_skeletalvis(demo=TRUE)
 #'
 #' gene_results <- get_gene_fold_changes(skeletalvis, c("SOX9","ACAN"))
 #'
@@ -42,11 +42,16 @@ get_gene_fold_changes <- function(skeletalvis, gene_symbols, return_fdr = TRUE, 
     stop("The Feather file does not contain an 'ID' column.")
   }
 
+  # Check if the data contains the ID column
+  if (!any(gene_symbols %in% fold_changes$ID)) {
+    stop("None of the specified gene symbols were found in the fold change table.")
+  }
+
   # Process fold change and FDR for each gene symbol
   gene_data <- lapply(gene_symbols, function(gene_symbol) {
     fc <- fold_changes %>%
       dplyr::filter(.data$ID == gene_symbol) %>%
-      dplyr::select(-.data$ID) %>%
+      dplyr::select(-"ID") %>%
       tidyr::pivot_longer(cols = dplyr::everything(),
                           names_to = "datasetID",
                           values_to = "log2FoldChange") %>%
@@ -55,7 +60,7 @@ get_gene_fold_changes <- function(skeletalvis, gene_symbols, return_fdr = TRUE, 
     if (return_fdr) {
       fdr <- pvalues %>%
         dplyr::filter(.data$GeneName == gene_symbol) %>%
-        dplyr::select(-.data$GeneName) %>%
+        dplyr::select(-"GeneName") %>%
         tidyr::pivot_longer(cols = dplyr::everything(),
                             names_to = "datasetID",
                             values_to = "FDR")
@@ -79,7 +84,7 @@ get_gene_fold_changes <- function(skeletalvis, gene_symbols, return_fdr = TRUE, 
 
   # Rearrange columns to place Gene as the last column
   fold_changes <- fold_changes %>%
-    dplyr::relocate(.data$Gene, .after = dplyr::last_col())
+    dplyr::relocate("Gene", .after = dplyr::last_col())
 
   # Add metadata if requested
   if (add_meta_data) {

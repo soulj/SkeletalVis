@@ -1,6 +1,6 @@
 test_that("view_oagenes reads file correctly", {
   # Create a temporary directory
-  temp_dir <- tempdir()
+  temp_dir <-  withr::local_tempdir()
 
   # Define a temporary file path for oagenes.csv
   temp_file <- file.path(temp_dir, "oatargets.txt")

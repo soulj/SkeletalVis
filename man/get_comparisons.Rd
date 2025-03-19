@@ -20,7 +20,7 @@ for the skeletalvis database.
 }
 \examples{
 # Get the path to the directory with the accessions.txt file
-skeletalvis_path <- load_skeletalvis()
+skeletalvis_path <- load_skeletalvis(demo=TRUE)
 
 # Retrieve the metadata
 metadata <- get_comparisons(skeletalvis_path)

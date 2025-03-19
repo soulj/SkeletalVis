@@ -3,20 +3,17 @@ library(dplyr)
 library(arrow)
 
 test_that("get_experiment handles missing files", {
-
-  # Make a random temp directory
-  skeletalvis_path <- tempfile(pattern=paste0(sample(LETTERS, 8, replace = TRUE), collapse = ""))  # Use a temporary directory for tests
-  dir.create(skeletalvis_path)
+  skeletalvis_path <- withr::local_tempdir()
 
   # Test for missing foldChangeTable.feather file
   expect_error(
-    get_experiment(skeletalvis_path, "E-MTAB-4304_1"),
+    get_experiment(skeletalvis_path, "GSE107363"),
     "The file 'foldChangeTable.feather' does not exist in the specified directory"
   )
 
   # Create an empty feather file to simulate the existence of foldChangeTable.feather
   foldchange_path <- file.path(skeletalvis_path, "foldChangeTable.feather")
-  arrow::write_feather(data.frame(ID=LETTERS[1:3],"E-MTAB-4304_1" = c(1,2,3),check.names = FALSE), foldchange_path)
+  arrow::write_feather(data.frame(ID = LETTERS[1:3], "E-MTAB-4304_1" = c(1, 2, 3), check.names = FALSE), foldchange_path)
 
   # Test for missing pvalTable.feather file
   expect_error(
@@ -26,7 +23,7 @@ test_that("get_experiment handles missing files", {
 })
 
 test_that("get_experiment handles missing ID column in Feather files", {
-  skeletalvis_path <- tempdir()
+  skeletalvis_path <- withr::local_tempdir()
 
   # Create empty feather files without an ID column
   foldchange_data <- data.frame(Sample1 = numeric(), Sample2 = numeric())
@@ -46,7 +43,7 @@ test_that("get_experiment handles missing ID column in Feather files", {
 })
 
 test_that("get_experiment returns expected structure and values", {
-  skeletalvis_path <- tempdir()
+  skeletalvis_path <- withr::local_tempdir()
 
   # Create mock data for feather files
   foldchange_data <- data.frame(ID = c("GeneA", "GeneB"), `E-MTAB-4304_1` = c(1.5, -2.3),check.names = FALSE)
@@ -70,7 +67,7 @@ test_that("get_experiment returns expected structure and values", {
 })
 
 test_that("get_experiment returns error for dataset ID not found", {
-  skeletalvis_path <- tempdir()
+  skeletalvis_path <- withr::local_tempdir()
 
   # Create mock data for feather files with a different dataset ID
   foldchange_data <- data.frame(ID = c("GeneA", "GeneB"), `E-MTAB-4304_2` = c(1.5, -2.3),check.names = FALSE)

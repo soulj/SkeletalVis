@@ -1,15 +1,13 @@
-# Function to get results for an experiment of interest
-#' Get Results for an experiment of interest
-#'
-#' This function loads the skeletalvis data for a given dataset id
+# Function to get the gene expression results for an experiment of interest
+#' This function loads the differential expression data (log2 foldchanges and adjusted p-values) for a given dataset id
 #'
 #' @param skeletalvis The path to the skeletalvis folder.
 #' @param dataset_id The dataset ID to extract results for.
 #' @return A data frame containing differential expression results for the specified dataset ID.
 #'
 #' @examples
-#' skeletalvis <- load_skeletalvis()
-#' experiment_results <- get_experiment(skeletalvis, "E-MTAB-4304_1")
+#' skeletalvis <- load_skeletalvis(demo=TRUE)
+#' experiment_results <- get_experiment(skeletalvis, "GSE12860_6")
 #' @export
 
 get_experiment <- function(skeletalvis, dataset_id) {
@@ -42,12 +40,12 @@ get_experiment <- function(skeletalvis, dataset_id) {
 
   # Filter the data for the gene of interest
   fold_changes <- fold_changes %>%
-    dplyr::select(.data$ID, dplyr::any_of(dataset_id))
+    dplyr::select("ID", dplyr::any_of(dataset_id))
 
   colnames(fold_changes)[2:ncol(fold_changes)] <- paste0(colnames(fold_changes)[2:ncol(fold_changes)],"_log2FoldChange")
 
     pvalues <- pvalues %>%
-      dplyr::select(.data$GeneName, dplyr::any_of(dataset_id))
+      dplyr::select("GeneName", dplyr::any_of(dataset_id))
 
     colnames(pvalues)[2:ncol(pvalues)] <- paste0(colnames(pvalues)[2:ncol(pvalues)],"_FDR")
 
@@ -55,12 +53,9 @@ get_experiment <- function(skeletalvis, dataset_id) {
 
     colname <- names(fold_changes)[2]
 
-    fold_changes %>%
+    fold_changes <- fold_changes %>%
       dplyr::filter(!is.na(.data[[colname]])) %>%
       dplyr::arrange(dplyr::desc(.data[[colname]]))
-
-
-
 
 
   return(fold_changes)
