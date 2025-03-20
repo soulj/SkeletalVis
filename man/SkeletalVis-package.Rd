@@ -6,6 +6,18 @@
 \alias{SkeletalVis-package}
 \title{SkeletalVis: Exploration and Visualisation of Skeletal Transcriptomics Data}
 \description{
-Allows search and visualisation of a collection of uniformly processed skeletal transcriptomic datasets. Users can identify datasets where genes of intererest are differentially expressed and find datasets with a similar gene expression pattern to their own data.
+Allows search and visualisation of a collection of uniformly processed skeletal transcriptomic datasets. Includes methods to identify datasets where genes of interest are differentially expressed and find datasets with a similar gene expression pattern to a query dataset. Soul J, Hardingham TE, Boot-Handford RP, Schwartz JM (2019) <doi.org/10.1093/bioinformatics/bty947>
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/soulj/SkeletalVis}
+  \item Report bugs at \url{https://github.com/soulj/SkeletalVis/issues}
+}
+
+}
+\author{
+\strong{Maintainer}: Jamie Soul \email{jamie.soul@liverpool.ac.uk} [copyright holder]
+
 }
 \keyword{internal}

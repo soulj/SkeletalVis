@@ -1,13 +1,12 @@
-#' Browse the skeletalvis experiment and comparison table
+#' Browse the skeletalvis database metadata
 #'
-#' This function opens an interactive table showing the experiments available for analysis.
-#' The user can click on the row to select the comparison of interest within that experiment.
+#' Opens an interactive table showing the experiments available for analysis.
+#' Row can be selected to return the datasetID for the comparison of interest within that experiment.
 #'
-#' @param skeletalvis The path to the skeletalvis data folder.
+#' @param skeletalvis The path to the SkeletalVis data folder.
 #' @return The datasetID of the selected gene expression profile from the interactive table.
 #'
 #' @examples
-#' # Assuming 'skeletalvis' is the directory containing the skeletalvis data
 #' if(interactive()){
 #' skeletalvis <- load_skeletalvis(demo=TRUE)
 #' selected_id <- browse_skeletalvis(skeletalvis)

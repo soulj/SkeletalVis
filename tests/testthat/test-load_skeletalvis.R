@@ -15,7 +15,7 @@ test_that("load_skeletalvis does not download files if they exist", {
 
   # Create a dummy files to simulate existing data
   files <- c("accessions.txt","expTable.txt","pvalTable.feather",
-             "foldChangeTable.feather","network.RDS","oatargets.txt")
+             "foldChangeTable.feather","network.RDS","oatargets.txt","oatargets_prioritised.txt")
 
   lapply(files, function(x) file.create(file.path(local_dir, x)))
 
@@ -33,7 +33,7 @@ test_that("load_skeletalvis downloads missing files", {
   stub(check_and_download_file, "httr::GET", mock_download)
 
   files <- c("expTable.txt","pvalTable.feather",
-             "foldChangeTable.feather","network.RDS","oatargets.txt")
+             "foldChangeTable.feather","network.RDS","oatargets.txt", "oatargets_prioritised.txt")
 
   lapply(files, function(x) file.create(file.path(local_dir, x)))
 
@@ -50,7 +50,7 @@ test_that("load_skeletalvis runs silently when verbose=FALSE", {
 
   # Create a dummy files to simulate existing data
   files <- c("accessions.txt","expTable.txt","pvalTable.feather",
-             "foldChangeTable.feather","network.RDS","oatargets.txt")
+             "foldChangeTable.feather","network.RDS","oatargets.txt","oatargets_prioritised.txt")
 
   lapply(files, function(x) file.create(file.path(local_dir, x)))
 

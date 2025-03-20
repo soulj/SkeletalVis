@@ -7,7 +7,7 @@
 get_comparisons(skeletalvis, accession = NULL)
 }
 \arguments{
-\item{skeletalvis}{The path to the skeletalvis data folder.}
+\item{skeletalvis}{The path to the SkeletalVis data folder.}
 
 \item{accession}{Optionally an experiment accession number for the experiment of interest to filter the metadata by.}
 }
@@ -15,7 +15,7 @@ get_comparisons(skeletalvis, accession = NULL)
 A dataframe containing metadata.
 }
 \description{
-`get_comparisons` reads a metadata file containing accession and comparison information
+`get_comparisons`Retieves the metadata file containing accession and comparison information
 for the skeletalvis database.
 }
 \examples{

@@ -1,12 +1,11 @@
-# Function to get gene expression results for a gene of interest
-#' Get gene fold changes for a gene of interest
+#' Get gene differential expression results for genes of interest
 #'
-#' This function extracts fold change and p-values across the skeletalvis database for the specified genes.
+#' Extracts the fold change and p-values across the SkeletalVis database for the specified genes.
 #'
-#' @param skeletalvis The path to the skeletalvis data folder.
-#' @param gene_symbols The human gene symbols to extract foldchange and fdr pvalues for.
-#' @param return_fdr Return FDR values (FALSE by default)
-#' @param add_meta_data Add metadata such as species, tissues, description of overall experiment and specific comparison
+#' @param skeletalvis The path to the SkeletalVis data folder.
+#' @param gene_symbols The human gene symbols to extract fold change and FDR values for.
+#' @param return_fdr Return FDR values (FALSE by default).
+#' @param add_meta_data Add metadata such as species, tissue, description of overall experiment and specific comparison
 #' @return A tibble containing gene expression results for the specified genes.
 #' @export
 #'
@@ -16,7 +15,7 @@
 #' gene_results <- get_gene_fold_changes(skeletalvis, c("SOX9","ACAN"))
 #'
 #' head(gene_results)
-get_gene_fold_changes <- function(skeletalvis, gene_symbols, return_fdr = TRUE, add_meta_data=TRUE) {
+get_gene_fold_changes <- function(skeletalvis, gene_symbols, return_fdr = TRUE, add_meta_data = TRUE) {
 
   foldchange_filepath <- file.path(skeletalvis, "foldChangeTable.feather")
 

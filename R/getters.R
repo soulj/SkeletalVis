@@ -1,10 +1,10 @@
 #' Retrieve metadata for the SkeletalVis database
 #'
 #' @description
-#' `get_comparisons` reads a metadata file containing accession and comparison information
+#' `get_comparisons`Retieves the metadata file containing accession and comparison information
 #' for the skeletalvis database.
 #'
-#' @param skeletalvis The path to the skeletalvis data folder.
+#' @param skeletalvis The path to the SkeletalVis data folder.
 #' @param accession Optionally an experiment accession number for the experiment of interest to filter the metadata by.
 #'
 #' @return A dataframe containing metadata.
@@ -46,7 +46,7 @@ get_comparisons <- function(skeletalvis, accession = NULL) {
 #' Retrieve the experiment table for the SkeletalVis database
 #'
 #' @description
-#' `get_exp_table` reads a experiment table file containing experiment accessions and descriptions from the skeletalvis database.
+#' Retrieves the experiment table file containing experiment accessions and descriptions from the skeletalvis database.
 #'
 #' @param skeletalvis The path to the skeletalvis data folder.
 #'

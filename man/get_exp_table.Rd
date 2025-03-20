@@ -13,7 +13,7 @@ get_exp_table(skeletalvis)
 A dataframe containing the experiment information
 }
 \description{
-`get_exp_table` reads a experiment table file containing experiment accessions and descriptions from the skeletalvis database.
+Retrieves the experiment table file containing experiment accessions and descriptions from the skeletalvis database.
 }
 \examples{
 # Get the path to the directory with the accessions.txt file

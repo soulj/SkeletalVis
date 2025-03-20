@@ -2,7 +2,7 @@
 % Please edit documentation in R/load_skeletalvis.R
 \name{load_skeletalvis}
 \alias{load_skeletalvis}
-\title{Find the skeletalvis data folder and download if not present}
+\title{Find the SkeletalVis data folder and download data if not present}
 \usage{
 load_skeletalvis(verbose = FALSE, ask = TRUE, demo = FALSE)
 }
@@ -14,11 +14,11 @@ load_skeletalvis(verbose = FALSE, ask = TRUE, demo = FALSE)
 \item{demo}{Logical. If TRUE, loads the in built demo data used for building the vignette. Default is FALSE}
 }
 \value{
-The path to the skeletalvis folder.
+The path to the SkeletalVis folder.
 }
 \description{
-This function checks the default skeletalvis data location for the presence of the expected data and metadata files.
-If these files do not exist, it downloads the files from the inbuilt URLs.
+Checks the default SkeletalVis data location for the presence of the expected data and metadata files.
+If these files do not exist, it requests to download the files from the inbuilt URLs.
 }
 \examples{
 # Load the demo SkeletalVis data.

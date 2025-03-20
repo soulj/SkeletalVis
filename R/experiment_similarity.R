@@ -1,11 +1,4 @@
-#' Calculate Cosine Similarity
-#'
-#' This function calculates the cosine similarity between two vectors.
-#'
-#' @param i Index of the column in the fold change table to compare against.
-#' @param X The fold change data frame.
-#' @return Cosine similarity value between the query and the selected dataset at index i in the fold change table
-#'
+# Calculate Cosine Similarity
 cos.sim <- function(i, X) {
 
   X <- na.omit(X[, c(1,i,ncol(X))])
@@ -13,18 +6,17 @@ cos.sim <- function(i, X) {
   A <- X[, 2]
   B <- X[, 3]
 
-  # Calculate cosine similarity
   return(sum(A * B, na.rm = TRUE) / sqrt(sum(A^2, na.rm = TRUE) * sum(B^2, na.rm = TRUE)))
 }
 
 #' Get cosine similarity for a query dataset against the skeletalvis database
 #'
-#' This function computes the cosine similarity of the log2 fold changes of a given query dataset
-#' against a fold change table, returning a data frame of similarities.
+#' Computes the cosine similarity of the log2 fold changes of a given query dataset
+#' against the SkeletalVis fold changes, returning a data frame of experiment similarities.
 #'
-#' @param skeletalvis The path to the skeletalvis data folder.
+#' @param skeletalvis The path to the SkeletalVis data folder.
 #' @param dataset A dataframe with human gene symbols and log2 fold changes.
-#' @param add_meta_data Add metadata such as species, tissues, description of overall experiment and specific comparison
+#' @param add_meta_data Add metadata such as species, tissue, description of overall experiment and specific comparison
 #'
 #' @return A data frame containing cosine similarity values, IDs, and z-scores.
 #'
@@ -64,7 +56,7 @@ experiment_similarity <- function(skeletalvis, dataset, add_meta_data = TRUE) {
   sim <- data.frame(ID = colnames(fold_change_table)[c(-1,-ncol(fold_change_table))], cosine)
 
   # Scale the similarity scores (z-score)
-  sim$zscore <- scale(sim$cosine)
+  sim$zscore <- scale(sim$cosine)[,1]
 
   colnames(sim)[1] <- "datasetID"
 

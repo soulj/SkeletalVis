@@ -1,7 +1,8 @@
-# Function to get the gene expression results for an experiment of interest
-#' This function loads the differential expression data (log2 foldchanges and adjusted p-values) for a given dataset id
+#' Get the gene differential expression results for an experiment of interest
 #'
-#' @param skeletalvis The path to the skeletalvis folder.
+#' This function loads the differential expression data (log2 foldchanges and FDR values) for a given dataset id
+#'
+#' @param skeletalvis The path to the SkeletalVis folder.
 #' @param dataset_id The dataset ID to extract results for.
 #' @return A data frame containing differential expression results for the specified dataset ID.
 #'
@@ -24,8 +25,7 @@ get_experiment <- function(skeletalvis, dataset_id) {
   pvalues <- arrow::read_feather(pvalue_filepath)
 
 
-
-  # Load the Feather file
+  # Load the feather file
   fold_changes <- arrow::read_feather(foldchange_filepath)
 
   # Check if the data contains the ID column

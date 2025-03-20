@@ -15,5 +15,5 @@
 Cosine similarity value between the query and the selected dataset at index i in the fold change table
 }
 \description{
-This function calculates the cosine similarity between two vectors.
+Calculates the cosine similarity between two vectors.
 }

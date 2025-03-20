@@ -2,12 +2,12 @@
 % Please edit documentation in R/get_experiment.R
 \name{get_experiment}
 \alias{get_experiment}
-\title{This function loads the differential expression data (log2 foldchanges and adjusted p-values) for a given dataset id}
+\title{Get the gene differential expression results for an experiment of interest}
 \usage{
 get_experiment(skeletalvis, dataset_id)
 }
 \arguments{
-\item{skeletalvis}{The path to the skeletalvis folder.}
+\item{skeletalvis}{The path to the SkeletalVis folder.}
 
 \item{dataset_id}{The dataset ID to extract results for.}
 }
@@ -15,7 +15,7 @@ get_experiment(skeletalvis, dataset_id)
 A data frame containing differential expression results for the specified dataset ID.
 }
 \description{
-This function loads the differential expression data (log2 foldchanges and adjusted p-values) for a given dataset id
+This function loads the differential expression data (log2 foldchanges and FDR values) for a given dataset id
 }
 \examples{
 skeletalvis <- load_skeletalvis(demo=TRUE)

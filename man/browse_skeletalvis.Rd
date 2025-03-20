@@ -2,22 +2,21 @@
 % Please edit documentation in R/browse_skeletalvis.R
 \name{browse_skeletalvis}
 \alias{browse_skeletalvis}
-\title{Browse the skeletalvis experiment and comparison table}
+\title{Browse the skeletalvis database metadata}
 \usage{
 browse_skeletalvis(skeletalvis)
 }
 \arguments{
-\item{skeletalvis}{The path to the skeletalvis data folder.}
+\item{skeletalvis}{The path to the SkeletalVis data folder.}
 }
 \value{
 The datasetID of the selected gene expression profile from the interactive table.
 }
 \description{
-This function opens an interactive table showing the experiments available for analysis.
-The user can click on the row to select the comparison of interest within that experiment.
+Opens an interactive table showing the experiments available for analysis.
+Row can be selected to return the datasetID for the comparison of interest within that experiment.
 }
 \examples{
-# Assuming 'skeletalvis' is the directory containing the skeletalvis data
 if(interactive()){
 skeletalvis <- load_skeletalvis(demo=TRUE)
 selected_id <- browse_skeletalvis(skeletalvis)

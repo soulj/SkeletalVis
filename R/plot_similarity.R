@@ -1,8 +1,8 @@
 #' Plot ranked cosine similarity scores with top n labels
 #'
-#' This function takes a similarity table with columns for ID, cosine, and zscore values,
+#' Takes a similarity table with columns for ID, cosine, and zscore values,
 #' and generates a plot showing the rank of the z-scores on a log scale. Labels for the top
-#' N IDs with the highest z-scores can be displayed using ggrepel.
+#' n IDs with the highest z-scores are displayed on the plot.
 #'
 #' @param similarity_table A data frame with columns: `ID` (identifier for each item),
 #'                         `cosine` (cosine similarity score), and `zscore` (z-score).
@@ -15,10 +15,10 @@
 #' @examples
 #' data(query)
 #' skeletalvis <- load_skeletalvis(demo=TRUE)
-#' similarityTable <- experiment_similarity(skeletalvis, query)
+#' similarity_results <- experiment_similarity(skeletalvis, query)
 #'
 #'# Plot similarity table with labels for top 5 items
-#' plot_similarity(similarityTable, top_n = 5)
+#' plot_similarity(similarity_results, top_n = 5)
 plot_similarity <- function(similarity_table, top_n = 10) {
   # Validate that the similarity_table has the required columns
   required_columns <- c("datasetID", "cosine", "zscore")

@@ -1,8 +1,8 @@
-#' View Osteoarthritis damage associated genes
+#' View curated osteoarthritis associated genes
 #'
-#' This function retrieves the OATargets table of curated osteoarthritis damage associated genes
+#' Retrieves the OATargets table of literature curated genes associated with osteoarthritis joint damage in animals.
 #'
-#' @param skeletalvis The path to the skeletalvis folder.
+#' @param skeletalvis The path to the SkeletalVis folder.
 #'
 #' @return A data frame with the following columns:
 #' \describe{
@@ -26,15 +26,15 @@
 #'
 #' @examples
 #' skeletalvis <- load_skeletalvis(demo=TRUE)
-#' oatargets <- view_oagenes(skeletalvis)
+#' oatargets <- view_curated_oagenes(skeletalvis)
 #'
 #' @export
 
-view_oagenes <- function(skeletalvis) {
+view_curated_oagenes <- function(skeletalvis) {
 
   oagenes_filepath <- file.path(skeletalvis, "oatargets.txt")
 
-  if (!file.exists(oagenes_filepath)) stop(sprintf("The file 'oatargets.txt' does not exist in the specified directory: %s",skeletalvis))
+  if (!file.exists(oagenes_filepath)) stop(sprintf("The file 'oatargets.txt' does not exist in the specified directory: %s", skeletalvis))
 
   oagenes <- read.delim(oagenes_filepath)
 

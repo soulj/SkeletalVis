@@ -1,11 +1,11 @@
 #' Search for experiments in SkeletalVis
 #'
-#' This function allows users to search for experiments matching a search term the skeletalvis database.
-#' The search can be done across the entire expTable or user-specified columns.
+#' Search for experiments matching a search term in the SkeletalVis database.
+#' The search can be done across the entire database or specific metadata columns.
 #'
-#' @param skeletalvis Folder with the skeletalvis data
+#' @param skeletalvis Folder with the SkeletalVis data
 #' @param search_term A string representing the term to search for.
-#' @param columns Optional; A character vector of column names to limit the search. If NULL (default), the entire table is searched.
+#' @param columns A character vector of column names to limit the search. If NULL (default), the entire table is searched.
 #'
 #' @return A data frame containing experiments that match the search term in the specified columns or the whole table.
 #' @export

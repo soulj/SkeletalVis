@@ -2,7 +2,7 @@
 % Please edit documentation in R/get_gene_fold_changes.R
 \name{get_gene_fold_changes}
 \alias{get_gene_fold_changes}
-\title{Get gene fold changes for a gene of interest}
+\title{Get gene differential expression results for genes of interest}
 \usage{
 get_gene_fold_changes(
   skeletalvis,
@@ -12,19 +12,19 @@ get_gene_fold_changes(
 )
 }
 \arguments{
-\item{skeletalvis}{The path to the skeletalvis data folder.}
+\item{skeletalvis}{The path to the SkeletalVis data folder.}
 
-\item{gene_symbols}{The human gene symbols to extract foldchange and fdr pvalues for.}
+\item{gene_symbols}{The human gene symbols to extract fold change and FDR values for.}
 
-\item{return_fdr}{Return FDR values (FALSE by default)}
+\item{return_fdr}{Return FDR values (FALSE by default).}
 
-\item{add_meta_data}{Add metadata such as species, tissues, description of overall experiment and specific comparison}
+\item{add_meta_data}{Add metadata such as species, tissue, description of overall experiment and specific comparison}
 }
 \value{
 A tibble containing gene expression results for the specified genes.
 }
 \description{
-This function extracts fold change and p-values across the skeletalvis database for the specified genes.
+Extracts the fold change and p-values across the SkeletalVis database for the specified genes.
 }
 \examples{
 skeletalvis <- load_skeletalvis(demo=TRUE)

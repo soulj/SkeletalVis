@@ -7,18 +7,18 @@
 experiment_similarity(skeletalvis, dataset, add_meta_data = TRUE)
 }
 \arguments{
-\item{skeletalvis}{The path to the skeletalvis data folder.}
+\item{skeletalvis}{The path to the SkeletalVis data folder.}
 
 \item{dataset}{A dataframe with human gene symbols and log2 fold changes.}
 
-\item{add_meta_data}{Add metadata such as species, tissues, description of overall experiment and specific comparison}
+\item{add_meta_data}{Add metadata such as species, tissue, description of overall experiment and specific comparison}
 }
 \value{
 A data frame containing cosine similarity values, IDs, and z-scores.
 }
 \description{
-This function computes the cosine similarity of the log2 fold changes of a given query dataset
-against a fold change table, returning a data frame of similarities.
+Computes the cosine similarity of the log2 fold changes of a given query dataset
+against the SkeletalVis fold changes, returning a data frame of experiment similarities.
 }
 \examples{
 skeletalvis <- load_skeletalvis(demo=TRUE)

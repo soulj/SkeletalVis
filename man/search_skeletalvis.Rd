@@ -7,18 +7,18 @@
 search_skeletalvis(skeletalvis, search_term, columns = NULL)
 }
 \arguments{
-\item{skeletalvis}{Folder with the skeletalvis data}
+\item{skeletalvis}{Folder with the SkeletalVis data}
 
 \item{search_term}{A string representing the term to search for.}
 
-\item{columns}{Optional; A character vector of column names to limit the search. If NULL (default), the entire table is searched.}
+\item{columns}{A character vector of column names to limit the search. If NULL (default), the entire table is searched.}
 }
 \value{
 A data frame containing experiments that match the search term in the specified columns or the whole table.
 }
 \description{
-This function allows users to search for experiments matching a search term the skeletalvis database.
-The search can be done across the entire expTable or user-specified columns.
+Search for experiments matching a search term in the SkeletalVis database.
+The search can be done across the entire database or specific metadata columns.
 }
 \examples{
 

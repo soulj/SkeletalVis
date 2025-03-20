@@ -1,6 +1,6 @@
-# R/volcano_plot.R
-
 #' Volcano Plot of Gene Expression Data
+#'
+#' Creates a volcano plot showing the log2 fold change and FDR values with optional labelling of points.
 #' @importFrom dplyr %>%
 #' @importFrom rlang .data
 #' @param data A data frame containing gene expression data, containing an ID, log2 foldchange and FDR columns.

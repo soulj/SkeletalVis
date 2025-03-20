@@ -45,7 +45,7 @@ view_network <- function(skeletalvis, query, hide_unannotated=TRUE, physics = TR
       return(NULL)
     }
 
-    oatargets <- SkeletalVis::view_oagenes(skeletalvis)
+    oatargets <- SkeletalVis::view_curated_oagenes(skeletalvis)
 
     oatargets <- oatargets[na.omit(match(V(network)$name,oatargets$Gene)),]
 

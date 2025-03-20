@@ -36,7 +36,7 @@ volcano_plot(
 A ggplot object representing the volcano plot.
 }
 \description{
-Volcano Plot of Gene Expression Data
+Creates a volcano plot showing the log2 fold change and FDR values with optional labelling of points.
 }
 \examples{
 skeletalvis <- load_skeletalvis(demo=TRUE)

@@ -1,4 +1,4 @@
-test_that("view_oagenes reads file correctly", {
+test_that("view_curated_oagenes reads file correctly", {
   # Create a temporary directory
   temp_dir <-  withr::local_tempdir()
 
@@ -24,11 +24,11 @@ test_that("view_oagenes reads file correctly", {
     NumStudies = c(5, 3)
   )
 
-  # Write the mock data to CSV
+  # Write the mock data
   write.table(test_data, temp_file, sep = "\t", row.names = FALSE, quote = FALSE)
 
   # Run the function
-  result <- view_oagenes(temp_dir)
+  result <- view_curated_oagenes(temp_dir)
 
   # Check that result is a dataframe
   expect_s3_class(result, "data.frame")
@@ -37,10 +37,8 @@ test_that("view_oagenes reads file correctly", {
   expected_columns <- colnames(test_data)
   expect_equal(colnames(result), expected_columns)
 
-  # Clean up temporary file
-  unlink(temp_file)
 })
 
-test_that("view_oagenes throws an error if file does not exist", {
-  expect_error(view_oagenes(tempdir()), "The file 'oatargets.txt' does not exist")
+test_that("view_curated_oagenes throws an error if file does not exist", {
+  expect_error(view_curated_oagenes(tempdir()), "The file 'oatargets.txt' does not exist")
 })
