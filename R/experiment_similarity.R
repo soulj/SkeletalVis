@@ -1,14 +1,3 @@
-# Calculate Cosine Similarity
-cos.sim <- function(i, X) {
-
-  X <- na.omit(X[, c(1,i,ncol(X))])
-
-  A <- X[, 2]
-  B <- X[, 3]
-
-  return(sum(A * B, na.rm = TRUE) / sqrt(sum(A^2, na.rm = TRUE) * sum(B^2, na.rm = TRUE)))
-}
-
 #' Get cosine similarity for a query dataset against the skeletalvis database
 #'
 #' Computes the cosine similarity of the log2 fold changes of a given query dataset
@@ -50,7 +39,7 @@ experiment_similarity <- function(skeletalvis, dataset, add_meta_data = TRUE) {
   fold_change_table <- merge(fold_change_table, dataset, by.x="ID", by.y="ID")
 
   # Apply cosine similarity calculation for each column in the fold change table (excluding last column)
-  cosine <- pbapply::pbsapply(seq_along(fold_change_table)[c(-1,-ncol(fold_change_table))], cos.sim, fold_change_table)
+  cosine <- pbapply::pbsapply(seq_along(fold_change_table)[c(-1,-ncol(fold_change_table))], cos_sim, fold_change_table)
 
   # Create a data frame with results
   sim <- data.frame(ID = colnames(fold_change_table)[c(-1,-ncol(fold_change_table))], cosine)
@@ -72,4 +61,14 @@ experiment_similarity <- function(skeletalvis, dataset, add_meta_data = TRUE) {
   }
 
   return(sim)
+}
+
+cos_sim <- function(i, X) {
+
+  X <- na.omit(X[, c(1,i,ncol(X))])
+
+  A <- X[, 2]
+  B <- X[, 3]
+
+  return(sum(A * B, na.rm = TRUE) / sqrt(sum(A^2, na.rm = TRUE) * sum(B^2, na.rm = TRUE)))
 }
