@@ -11,7 +11,8 @@ LazyData: true
 RoxygenNote: 7.3.2
 Suggests: 
     mockery,
-    quarto,
+    rmarkdown,
+    knitr,
     testthat (>= 3.0.0),
     withr
 Config/testthat/edition: 3
@@ -33,7 +34,7 @@ Imports:
     tidyr,
     utils,
     visNetwork
-VignetteBuilder: quarto
+VignetteBuilder: knitr
 URL:  https://github.com/soulj/SkeletalVis
 BugReports: https://github.com/soulj/SkeletalVis/issues
 Depends: 

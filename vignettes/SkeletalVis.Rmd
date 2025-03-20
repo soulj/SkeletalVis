@@ -5,7 +5,7 @@ format:
     toc: true
 vignette: >
   %\VignetteIndexEntry{SkeletalVis}
-  %\VignetteEngine{quarto::html}
+  %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
   %\VignettePackage{SkeletalVis}
 ---
@@ -41,7 +41,7 @@ skeletalvis <- load_skeletalvis()
 For this vignette we will work with a small demo version of SkeletalVis to demonstrate the functions. **This demo version should not be used for analysis.**
 
 ```{r}
-# Set demo=TRUE to load a small example dataset
+# Set demo=TRUE to load a small example database
 skeletalvis <- load_skeletalvis(demo=TRUE)
 
 ```
@@ -173,7 +173,7 @@ head(query)
 
 ```
 
-Genes not present in both query and SkeletalVis fold change table will be removed for the analysis.
+Genes not present in both the query and SkeletalVis fold change tables will be removed for the analysis.
 
 ```{r}
 # Get the similarity of this experiment against the skeletalvis databases
@@ -232,11 +232,3 @@ We can also see a network of physically interacting OAGenes surrounding a gene o
 view_network(skeletalvis, query = "COL2A1")
 ```
 
-We can also show interacting unannotated genes that have not yet been studied in animal model of OA.
-
-```{r}
-# Can also turn off the the physics to allow manual tweaking of the network
-view_network(skeletalvis, query = "COL2A1", hide_unannotated = TRUE, physics= FALSE)
-```
-
-## Prioritised 
