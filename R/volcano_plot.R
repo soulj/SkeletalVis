@@ -66,7 +66,7 @@ volcano_plot <- function(data,  number_points=5, selected_points=NULL, interacti
                 "Description: ", data[,"Description"],
                 sep = "")
   } else {
-    text= paste("Gene: ", data[,id_col], "<br>",
+    text <- paste("Gene: ", data[,id_col], "<br>",
                 "log2FoldChange: ", signif(data[,fc_col],3), "<br>",
                 "FDR: ", signif(data[,pval_col],3), "<br>",
                 sep = "")
