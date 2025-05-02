@@ -31,7 +31,7 @@ pak::pak("soulj/SkeletalVis")
 ## Example
 
 This is a basic example which shows how to search for a gene of interest
-across the SkeletalVis data. See the vignettee for a full tutorial of
+across the SkeletalVis data. See the vignette for a full tutorial of
 SkeletalVis.
 
 ``` r
