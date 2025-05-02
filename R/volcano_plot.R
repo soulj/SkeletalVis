@@ -60,7 +60,7 @@ volcano_plot <- function(data,  number_points=5, selected_points=NULL, interacti
 
   if(id_col == "datasetID") {
 
-    text= paste("datasetID: ", data[,id_col], "<br>",
+    text <- paste("datasetID: ", data[,id_col], "<br>",
                 "log2FoldChange: ", signif(data[,fc_col],3), "<br>",
                 "FDR: ", signif(data[,pval_col],3), "<br>",
                 "Description: ", data[,"Description"],

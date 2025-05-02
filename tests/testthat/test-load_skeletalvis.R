@@ -13,13 +13,14 @@ test_that("load_skeletalvis does not download files if they exist", {
   # Mock the application data directory
   stub(load_skeletalvis, "tools::R_user_dir", function(...) local_dir)
 
+
   # Create a dummy files to simulate existing data
   files <- c("accessions.txt","expTable.txt","pvalTable.feather",
              "foldChangeTable.feather","network.RDS","oatargets.txt","oatargets_prioritised.txt")
 
   lapply(files, function(x) file.create(file.path(local_dir, x)))
 
-  expect_message(load_skeletalvis(verbose = TRUE, ask = FALSE), "Data already exists", all = FALSE)
+  expect_message(load_skeletalvis(verbose = TRUE, ask = FALSE), "All files are already present", all = FALSE)
 })
 
 test_that("load_skeletalvis downloads missing files", {
@@ -30,14 +31,14 @@ test_that("load_skeletalvis downloads missing files", {
 
   # Mock the download function to avoid real HTTP requests
   mock_download <- mock(file.path(local_dir, "accessions.txt"))
-  stub(check_and_download_file, "httr::GET", mock_download)
+  stub(download_file, "httr::GET", mock_download)
 
   files <- c("expTable.txt","pvalTable.feather",
              "foldChangeTable.feather","network.RDS","oatargets.txt", "oatargets_prioritised.txt")
 
   lapply(files, function(x) file.create(file.path(local_dir, x)))
 
-  expect_message(load_skeletalvis(verbose = TRUE, ask = FALSE), "Downloading", all = FALSE)
+  expect_message(load_skeletalvis(verbose = TRUE, ask = FALSE), "accessions.txt", all = FALSE)
 })
 
 test_that("load_skeletalvis runs silently when verbose=FALSE", {

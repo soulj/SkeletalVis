@@ -38,7 +38,7 @@ The `load_skeletalvis` function will check if the `SkeletalVis` data has been do
 skeletalvis <- load_skeletalvis()
 ```
 
-For this vignette we will work with a small demo version of SkeletalVis to demonstrate the functions. **This demo version should not be used for analysis.**
+For this vignette we will work with a small truncated, demo version of SkeletalVis to demonstrate the functions. **This demo version should not be used for analysis.**
 
 ```{r}
 # Set demo=TRUE to load a small example database

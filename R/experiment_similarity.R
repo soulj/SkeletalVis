@@ -34,6 +34,8 @@ experiment_similarity <- function(skeletalvis, dataset, add_meta_data = TRUE) {
   fold_change_table <- arrow::read_feather(foldchange_filepath)  %>%
     dplyr::select("ID", dplyr::everything())
 
+  dataset <- dataset[, 1:2]
+
   colnames(dataset)[1:2] <- c("ID","queryFC")
 
   fold_change_table <- merge(fold_change_table, dataset, by.x="ID", by.y="ID")

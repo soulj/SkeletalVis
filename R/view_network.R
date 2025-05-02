@@ -91,7 +91,7 @@ view_network <- function(skeletalvis, query, hide_unannotated=TRUE, physics = TR
   edges <- data.frame(from = edges[, 1], to = edges[, 2],id = paste0(edges[, 1],"/",edges[, 2]),
                       color = E(subnetwork)$colour,size=5,hidden=FALSE)
 
-  if(igraph::vcount(subnetwork)>20) edges$size=3
+  if(igraph::vcount(subnetwork)>20) edges$size <- 3
 
   legendNodes <- data.frame(
     label = c("Not measured","Protective","Detrimental","Ambiguous","No effect"),
