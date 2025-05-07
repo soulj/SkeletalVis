@@ -6,6 +6,8 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/soulj/SkeletalVis/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/soulj/SkeletalVis/actions/workflows/R-CMD-check.yaml)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/SkeletalVis)](https://CRAN.R-project.org/package=SkeletalVis)
 <!-- badges: end -->
 
 The goal of SkeletalVis is to enable the search and visualisation of
@@ -20,10 +22,9 @@ animal models.
 
 ## Installation
 
-You can install the published version of SkeletalVis from CRAN:
-```
-install.packages("SkeletalVis")
-```
+You can install the release version of SkeletalVis from CRAN:
+
+    install.packages("SkeletalVis")
 
 You can install the development version of SkeletalVis from
 [GitHub](https://github.com/) with:
