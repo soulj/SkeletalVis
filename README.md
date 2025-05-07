@@ -20,6 +20,11 @@ animal models.
 
 ## Installation
 
+You can install the published version of SkeletalVis from CRAN:
+```
+install.packages("SkeletalVis")
+```
+
 You can install the development version of SkeletalVis from
 [GitHub](https://github.com/) with:
 
