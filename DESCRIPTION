@@ -1,10 +1,10 @@
 Package: SkeletalVis
 Type: Package
 Title: Exploration and Visualisation of Skeletal Transcriptomics Data
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: person("Jamie", "Soul", email = "jamie.soul@liverpool.ac.uk",
   role = c("aut", "cre","cph"))
-Description: Allows search and visualisation of a collection of uniformly processed skeletal transcriptomic datasets. Includes methods to identify datasets where genes of interest are differentially expressed and find datasets with a similar gene expression pattern to a query dataset Soul J, Hardingham TE, Boot-Handford RP, Schwartz JM (2019) <doi.org/10.1093/bioinformatics/bty947>.
+Description: Allows search and visualisation of a collection of uniformly processed skeletal transcriptomic datasets. Includes methods to identify datasets where genes of interest are differentially expressed and find datasets with a similar gene expression pattern to a query dataset Soul J, Hardingham TE, Boot-Handford RP, Schwartz JM (2019) <doi:10.1093/bioinformatics/bty947>.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
