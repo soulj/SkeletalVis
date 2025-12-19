@@ -4,7 +4,12 @@
 \alias{load_skeletalvis}
 \title{Load SkeletalVis data}
 \usage{
-load_skeletalvis(verbose = TRUE, ask = TRUE, demo = FALSE)
+load_skeletalvis(
+  verbose = TRUE,
+  ask = TRUE,
+  demo = FALSE,
+  force_update = FALSE
+)
 }
 \arguments{
 \item{verbose}{Logical. If TRUE, prints messages about file existence and download status. Default is TRUE}
@@ -12,6 +17,8 @@ load_skeletalvis(verbose = TRUE, ask = TRUE, demo = FALSE)
 \item{ask}{Logical. If TRUE, prompts the user for confirmation before downloading missing files. Default is TRUE.}
 
 \item{demo}{Logical. If TRUE, uses built in demo data suitable for testing the package functions. Default is FALSE}
+
+\item{force_update}{Logical. If TRUE, re-downloads all data files even if present. Default is FALSE}
 }
 \value{
 The path to the SkeletalVis data folder.

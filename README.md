@@ -27,7 +27,7 @@ You can install the release version of SkeletalVis from CRAN:
     install.packages("SkeletalVis")
 
 You can install the development version of SkeletalVis from
-[GitHub](https://github.com/) with:
+[GitHub](https://github.com/soulj/SkeletalVis) with:
 
 ``` r
 # install.packages("pak")
@@ -46,23 +46,22 @@ library(SkeletalVis)
 
 # Set up the database
 skeletalvis <- load_skeletalvis()
-#> All files are already present in /home/njs289/.local/share/R/SkeletalVis
+#> All files are already present
 
 # Get the differential expression of the gene SOX9 across the database
 gene_results <- get_gene_fold_changes(skeletalvis, "SOX9", return_fdr = TRUE)
 head(gene_results)
-#> # A tibble: 6 × 16
+#> # A tibble: 6 × 15
 #>   datasetID log2FoldChange       FDR Gene  accession comparisonsText Description
 #>   <chr>              <dbl>     <dbl> <chr> <chr>     <chr>           <chr>      
-#> 1 E-GEOD-6…           7.15 0         SOX9  E-GEOD-6… SOX9vseGFP      SOX9 overe…
-#> 2 GSE15511…           3.11 0         SOX9  GSE155118 Sox5_6_9_OEvsc… Primary ch…
-#> 3 E-GEOD-5…          -1.28 2.25e-195 SOX9  E-GEOD-5… Day18vsDay2     Temporal g…
-#> 4 GSE11026…           3.45 2.28e-151 SOX9  GSE11026… YAP KO_MSCvsWT… YAP1 and T…
-#> 5 GSE10447…          -3.26 1.41e-117 SOX9  GSE104473 Mandibular Dis… Mouse mand…
-#> 6 GSE12516…           3.18 8.58e-112 SOX9  GSE125167 PLZF_10_days_d… PLZF knock…
-#> # ℹ 9 more variables: PMID <chr>, Species <chr>, Tissue <chr>, ExpType <chr>,
-#> #   Perturbation <chr>, Effect <chr>, Type <chr>, foldChangeOnly <lgl>,
-#> #   platform <chr>
+#> 1 E-GEOD-6…           7.15 0         SOX9  E-GEOD-6… SOX9vseGFP      "SOX9 over…
+#> 2 GSE15511…           3.11 0         SOX9  GSE155118 Sox5_6_9_OEvsc… "Primary c…
+#> 3 E-GEOD-5…          -1.28 2.25e-195 SOX9  E-GEOD-5… Day18vsDay2     "Temporal …
+#> 4 GSE11026…           3.47 1.37e-132 SOX9  GSE11026… YAP KO_MSCvsWT… "YAP1 and …
+#> 5 GSE12103…           1.99 3.92e-128 SOX9  GSE121033 Lentiviruses e… "Polycomb …
+#> 6 GSE12516…           3.18 8.58e-112 SOX9  GSE125167 PLZF_10_days_d… "PLZF knoc…
+#> # ℹ 8 more variables: PMID <chr>, Species <chr>, Tissue <chr>, ExpType <chr>,
+#> #   Perturbation <chr>, Effect <chr>, Type <chr>, platform <chr>
 ```
 
 There are also several built in plotting functions:
